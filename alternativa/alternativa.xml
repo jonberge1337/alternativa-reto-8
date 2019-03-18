@@ -19,5 +19,86 @@
 ]>
 
 <catalogo>
+    <componentes>
+        <placaBase marca="Gygabyte GA-B360M DS3H" precio="73,99€">
+            <chipset modelo="Intel® B360 Express Chipset" />
+            <memoria>
+                <socket cantidad="4">sockets DDR4 DIMM con soporte de hasta 64 GB de memoria del sistema</socket>
+                <arquitectura>Dual Channel</arquitectura>
+                <latencia tipo="DDR4">2666/2400/2133 MHz</latencia>
+                <soporte ecc="si" non-ecc="si" xmp="si" />
+            </memoria>
+            <grafica>
+                <graficos>intel® HD Graphics</graficos>
+            </grafica>
+            <audio>
+                <codec>Realtek® ALC887 codec</codec>
+                <canales>2/4/5.1/7.1-channel</canales>
+                <salida>PDIF</salida>
+            </audio>
+            <conectividad>
+                <cable>Chip Realtek® GbE LAN (10/100/1000 Mbit)</cable>
+            </conectividad>
+            <conectores>
+                <conector forma="interno" tipo="alimentacion" cantidad="2" />
+                <conector forma="interno" tipo="ventilador" cantidad="3" />
+                <conector forma="interno" tipo="led" cantidad="1" />
+                <conector forma="interno" tipo="socket" cantidad="1" />
+                <conector forma="interno" tipo="sata" cantidad="6" />
+                <conector forma="interno" tipo="panel frontal" cantidad="1" />
+                <conector forma="interno" tipo="audio frontal" cantidad="1" />
+                <conector forma="interno" tipo="S/PDIF" cantidad="1" />
+                <conector forma="interno" tipo="USB 3.1" cantidad="1" />
+                <conector forma="interno" tipo="USB 2.0/1.1" cantidad="2" />
+                <conector forma="interno" tipo="puerto serie" cantidad="1" />
+                <conector forma="interno" tipo="puerto paralelo" cantidad="1" />
+                <conector forma="externo" tipo="audio jacks" cantidad="3" />
+                <conector forma="externo" tipo="teclado" cantidad="1" />
+                <conector forma="externo" tipo="raton rs" cantidad="1" />
+                <conector forma="externo" tipo="D-Sub" cantidad="1" />
+                <conector forma="externo" tipo="DVI-D" cantidad="1" />
+                <conector forma="externo" tipo="USB 3.1" cantidad="4" />
+                <conector forma="externo" tipo="USB 2.0/1.1" cantidad="2" />
+                <conector forma="externo" tipo="RJ-45" cantidad="1" />
+            </conectores>
+            <controladores>
+                <controlador nombre="E/S ITE" />
+                <controlador nombre="hardware" />
+                <controlador nombre="voltaje" />
+                <controlador nombre="temperatura" />
+                <controlador nombre="velocidad ventilador" />
+                <controlador nombre="sobrecalentamiento" />
+                <controlador nombre="fallo ventilador" />
+            </controladores>
+            <forma tipo="Micro ATX" />
+        </placaBase>
 
+        <placaBase marca="Gygabyte GA-H110M-S2H" precio="50,99€">
+            <chipset modelo="Intel® H110 Express Chipset" />
+            <memoria>
+                <socket cantidad="2">DDR4 DIMM sockets con soporte de hasta 32 GB de memoria del sistema</socket>
+                <arquitectura>Dual Channel</arquitectura>
+                <latencia tipo="DDR4">2133 MHz</latencia>
+                <soporte ecc="si" non-ecc="si" xmp="si" />
+            </memoria>
+            <grafica>
+                <graficos>intel® HD Graphics</graficos>
+            </grafica>
+            <audio>
+                <codec>Realtek® ALC887 codec</codec>
+                <canales>2/4/5.1/7.1-channel</canales>
+                <salida>PDIF</salida>
+            </audio>
+            <conectividad>
+                <cable>Chip Realtek® GbE LAN (10/100/1000 Mbit)</cable>
+            </conectividad>
+            <forma tipo="Micro ATX" />
+        </placaBase>
+
+        <procesador marcas="AMD">
+        </procesador>
+
+        <procesador marcas="intel">
+        </procesador>
+    </componentes>
 </catalogo>
