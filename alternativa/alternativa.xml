@@ -95,10 +95,24 @@
             <forma tipo="Micro ATX" />
         </placaBase>
 
-        <procesador marcas="AMD">
+        <procesador marcas="AMD" modelo="Ryzen 5 2600" precio="165,99€">
+            <frencuencias normal="3,4 GHz" turbo="3,9 GHz" />
+            <nucleo>6</nucleo>
+            <socket>zocalo AM4</socket>
+            <litografia>12 nm</litografia>
+            <filamentos cantidad="12" />
+            <cache cantidad="12" tipo="L3" />
         </procesador>
 
-        <procesador marcas="intel">
+        <procesador marcas="intel" modelo="i5-8400" precio="204,90€">
+            <frencuencias normal="2,8 GHz" turbo="4 GHz" />
+            <nucleo>6</nucleo>
+            <socket>1151 / H4 / LGA1151</socket>
+            <cache cantidad="9" tipo="L3" />
         </procesador>
+
+        <discoDuro marca="Toshiba" >
+
+        </discoDuro>
     </componentes>
 </catalogo>
