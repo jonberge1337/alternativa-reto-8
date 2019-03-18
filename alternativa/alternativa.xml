@@ -28,9 +28,7 @@
                 <latencia tipo="DDR4">2666/2400/2133 MHz</latencia>
                 <soporte ecc="si" non-ecc="si" xmp="si" />
             </memoria>
-            <grafica>
-                <graficos>intel® HD Graphics</graficos>
-            </grafica>
+            <graficos integrado="intel® HD Graphics" />
             <audio>
                 <codec>Realtek® ALC887 codec</codec>
                 <canales>2/4/5.1/7.1-channel</canales>
@@ -81,9 +79,7 @@
                 <latencia tipo="DDR4">2133 MHz</latencia>
                 <soporte ecc="si" non-ecc="si" xmp="si" />
             </memoria>
-            <grafica>
-                <graficos>intel® HD Graphics</graficos>
-            </grafica>
+            <graficos integrado="intel® HD Graphics" />
             <audio>
                 <codec>Realtek® ALC887 codec</codec>
                 <canales>2/4/5.1/7.1-channel</canales>
@@ -111,8 +107,51 @@
             <cache cantidad="9" tipo="L3" />
         </procesador>
 
-        <discoDuro marca="Toshiba" >
-
+        <discoDuro marca="Toshiba" modelo="DT01ACA100" tipo="hdd" precio="45,59€">
+            <almacenamiento>1 TB</almacenamiento>
+            <conexion>Sata 3</conexion>
+            <rendimiento>7200 RMP</rendimiento>
+            <velocidad>6 GB/seg</velocidad>
+            <tamaño>3.5</tamaño>
+            <consumos>
+                <lectura>6.4W</lectura>
+                <escritura>6.4W</escritura>
+                <reposo>3.7W</reposo>
+                <espera>1.0W</espera>
+            </consumos>
         </discoDuro>
+
+        <discoDuro marca="Samsung" modelo="860 EVO Basic" tipo="hhd" precio="149,99€">
+            <almacenamiento>1 TB</almacenamiento>
+            <conexion>Sata 3</conexion>
+            <velocidad>6 GB/seg</velocidad>
+            <tamaño>2.5</tamaño>
+            <consumos>
+                <lectura>3.3W</lectura>
+                <escritura>3.3W</escritura>
+                <reposo>2.2W</reposo>
+                <espera>1.0W</espera>
+            </consumos>
+        </discoDuro>
+
+        <grafica marca="Gygabyte" modelo="GeForce GTX 1070" precio="389,90€">
+            <litografia>16 nm</litografia>
+            <memoria>8GB</memoria>
+            <bus>256 bit</bus>
+            <tipo>GDDR5</tipo>
+            <resolucion>7680x4320</resolucion>
+            <directx>12</directx>
+            <openGL>4.5<openGL>
+        </grafica>
+
+        <grafica marca="MSI" modelo="GeForce GTX 1060" precio="249,90€">
+            <litografia>16 nm</litografia>
+            <memoria>8GB</memoria>
+            <bus>256 bit</bus>
+            <tipo>GDDR5</tipo>
+            <resolucion>2560 x 1600</resolucion>
+            <directx>12</directx>
+            <openGL>4.5<openGL>
+        </grafica>
     </componentes>
 </catalogo>
