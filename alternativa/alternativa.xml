@@ -91,8 +91,8 @@
             <forma tipo="Micro ATX" />
         </placaBase>
 
-        <procesador marcas="AMD" modelo="Ryzen 5 2600" precio="165,99€">
-            <frencuencias normal="3,4 GHz" turbo="3,9 GHz" />
+        <procesador marca="AMD" modelo="Ryzen 5 2600" precio="165,99€">
+            <frecuencia normal="3,4 GHz" turbo="3,9 GHz" />
             <nucleo>6</nucleo>
             <socket>zocalo AM4</socket>
             <litografia>12 nm</litografia>
@@ -100,8 +100,8 @@
             <cache cantidad="12" tipo="L3" />
         </procesador>
 
-        <procesador marcas="intel" modelo="i5-8400" precio="204,90€">
-            <frencuencias normal="2,8 GHz" turbo="4 GHz" />
+        <procesador marca="intel" modelo="i5-8400" precio="204,90€">
+            <frecuencia normal="2,8 GHz" turbo="4 GHz" />
             <nucleo>6</nucleo>
             <socket>1151 / H4 / LGA1151</socket>
             <cache cantidad="9" tipo="L3" />
@@ -153,5 +153,73 @@
             <directx>12</directx>
             <openGL>4.5<openGL>
         </grafica>
+
+        <ram marca="Corsair" modelo="vengeance LPX"precio="139€">
+            <almacenamiento>8GB</almacenamiento>
+            <formato>DIMM</formato>
+            <frecuencia>2400Mhz</frecuencia>
+            <kit>1x8GB</kit>
+            <latencia>CL16</latencia>
+            <tipo>DDR4</tipo>
+            <voltaje>1.2</voltaje>
+        </ram>
+
+        <ram marca="Kingston" modelo="Hyper Fury"precio="109€">
+            <almacenamiento>16GB</almacenamiento>
+            <formato>DIMM</formato>
+            <frecuencia>2400Mhz</frecuencia>
+            <kit>2x8GB</kit>
+            <latencia>CL15</latencia>
+            <tipo>DDR4</tipo>
+            <voltaje>1.5</voltaje>
+        </ram>
+
+        <grabadoras marca="LG" modelo="Ultra Slim GP90EB70" precio="27,25">
+            <dimensiones>
+                <ancho milimetros="144mm" />
+                <profundidad milimetros="137mm" />
+                <altura milimetros="14mm" />
+            </dimensiones>
+            <velocidad>
+                <lectura>
+                    <cd>24x</cd>
+                    <dvd>8x</dvd>
+                </lectura>
+                <escritura>
+                    <cd>24x</cd>
+                    <dvd>8x</dvd>
+                </escritura>
+            </velocidad>
+        </grabadoras>
+
+        <grabadoras marca="Asus" modelo="DRW-24D5MT" precio="18,50">
+            <dimensiones>
+                <ancho milimetros="146mm" />
+                <profundidad milimetros="170mm" />
+                <altura milimetros="41mm" />
+            </dimensiones>
+            <velocidad>
+                <lectura>
+                    <cd>48x</cd>
+                    <dvd>16x</dvd>
+                </lectura>
+                <escritura>
+                    <cd>48x</cd>
+                    <dvd>24x</dvd>
+                </escritura>
+            </velocidad>
+        </grabadoras>
+
+        <multilectora marca="Tacens" modelo="Anima ACR3" precio="11,25€">
+            <lectura dni="si" tarjetas="si" sim="si" />
+            <conectividad>Bluetooth</conectividad>
+        </multilectora>
+
+        <multilectora marca="Tacens" modelo="Anima ACR1" precio="4,90€">
+            <lectura dni="si" tarjetas="no" sim="no" />
+        </multilectora>
+
+        <sonido marca="Creative" modelo="Sound Blaster Audigy FX PCI Express" precio="31€"></sonido>
+
     </componentes>
 </catalogo>
