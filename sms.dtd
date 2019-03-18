@@ -1,0 +1,9 @@
+<!DOCTYPE buzonEntrada [
+    <!ELEMENT buzonEntrada (sms+)>
+    <!ELEMENT sms (receptor, fecha, horario, contenedor)>
+    <!ELEMENT receptor (#PCDATA)>
+    <!ELEMENT fecha (dia, mes, anno)>
+    <!ELEMENT horario (hora, minuto)>
+    <!ELEMENT contenedor (asunto, cuerpo)>
+    <!ATTLIST sms remitente NMTOKEN #REQUIRED>
+]>

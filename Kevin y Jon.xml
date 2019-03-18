@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<autoevaluacion>
+	<pais>
+
+		<nombre alumno="Ander Almandoz">
+			<comunicacion_oral>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</comunicacion_oral>
+			<comunicacion_escrita>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</comunicacion_escrita>
+			<trabajo_equipo>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</trabajo_equipo>
+			<autonomia>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</autonomia>
+			<implicacion>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</implicacion>
+		</nombre>
+
+		<nombre alumno="Jon Bergerandi">
+			<comunicacion_oral>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</comunicacion_oral>
+			<comunicacion_escrita>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</comunicacion_escrita>
+			<trabajo_equipo>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</trabajo_equipo>
+			<autonomia>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</autonomia>
+			<implicacion>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</implicacion>
+		</nombre>
+
+		<nombre alumno="Kevin Blanco">
+			<comunicacion_oral>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</comunicacion_oral>
+			<comunicacion_escrita>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</comunicacion_escrita>
+			<trabajo_equipo>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</trabajo_equipo>
+			<autonomia>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</autonomia>
+			<implicacion>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</implicacion>
+		</nombre>
+
+		<nombre alumno="Adur Gerique">
+			<comunicacion_oral>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</comunicacion_oral>
+			<comunicacion_escrita>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</comunicacion_escrita>
+			<trabajo_equipo>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</trabajo_equipo>
+			<autonomia>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</autonomia>
+			<implicacion>
+				<nota>5</nota>
+				<valoracion>lorem ipsum</valoracion>
+			</implicacion>
+		</nombre>
+
+	</pais>
+</autoevaluacion>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sales>
+
+    <summary>
+
+        <heading>Scootney Publishing</heading>
+
+        <subhead>Regional Sales Report</subhead>
+
+        <description>
+
+            Sales report for the West Coast, Central and East Coast regions.
+
+        </description>
+
+    </summary>
+
+    <data>
+
+        <region>
+
+            <name>West Coast</name>
+
+            <quarter books_sold="24000" number="1" />
+
+            <quarter books_sold="38600" number="2" />
+
+            <quarter books_sold="44030" number="3" />
+
+            <quarter books_sold="21000" number="4" />
+
+        </region>
+
+        <region>
+
+            <name>Central</name>
+
+            <quarter books_sold="11000" number="1" />
+
+            <quarter books_sold="16080" number="2" />
+
+            <quarter books_sold="25000" number="3" />
+
+            <quarter books_sold="29000" number="4" />
+
+        </region>
+
+        <region>
+
+            <name>East Coast</name>
+
+            <quarter books_sold="27000" number="1" />
+
+            <quarter books_sold="31400" number="2" />
+
+            <quarter books_sold="40100" number="3" />
+
+            <quarter books_sold="30000" number="4" />
+
+        </region>
+
+    </data>
+
+</sales>

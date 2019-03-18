@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection [
+<!ELEMENT collection (description,recipe*)>
+<!ELEMENT description ANY>
+<!ELEMENT recipe (title,ingredients*,preparation,comment?,nutrition)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT ingredients (ingredient*)>
+<!ELEMENT ingredient EMPTY>
+<!ATTLIST ingredient name CDATA #REQUIRED
+    amount CDATA #IMPLIED
+    unit CDATA #IMPLIED>
+<!ELEMENT preparation (step*)>
+<!ELEMENT step (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>
+<!ELEMENT nutrition EMPTY>
+<!ATTLIST nutrition protein CDATA #REQUIRED
+    carbohydrates CDATA #REQUIRED
+    fat CDATA #REQUIRED
+    calories CDATA #REQUIRED
+    alcohol CDATA #IMPLIED>
+]>
+
+<collection>
+    <description>es la informacion de la receta del arroz</description>
+    <recipe>
+        <title>Arroz blanco</title>
+        <ingredients>
+            <ingredient name="arroz" amount="100" unit="gr" />
+        </ingredients>
+        <preparation>
+            <step>Saca la cazuela</step>
+            <step>rellena de agua</step>
+            <step>ponlo a cocer</step>
+        </preparation>
+        <comment>rico rico y con fundamento</comment>
+        <nutrition protein="15gr" carbohydrates="7gr" fat="1gr" calories="40kcal" alcohol="0%" />
+    </recipe>
+</collection>
+
+<collection>
+    <description>es la informacion de la receta del arroz</description>
+    <recipe>
+        <title>huevo frito</title>
+        <ingredients>
+            <ingredient name="huevo" amount="1" unit="un" />
+        </ingredients>
+        <preparation>
+            <step>Saca la sarten</step>
+            <step>ponlo a calentar</step>
+            <step>echa aceite</step>
+            <step>frielo</step>
+        </preparation>
+        <comment>rico rico y con fundamento</comment>
+        <nutrition protein="30gr" carbohydrates="8gr" fat="5gr" calories="35kcal" alcohol="0%" />
+    </recipe>
+</collection>

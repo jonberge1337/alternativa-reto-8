@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buzonEntrada SYSTEM "dtd0.dtd">
+<buzonEntrada>
+    <sms remitente="645125451">
+        <receptor>631524961</receptor>
+        <fecha>
+            <dia>5</dia>
+            <mes>3</mes>
+            <anno>2019</anno>
+        </fecha>
+        <horario>
+            <hora>12</hora>
+            <minuto>2</minuto>
+        </horario>
+        <contenedor>
+            <asunto>URGENTE</asunto>
+            <cuerpo>Corre y no mires atras hay un terremoto</cuerpo>
+        </contenedor>
+    </sms>
+
+    <sms remitente="631478234">
+        <receptor>649521475</receptor>
+        <fecha>
+            <dia>4</dia>
+            <mes>2</mes>
+            <anno>2018</anno>
+        </fecha>
+        <horario>
+            <hora>12</hora>
+            <minuto>2</minuto>
+        </horario>
+        <contenedor>
+            <asunto>Aupa</asunto>
+            <cuerpo>Cosas que guertan hementxe bertan</cuerpo>
+        </contenedor>
+    </sms>
+
+    <sms remitente="641254856">
+        <receptor>642359674</receptor>
+        <fecha>
+            <dia>4</dia>
+            <mes>1</mes>
+            <anno>1998</anno>
+        </fecha>
+        <horario>
+            <hora>12</hora>
+            <minuto>2</minuto>
+        </horario>
+        <contenedor>
+            <asunto>huelga</asunto>
+            <cuerpo>¿Sabes que el viernes hay huelga?</cuerpo>
+        </contenedor>
+    </sms>
+
+    <sms remitente="698541236">
+        <receptor>615329852</receptor>
+        <fecha>
+            <dia>7</dia>
+            <mes>5</mes>
+            <anno>2012</anno>
+        </fecha>
+        <horario>
+            <hora>13</hora>
+            <minuto>2</minuto>
+        </horario>
+        <contenedor>
+            <asunto>horas</asunto>
+            <cuerpo>La cantidad de horas metidas no es lo suficiente para aprobar</cuerpo>
+        </contenedor>
+    </sms>
+</buzonEntrada>

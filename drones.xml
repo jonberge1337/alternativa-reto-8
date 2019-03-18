@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<drone serie="5218415634">
+    <informacion>
+        <marca>parrot</marca>
+        <modelo>bebop</modelo>
+        <fabricantes>parrot</fabricantes>
+    </informacion>
+    <caracteristicas>
+        <peso>465</peso>
+        <velocidad>20</velocidad>
+    </caracteristicas>
+    <coordenadas>
+        <latitud>43.304183</latitud>
+        <longitud>-2.016472</longitud>
+        <altura>44</altura>
+    </coordenadas>
+    <fecha dia="06/03/2019" Hora="13:32" zona="CET"/>
+    <propietario>
+        <nombre>Jon</nombre>
+        <apellidos>Bergerandi Loidi</apellidos>
+        <identificacion>44333999M</identificacion>
+    </propietario>
+    <certificado tiene="si"/>
+</drone>

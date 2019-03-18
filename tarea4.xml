@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE table[
+    <!ELEMENT table (tr+)>
+<!ELEMENT tr (th+ | td+)>
+<!ELEMENT td (#PCDATA)>
+<!ELEMENT tr (#PCDATA)>
+<!ATATTLIST table border #REQUIRED
+    cellspacing #REQUIRED
+    width #REQUIRED>
+<!ATTLIST th align (left | center | right) "left">
+]>
+<table border="4" cellspacing="4" width="80%">
+    <tr>
+        <th align="center">Buscadores</th>
+        <th align="center" colspan="2">Otros links</th>
+    </tr>
+    <tr>
+        <td align="left">Yahoo</td>
+        <td align="left">Microsoft</td>
+        <td align="left">IBM</td>
+    </tr>
+    <tr>
+        <td align="left">Google</td>
+        <td align="left">Apple</td>
+        <td align="left">Digital</td>
+    </tr>
+</table>

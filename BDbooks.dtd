@@ -1,0 +1,16 @@
+<!DOCTYPE biblioteca [
+<!ELEMENT biblioteca (libro*)>
+<!ELEMENT libro (genero, title, autor, editorial, edicion, fechaPublicacion, isbn, numeroPaginas)>
+<!ELEMENT genero EMPTY>
+<!ATTLIST genero nombre CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT edicion (#PCDATA)>
+<!ELEMENT fechaPublicacion EMPTY>
+<!ATTLIST fechaPublicacion año CDATA #REQUIRED
+    mes CDATA #REQUIRED
+    dia CDATA #REQUIRED>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT numeroPaginas (#PCDATA)>
+]>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sistema>
+    <vivienda bloque="XIII">
+        <planta piso="1">
+            <estancia>
+                <consumo>3.4 kWh</consumo>
+                <contador>5421</contador>
+                <grafica>Informacion Grafica</grafica>
+                <iluminacion lux="2.0403" />
+                <luz_artif_on estado="off" />
+                <temperatura>23ºC</temperatura>
+                <seguridad>
+                    <presencia mov="si" />
+                    <localizacion latitud="43.304183" longitud="-2.016472" />
+                    <vid_vigi activo="si" />
+                </seguridad>
+                <dispositivo tipo="Inalambrico" latitud="46.230345" longitud="-2.016475" dir_grupo="1004572" estructura="cilindrica" subtipo="LAN">
+                    <comprobar estado="si" />
+                    <modificar estado="si" />
+                </dispositivo>
+            </estancia>
+        </planta>
+
+        <planta piso="2">
+            <estancia>
+                <consumo>4.8 kWh</consumo>
+                <contador>3214</contador>
+                <grafica>Informacion Grafica</grafica>
+                <iluminacion lux="2.0403" />
+                <luz_artif_on estado="off" />
+                <temperatura>23ºC</temperatura>
+                <seguridad>
+                    <presencia mov="si" />
+                    <localizacion latitud="43.305483" longitud="-2.019672" />
+                    <vid_vigi activo="si" />
+                </seguridad>
+                <dispositivo tipo="Inalambrico" latitud="46.234745" longitud="-2.085475" dir_grupo="1004572" estructura="cilindrica" subtipo="LAN">
+                    <comprobar estado="si" />
+                    <modificar estado="si" />
+                </dispositivo>
+            </estancia>
+        </planta>
+
+        <planta piso="3">
+            <estancia>
+                <consumo>3.6 kWh</consumo>
+                <contador>2910</contador>
+                <grafica>Informacion Grafica</grafica>
+                <iluminacion lux="2.0403" />
+                <luz_artif_on estado="off" />
+                <temperatura>23ºC</temperatura>
+                <seguridad>
+                    <presencia mov="si" />
+                    <localizacion latitud="43.307483" longitud="-2.019672" />
+                    <vid_vigi activo="si" />
+                </seguridad>
+                <dispositivo tipo="Inalambrico" latitud="46.228345" longitud="-2.076475" dir_grupo="1004572" estructura="cilindrica" subtipo="LAN">
+                    <comprobar estado="si" />
+                    <modificar estado="si" />
+                </dispositivo>
+            </estancia>
+        </planta>
+    </vivienda>
+</sistema>

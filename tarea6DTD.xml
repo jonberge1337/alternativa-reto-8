@@ -1,0 +1,17 @@
+<!DOCTYPE sales[
+<!ELEMENT sales (summary | data)>
+
+<!ELEMENT summary (heading, subhead, description)>
+
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT subhead (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT data (region+)>
+<!ELEMENT region (name, quarter+)>
+<!ELEMENT quarter EMPTY>
+
+<!ATTLIST quarter books_sold CDATA #REQUIRED>
+<!ATTLIST quarter number CDATA #REQUIRED>
+
+]>

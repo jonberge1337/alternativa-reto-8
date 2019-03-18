@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "BDbooks.dtd">
+<biblioteca>
+    <genero nombre="accion">
+        <libro codigo="1">
+            <title>Taxi</title>
+            <autor>Arturo Perez Reverte</autor>
+            <editorial>elkar</editorial>
+            <edicion>primera edicion</edicion>
+            <fechaPublicacion año="1998" mes="12" dia="26"/>
+            <isbn>521452452068</isbn>
+            <numeroPaginas>242</numeroPaginas>
+        </libro>
+    </genero>
+
+    <genero nombre="drama">
+        <libro codigo="2">
+            <title>La reina del sur</title>
+            <autor>Arturo Perez Reverte</autor>
+            <editorial>elkar</editorial>
+            <edicion>Extendida</edicion>
+            <fechaPublicacion año="1998" mes="12" dia="26"/>
+            <isbn>521452434568</isbn>
+            <numeroPaginas>242</numeroPaginas>
+        </libro>
+    </genero>
+
+    <genero nombre="comedia">
+        <libro codigo="3">
+            <title>Sql injectada</title>
+            <autor>Javier Seara</autor>
+            <editorial>elkar</editorial>
+            <edicion>quinta edicion</edicion>
+            <fechaPublicacion año="1998" mes="12" dia="26"/>
+            <isbn>521452876568</isbn>
+            <numeroPaginas>123</numeroPaginas>
+        </libro>
+    </genero>
+
+    <genero nombre="terror">
+        <libro codigo="4">
+            <title>Dracula</title>
+            <autor>Fernando Amezketarra</autor>
+            <editorial>elkar</editorial>
+            <edicion>primera edicion</edicion>
+            <fechaPublicacion año="2008" mes="12" dia="26"/>
+            <isbn>5214524551234</isbn>
+            <numeroPaginas>242</numeroPaginas>
+        </libro>
+    </genero>
+
+        <genero nombre="Romance">
+        <libro codigo="5">
+            <title>¿tabulaciones o espacios?</title>
+            <autor>Arturo Reverte</autor>
+            <editorial>elkar</editorial>
+            <edicion>primera edicion</edicion>
+            <fechaPublicacion año="2005" mes="12" dia="26"/>
+            <isbn>521452452068</isbn>
+            <numeroPaginas>541</numeroPaginas>
+        </libro>
+    </genero>
+</biblioteca>
