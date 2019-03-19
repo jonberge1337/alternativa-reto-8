@@ -174,7 +174,7 @@
             <voltaje>1.5</voltaje>
         </ram>
 
-        <grabadoras marca="LG" modelo="Ultra Slim GP90EB70" precio="27,25">
+        <grabadora marca="LG" modelo="Ultra Slim GP90EB70" precio="27,25">
             <dimensiones>
                 <ancho milimetros="144mm" />
                 <profundidad milimetros="137mm" />
@@ -190,9 +190,9 @@
                     <dvd>8x</dvd>
                 </escritura>
             </velocidad>
-        </grabadoras>
+        </grabadora>
 
-        <grabadoras marca="Asus" modelo="DRW-24D5MT" precio="18,50">
+        <grabadora marca="Asus" modelo="DRW-24D5MT" precio="18,50">
             <dimensiones>
                 <ancho milimetros="146mm" />
                 <profundidad milimetros="170mm" />
@@ -208,7 +208,7 @@
                     <dvd>24x</dvd>
                 </escritura>
             </velocidad>
-        </grabadoras>
+        </grabadora>
 
         <multilectora marca="Tacens" modelo="Anima ACR3" precio="11,25€">
             <lectura dni="si" tarjetas="si" sim="si" />
@@ -219,7 +219,106 @@
             <lectura dni="si" tarjetas="no" sim="no" />
         </multilectora>
 
-        <sonido marca="Creative" modelo="Sound Blaster Audigy FX PCI Express" precio="31€"></sonido>
+        <sonido marca="Creative" modelo="Sound Blaster Audigy FX PCI Express" precio="31€">
+            <reproduccion>
+                <estereo>24bit /192kHz</estereo>
+                <envolvente>24bit /96kHz</envolvente>            
+            </reproduccion>
+            <grabacion>24-bit / 96kHz</grabacion>
+            <salida>5.1 canales</salida>
+            <entrada cantidad="5" tamaño="3,5mm" />
+        </sonido>
 
+        <sonido marca="Startech" modelo="PCISOUND5CH2" precio="18,99€">
+            <reproduccion>
+                <estereo>16bit /48kHz</estereo>
+                <envolvente>16bit /48kHz</envolvente>            
+            </reproduccion>
+            <grabacion>16-bit / 48kHz</grabacion>
+            <salida>5.1 canales</salida>
+            <entrada cantidad="2" tamaño="3.5mm" />
+        </sonido>
+
+        <torres marca="Nox" modelo="Hummer MC" precio="44,99€">
+            <color>blanco</color>            
+            <placaBase>micro ATX</placaBase>
+            <ventilacion frontal="120mm" trasero="120mm" />
+            <refrigeracion superior="120mm" trasero="120mm" />
+            <puertos>
+                <puerto cantidad="2">usb 2.0</puerto>
+                <puerto>usb 3.1</puerto>
+                <puerto>HD Audio</puerto>
+                <puerto>mic</puerto>
+                <puerto cantidad="2">controles de velocidad</puerto>
+            </puertos>
+        </torres>
+
+        <torres marca="Nox" modelo="Hummer MC" precio="44,99€">
+            <color>negro</color>
+            <placaBase>micro ATX</placaBase>
+            <ventilacion frontal="120mm" trasero="120mm" />
+            <refrigeracion superior="120mm" trasero="120mm" />
+            <puertos>
+                <puerto cantidad="2">usb 2.0</puerto>
+                <puerto>usb 3.1</puerto>
+                <puerto>HD Audio</puerto>
+                <puerto>mic</puerto>
+                <puerto cantidad="2">controles de velocidad</puerto>
+            </puertos>
+        </torres>
+
+        <carcasa marca="Tooq" modelo="TQE-2527B" precio="12,50€">
+            <caracteristicas>
+                <caracteristica>Diseño elegante y de fácil instalación</caracteristica>
+                <caracteristica>Una solución perfecta para transportar gran cantidad de información</caracteristica>
+                <caracteristica>Máxima velocidad de transferencia gracias a su conexión USB 3.0</caracteristica>
+            </caracteristicas>
+            <especificaciones>
+                <color>negro</color>
+                <peso>80gr</peso>
+                <medidas>
+                    <altura>12mm</altura>
+                    <ancho>76mm</ancho>
+                    <largo>130mm</largo>
+                </medidas>
+            </especificaciones>
+        </carcasa>
+
+        <carcasa marca="Tooq" modelo="TQE-3527B" precio="19,60€">
+            <caracteristicas>
+                <caracteristica>Diseño elegante y de fácil instalación</caracteristica>
+                <caracteristica>Una solución perfecta para transportar gran cantidad de información</caracteristica>
+                <caracteristica>Máxima velocidad de transferencia gracias a su conexión USB 3.0</caracteristica>
+            </caracteristicas>
+            <especificaciones>
+                <color>negro</color>
+                <peso>350gr</peso>
+                <medidas>
+                    <altura>30mm</altura>
+                    <ancho>120mm</ancho>
+                    <largo>206mm</largo>
+                </medidas>
+            </especificaciones>
+        </carcasa>
+
+        <ventilacion marca="Nox" modelo="Hummer H-212" precio="21€">
+            <material>cobre y aletas de aluminio</material>
+            <revoluciones>800 RMP - 1600 RPM (PWM) ±10%</revoluciones>
+            <flujo>56.0 CFM ± 10%</flujo>
+            <sonoro>8 dBA - 20 dBA ± 10%</sonoro>
+            <potencia>130W</potencia>
+            <conectores cantidad="4" />
+            <peso>450 gr</peso>            
+        </ventilacion>
+    
+        <ventilacion marca="Nox" modelo="Hummer H-212" precio="21€">
+            <material>cobre y aletas de aluminio</material>
+            <revoluciones>800 RMP - 1600 RPM (PWM) ±10%</revoluciones>
+            <flujo>56.0 CFM ± 10%</flujo>
+            <sonoro>8 dBA - 20 dBA ± 10%</sonoro>
+            <potencia>130W</potencia>
+            <conectores cantidad="4" />
+            <peso>450 gr</peso>            
+        </ventilacion>
     </componentes>
 </catalogo>
