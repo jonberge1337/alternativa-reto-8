@@ -21,81 +21,39 @@
 <catalogo>
     <componentes>
         <placaBase marca="Gygabyte GA-B360M DS3H" precio="73,99€">
-            <chipset modelo="Intel® B360 Express Chipset" />
-            <memoria>
-                <socket cantidad="4">sockets DDR4 DIMM con soporte de hasta 64 GB de memoria del sistema</socket>
-                <arquitectura>Dual Channel</arquitectura>
-                <latencia tipo="DDR4">2666/2400/2133 MHz</latencia>
-                <soporte ecc="si" non-ecc="si" xmp="si" />
-            </memoria>
-            <graficos integrado="intel® HD Graphics" />
-            <audio>
-                <codec>Realtek® ALC887 codec</codec>
-                <canales>2/4/5.1/7.1-channel</canales>
-                <salida>PDIF</salida>
-            </audio>
-            <conectividad>
-                <cable>Chip Realtek® GbE LAN (10/100/1000 Mbit)</cable>
-            </conectividad>
-            <conectores>
-                <conector forma="interno" tipo="alimentacion" cantidad="2" />
-                <conector forma="interno" tipo="ventilador" cantidad="3" />
-                <conector forma="interno" tipo="led" cantidad="1" />
-                <conector forma="interno" tipo="socket" cantidad="1" />
-                <conector forma="interno" tipo="sata" cantidad="6" />
-                <conector forma="interno" tipo="panel frontal" cantidad="1" />
-                <conector forma="interno" tipo="audio frontal" cantidad="1" />
-                <conector forma="interno" tipo="S/PDIF" cantidad="1" />
-                <conector forma="interno" tipo="USB 3.1" cantidad="1" />
-                <conector forma="interno" tipo="USB 2.0/1.1" cantidad="2" />
-                <conector forma="interno" tipo="puerto serie" cantidad="1" />
-                <conector forma="interno" tipo="puerto paralelo" cantidad="1" />
-                <conector forma="externo" tipo="audio jacks" cantidad="3" />
-                <conector forma="externo" tipo="teclado" cantidad="1" />
-                <conector forma="externo" tipo="raton rs" cantidad="1" />
-                <conector forma="externo" tipo="D-Sub" cantidad="1" />
-                <conector forma="externo" tipo="DVI-D" cantidad="1" />
-                <conector forma="externo" tipo="USB 3.1" cantidad="4" />
-                <conector forma="externo" tipo="USB 2.0/1.1" cantidad="2" />
-                <conector forma="externo" tipo="RJ-45" cantidad="1" />
-            </conectores>
-            <controladores>
-                <controlador nombre="E/S ITE" />
-                <controlador nombre="hardware" />
-                <controlador nombre="voltaje" />
-                <controlador nombre="temperatura" />
-                <controlador nombre="velocidad ventilador" />
-                <controlador nombre="sobrecalentamiento" />
-                <controlador nombre="fallo ventilador" />
-            </controladores>
-            <forma tipo="Micro ATX" />
+            <chipset>intel H310</chipset>
+            <conectividad>Bluetooth</conectividad>
+            <conectividad>Cable</conectividad>
+            <conectividad>Wifi</conectividad>
+            <conexion>
+                <externa>Displayport</externa>
+                <externa>HDMI</externa>
+                <externa>Jack</externa>
+                <interna>SATA 3</interna>
+            </conexion>
+            <forma tipo="micro ATX" />
+            <tecnologia>Nvidia SLI</tecnologia>
+            <socket>Socket 1150</socket>
         </placaBase>
 
         <placaBase marca="Gygabyte GA-H110M-S2H" precio="50,99€">
-            <chipset modelo="Intel® H110 Express Chipset" />
-            <memoria>
-                <socket cantidad="2">DDR4 DIMM sockets con soporte de hasta 32 GB de memoria del sistema</socket>
-                <arquitectura>Dual Channel</arquitectura>
-                <latencia tipo="DDR4">2133 MHz</latencia>
-                <soporte ecc="si" non-ecc="si" xmp="si" />
-            </memoria>
-            <graficos integrado="intel® HD Graphics" />
-            <audio>
-                <codec>Realtek® ALC887 codec</codec>
-                <canales>2/4/5.1/7.1-channel</canales>
-                <salida>PDIF</salida>
-            </audio>
-            <conectividad>
-                <cable>Chip Realtek® GbE LAN (10/100/1000 Mbit)</cable>
-            </conectividad>
-            <forma tipo="Micro ATX" />
+            <chipset>intel H310</chipset>
+            <conectividad>Cable</conectividad>
+            <conectividad>Wifi</conectividad>
+            <conexion>
+                <externa>HDMI</externa>
+                <externa>Jack</externa>
+                <interna>SATA 3</interna>
+            </conexion>
+            <forma tipo="micro ATX" />
+            <tecnologia>Nvidia SLI</tecnologia>
+            <socket>Socket 1151</socket>
         </placaBase>
 
         <procesador marca="AMD" modelo="Ryzen 5 2600" precio="165,99€">
             <frecuencia normal="3,4 GHz" turbo="3,9 GHz" />
             <nucleo>6</nucleo>
             <socket>zocalo AM4</socket>
-            <litografia>12 nm</litografia>
             <filamentos cantidad="12" />
             <cache cantidad="12" tipo="L3" />
         </procesador>
@@ -107,12 +65,13 @@
             <cache cantidad="9" tipo="L3" />
         </procesador>
 
-        <discoDuro marca="Toshiba" modelo="DT01ACA100" tipo="hdd" precio="45,59€">
+        <discoDuro marca="Toshiba" modelo="DT01ACA100" precio="45,59€">
+            <tipo>hhd</tipo>
             <almacenamiento>1 TB</almacenamiento>
             <conexion>Sata 3</conexion>
             <rendimiento>7200 RMP</rendimiento>
             <velocidad>6 GB/seg</velocidad>
-            <tamaño>3.5</tamaño>
+            <pulagadas>3.5</pulagadas>
             <consumos>
                 <lectura>6.4W</lectura>
                 <escritura>6.4W</escritura>
@@ -121,11 +80,12 @@
             </consumos>
         </discoDuro>
 
-        <discoDuro marca="Samsung" modelo="860 EVO Basic" tipo="hhd" precio="149,99€">
+        <discoDuro marca="Samsung" modelo="860 EVO Basic" precio="149,99€">
+            <tipo>hhd</tipo>
             <almacenamiento>1 TB</almacenamiento>
             <conexion>Sata 3</conexion>
             <velocidad>6 GB/seg</velocidad>
-            <tamaño>2.5</tamaño>
+            <pulagadas>2.5</pulagadas>
             <consumos>
                 <lectura>3.3W</lectura>
                 <escritura>3.3W</escritura>
@@ -135,7 +95,8 @@
         </discoDuro>
 
         <grafica marca="Gygabyte" modelo="GeForce GTX 1070" precio="389,90€">
-            <litografia>16 nm</litografia>
+            <gaming>gaming</gaming>
+            <serie>GF 1050 series</serie>
             <memoria>8GB</memoria>
             <bus>256 bit</bus>
             <tipo>GDDR5</tipo>
@@ -145,8 +106,8 @@
         </grafica>
 
         <grafica marca="MSI" modelo="GeForce GTX 1060" precio="249,90€">
-            <litografia>16 nm</litografia>
-            <memoria>8GB</memoria>
+            <gaming>multimedia</gaming>
+            <memoria>2GB</memoria>
             <bus>256 bit</bus>
             <tipo>GDDR5</tipo>
             <resolucion>2560 x 1600</resolucion>
@@ -154,7 +115,7 @@
             <openGL>4.5<openGL>
         </grafica>
 
-        <ram marca="Corsair" modelo="vengeance LPX"precio="139€">
+        <ram marca="Corsair" modelo="vengeance LPX" precio="139€">
             <almacenamiento>8GB</almacenamiento>
             <formato>DIMM</formato>
             <frecuencia>2400Mhz</frecuencia>
@@ -164,7 +125,7 @@
             <voltaje>1.2</voltaje>
         </ram>
 
-        <ram marca="Kingston" modelo="Hyper Fury"precio="109€">
+        <ram marca="Kingston" modelo="Hyper Fury" precio="109€">
             <almacenamiento>16GB</almacenamiento>
             <formato>DIMM</formato>
             <frecuencia>2400Mhz</frecuencia>
@@ -222,7 +183,7 @@
         <sonido marca="Creative" modelo="Sound Blaster Audigy FX PCI Express" precio="31€">
             <reproduccion>
                 <estereo>24bit /192kHz</estereo>
-                <envolvente>24bit /96kHz</envolvente>            
+                <envolvente>24bit /96kHz</envolvente>
             </reproduccion>
             <grabacion>24-bit / 96kHz</grabacion>
             <salida>5.1 canales</salida>
@@ -232,7 +193,7 @@
         <sonido marca="Startech" modelo="PCISOUND5CH2" precio="18,99€">
             <reproduccion>
                 <estereo>16bit /48kHz</estereo>
-                <envolvente>16bit /48kHz</envolvente>            
+                <envolvente>16bit /48kHz</envolvente>
             </reproduccion>
             <grabacion>16-bit / 48kHz</grabacion>
             <salida>5.1 canales</salida>
@@ -240,7 +201,7 @@
         </sonido>
 
         <torres marca="Nox" modelo="Hummer MC" precio="44,99€">
-            <color>blanco</color>            
+            <color>blanco</color>
             <placaBase>micro ATX</placaBase>
             <ventilacion frontal="120mm" trasero="120mm" />
             <refrigeracion superior="120mm" trasero="120mm" />
@@ -268,37 +229,23 @@
         </torres>
 
         <carcasa marca="Tooq" modelo="TQE-2527B" precio="12,50€">
-            <caracteristicas>
-                <caracteristica>Diseño elegante y de fácil instalación</caracteristica>
-                <caracteristica>Una solución perfecta para transportar gran cantidad de información</caracteristica>
-                <caracteristica>Máxima velocidad de transferencia gracias a su conexión USB 3.0</caracteristica>
-            </caracteristicas>
-            <especificaciones>
-                <color>negro</color>
-                <peso>80gr</peso>
-                <medidas>
-                    <altura>12mm</altura>
-                    <ancho>76mm</ancho>
-                    <largo>130mm</largo>
-                </medidas>
-            </especificaciones>
+            <color>negro</color>
+            <peso>80gr</peso>
+            <medidas>
+                <altura>12mm</altura>
+                <ancho>76mm</ancho>
+                <largo>130mm</largo>
+            </medidas>
         </carcasa>
 
         <carcasa marca="Tooq" modelo="TQE-3527B" precio="19,60€">
-            <caracteristicas>
-                <caracteristica>Diseño elegante y de fácil instalación</caracteristica>
-                <caracteristica>Una solución perfecta para transportar gran cantidad de información</caracteristica>
-                <caracteristica>Máxima velocidad de transferencia gracias a su conexión USB 3.0</caracteristica>
-            </caracteristicas>
-            <especificaciones>
-                <color>negro</color>
-                <peso>350gr</peso>
-                <medidas>
-                    <altura>30mm</altura>
-                    <ancho>120mm</ancho>
-                    <largo>206mm</largo>
-                </medidas>
-            </especificaciones>
+            <color>negro</color>
+            <peso>350gr</peso>
+            <medidas>
+                <altura>30mm</altura>
+                <ancho>120mm</ancho>
+                <largo>206mm</largo>
+            </medidas>
         </carcasa>
 
         <ventilacion marca="Nox" modelo="Hummer H-212" precio="21€">
@@ -308,9 +255,9 @@
             <sonoro>8 dBA - 20 dBA ± 10%</sonoro>
             <potencia>130W</potencia>
             <conectores cantidad="4" />
-            <peso>450 gr</peso>            
+            <peso>450 gr</peso>
         </ventilacion>
-    
+
         <ventilacion marca="Nox" modelo="Hummer H-212" precio="21€">
             <material>cobre y aletas de aluminio</material>
             <revoluciones>800 RMP - 1600 RPM (PWM) ±10%</revoluciones>
@@ -318,7 +265,97 @@
             <sonoro>8 dBA - 20 dBA ± 10%</sonoro>
             <potencia>130W</potencia>
             <conectores cantidad="4" />
-            <peso>450 gr</peso>            
+            <peso>450 gr</peso>
         </ventilacion>
+
+        <fuentes marca="tempest" modelo="Gaming GPSU" precio="39,99€">
+            <certificacion>80 plus silver</certificacion>
+            <conectores>ATX 20/4Pin</conectores>
+            <potencia>400W</potencia>
+        </fuentes>
+
+        <fuentes marca="owlotech" modelo="BPS" precio="19,99€">>
+            <certificacion>80 plus gold</certificacion>
+            <conectores>CPU 4/4Pin</conectores>
+            <potencia>600W</potencia>
+        </fuentes>
+
+        <cable marca="Owlotech" modelo="Molex" precio="1,99">
+            <conductor>7</conductor>
+            <longitud>15 cm</longitud>
+        </cable>
+
+        <cable marca="Phanteks" modelo="Molex" precio="1,99">
+            <conductor>7</conductor>
+            <longitud>30 cm</longitud>
+        </cable>
     </componentes>
+
+    <elementos>
+        <hub marca="trust" modelo="oila" precio="5,50€">
+            <puertos cantidad="4" />
+        </hub>
+
+        <hub marca="Unotec" modelo="Uh700" precio="9,50€">
+            <puertos cantidad="8" />
+        </hub>
+
+        <acceso marca="TP-link " modelo="TL-WA850RE" precio="17,99€">
+            <transmision>2,4GHz</transmision>
+            <memoria>
+                <flash>8 MB</flash>
+                <ram>32 MB</ram>
+            </memoria>
+        </acceso>
+
+        <acceso marca="Asus" modelo="RT-N12E" precio="18,98€">
+            <transmision>2,4GHz</transmision>
+            <memoria>
+                <flash>8 MB</flash>
+                <ram>32 MB</ram>
+            </memoria>
+        </acceso>
+
+        <router marca="TP-link" modelo="TL-MR6400" precio="96,99€">
+            <conectividad>Bluetooth</conectividad>
+            <conectividad>Cable</conectividad>
+            <conectividad>Wifi</conectividad>
+        </router>
+
+        <router marca="TP-link" modelo="Archer MR200" precio="108,99€">
+            <conectividad>Bluetooth</conectividad>
+            <conectividad>Cable</conectividad>
+            <conectividad>Wifi</conectividad>
+        </router>
+
+        <red marca="TP-link" modelo="TL-WN881ND" precio="12,78€">
+            <antena cantidad="2">
+            <aumento>2 DB</aumento>
+        </red>
+
+        <red marca="Asus" modelo="PCE-N15" precio="16,25€">
+            <antena cantidad="2">
+            <aumento>2 DB</aumento>
+        </red>
+
+        <rack marca="Equip" modelo="333282" precio="16,75">
+            <salida cantidad="9" />
+        </rack>
+
+        <rack marca="WP" modelo="333282" precio="17,75">
+            <salida cantidad="8" />
+        </rack>
+
+        <parcheo marca="Equip" precio="36€">
+            <puertos>24</puertos>
+        </parcheo>
+
+        <parcheo marca="Equip" precio="36€">
+            <puertos>24</puertos>
+        </parcheo>
+
+        <VoIP marca="Yealink" modelo="SIP-W56H" precio="74€">
+            
+        </VoIP>
+    </elementos>
 </catalogo>
