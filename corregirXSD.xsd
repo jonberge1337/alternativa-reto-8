@@ -1,0 +1,151 @@
+<!-- 1 -->
+<!ELEMENT numeros (#PCDATA)>
+
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
+
+<xsd:element name="numeros" type="xsd:string"/>
+
+</xsd:schema>
+
+<!-- 2 -->
+<!ELEMENT letras (letra)>
+  <!ELEMENT letra (#PCDATA)>
+
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
+    <xsd:element name="letras" type="xsd:complexType">
+        <xsd:sequence>
+            <xsd:element name="letra" type="xsd:string" />
+        </xsd:sequence>
+    </xsd:element>
+</xsd:schema>
+
+<!-- 3 -->
+  <!ELEMENT colores (color*)>
+  <!ELEMENT color (#PCDATA)>
+
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
+    <xsd:element name="colores" type="xsd:complexType">
+        <xsd:sequence>
+            <xsd:element name="color" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:element>
+</xsd:schema>
+
+<!-- 4 -->
+<!ELEMENT flores (flor+)>
+  <!ELEMENT flor (#PCDATA)>
+
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
+    <xsd:element name="colores" type="xsd:complexType">
+        <xsd:sequence>
+            <xsd:element name="color" type="xsd:string" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:element>
+</xsd:schema>
+
+<!-- 5 -->
+<!ELEMENT animales (animal*)>
+  <!ELEMENT animal (#PCDATA)>
+
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
+    <xsd:element name="animales" type="xsd:complexType">
+        <xsd:sequence>
+            <xsd:element name="animal" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:element>
+</xsd:schema>
+
+<!-- 6 -->
+<!ELEMENT escritores (escritor*)>
+  <!ELEMENT escritor (nombre, nacimiento)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT nacimiento (#PCDATA)>
+
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
+    <xsd:element name="escritores" type="xsd:complexType">
+        <xsd:sequence>
+            <xsd:element name="escritor" type="xsd:complexType" minOccurs="0" maxOccurs="unbounded">
+                <xsd:sequence>
+                    <xsd:element name="nombre" type="xsd:string" />
+                    <xsd:element name="nacimiento" type="xsd:string" />
+                </xsd:sequence>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:element>
+</xsd:schema>
+
+<!-- 7 -->
+<!ELEMENT musicos (musico*)>
+  <!ELEMENT musico ((nombre | apodo), fechaNacimiento)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apodo (#PCDATA)>
+  <!ELEMENT fechaNacimiento (#PCDATA)>
+
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
+    <xsd:element name="musicos" type="xsd:complexType">
+        <xsd:sequence>
+            <xsd:element name="musico" type="xsd:complexType">
+                <xsd:sequence>
+                    <xsd:choice>
+                        <xsd:element name="nombre" type="xsd:string" />
+                        <xsd:element name="apodo" type="xsd:string" />
+                    </xsd:choice>
+                    <xsd:element name="nacimiento" type="xsd:string" />
+                </xsd:sequence>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:element>
+</xsd:schema>
+
+<!-- 8 -->
+<!ELEMENT agenda (contacto*)>
+  <!ELEMENT contacto (nombre, telefonoFijo*, telefonoMovil+)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT telefonoFijo (#PCDATA)>
+  <!ELEMENT telefonoMovil (#PCDATA)>
+
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
+    <xsd:element name="agenda" type="xsd:complexType">
+        <xsd:sequence>
+            <xsd:element name="contacto" type="xsd:complexType" minOccurs="0" maxOccurs="unbounded">
+                <xsd:sequence>
+                    <xsd:element name="nombre" type="xsd:string" />
+                    <xsd:element name="telefonoFijo" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+                    <xsd:element name="telefonoMovil" type="xsd:string" maxOccurs="unbounded" />
+                </xsd:sequence>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:element>
+</xsd:schema>
+
+<!-- 9 -->
+<!ELEMENT sistemaSolar (cuerpo*)>
+  <!ELEMENT cuerpo ((planeta|satelite|asteroide)+)>
+  <!ELEMENT planeta (#PCDATA)>
+  <!ELEMENT satelite (#PCDATA)>
+  <!ELEMENT asteroide (#PCDATA)>
+  
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
+    <xsd:element name="sistemaSolar" type="xsd:complexType">
+        <xsd:sequence>
+            <xsd:element name="cuerpo" type="xsd:complexType" minOccurs="0" maxOccurs="unbounded">
+                <xsd:sequence>
+                    <xsd:choice>
+                        <xsd:element name="planeta" type="xsd:string" maxOccurs="unbounded"/>
+                        <xsd:element name="satelite" type="xsd:string" maxOccurs="unbounded" />
+                        <xsd:element name="asteroide" type="xsd:string" maxOccurs="unbounded" />
+                    </xsd:choice>
+                </xsd:sequence>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:element>
+</xsd:schema>
