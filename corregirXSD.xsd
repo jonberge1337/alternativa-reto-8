@@ -158,13 +158,11 @@
             <xsd:sequence>
                 <xsd:element name="cuerpo" minOccurs="0" maxOccurs="unbounded">
                     <xsd:complexType>
-                        <xsd:sequence>
-                            <xsd:choice>
-                                <xsd:element name="planeta" type="xsd:string" maxOccurs="unbounded"/>
-                                <xsd:element name="satelite" type="xsd:string" maxOccurs="unbounded" />
-                                <xsd:element name="asteroide" type="xsd:string" maxOccurs="unbounded" />
-                            </xsd:choice>
-                        </xsd:sequence>
+                        <xsd:all>
+                            <xsd:element name="planeta" type="xsd:string" maxOccurs="unbounded"/>
+                            <xsd:element name="satelite" type="xsd:string" maxOccurs="unbounded" />
+                            <xsd:element name="asteroide" type="xsd:string" maxOccurs="unbounded" />
+                        </xsd:all>
                     </xsd:complexType>
                 </xsd:element>
             </xsd:sequence>
