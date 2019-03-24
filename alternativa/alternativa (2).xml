@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Catalogo[
+<!ELEMENT Catalgo (Titulo,Componentes, Conexion_LAN,Servicios)>
+<!ELEMENT Componentes(Placas_Base,Procesadores,Discos_Duros,Tarjetas_Graficas, RAMs, Grabadoras_DVD_BluRay, Disqueteras, Multilectores, Tarjetas_Sonido, Torres, Ventilacion, Fuentes_Alimentacion, Cables_Internos)>
+<!ELEMENT Placas_Base(Producto*)>
+<!ELEMENT Procesadores(Producto*)>
+<!ELEMENT Discos_Duros(Producto*)>
+<!ELEMENT Tarjetas_Graficas(Producto*)>
+<!ELEMENT RAMs(Producto*)>
+<!ELEMENT Grabadoras_DVD_BluRay(Producto*)>
+<!ELEMENT Disqueteras(Producto*)>
+<!ELEMENT Multilectores(Producto*)>
+<!ELEMENT Tarjetas_Sonido(Producto*)>
+<!ELEMENT Torres(Producto*)>
+<!ELEMENT Ventilacion(Producto*)>
+<!ELEMENT Fuentes_Alimentacion(Producto*)>
+<!ELEMENT Cables_Internos(Producto*)>
+
+<!ELEMENT Conexión_LAN(Hubs_Switchs, Puntos_Acceso, Routers, Tarjetas_Red, Armarios_Rack, Paneles_Parcheo, Telefonos_VoIP, Cableados_Red)>
+<!ELEMENT Hubs_Switchs, Puntos_Acceso, Routers, Tarjetas_Red, Armarios_Rack, Paneles_Parcheo, Telefonos_VoIP, Cableados_Red(Producto*)>
+
+
+<!ELEMENT Servicios(Sistemas_Tolerantes_AFallos,Sistemas_Copias_Seguridad,Sistemas_Cifrado_Datos)>
+<!ELEMENT Sistemas_Tolerantes_AFallos,Sistemas_Copias_Seguridad,Sistemas_Cifrado_Datos(Producto*)>
+
+<!ELEMENT Titulo(#PCDATA)>
+<!ELEMENT Producto(Modelo*, Descripcion*,Codigo*, Precio*, Disponibilidad*)>
+<!ELEMENT Modelo(#PCDATA)>
+<!ELEMENT Descripcion(#PCDATA)>
+<!ELEMENT Codigo EMPTY>
+<!ELEMENT Precio(#PCDATA)>
+<!ELEMENT Disponibilidad EMPTY>
+
+<!ATTLIST Codigo Producto #REQUIERED>
+<!ATTLIST Disponiblidad stock (Si|No)#REQUIERED>
+]>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Catalgo>
+<Titulo>Componentes</Titulo>
+    <Componentes>
+        <Placas_Base>
+            <Producto>
+                <Modelo>Gigabyte B450M DS3H</Modelo>
+                <Descripcion>Las placas base GIGABYTE serie 400 maximizan el potencial de su PC con la tecnología AMD StoreMI. StoreMI acelera los dispositivos de almacenamiento tradicionales para reducir los tiempos
+                de arranque y mejorar la experiencia general del usuario. Esta utilidad fácil de usar combina la velocidad de las SSD con la alta capacidad de las unidades de disco duro en una sola unidad, mejora las velocidades de lectura / escritura del dispositivo para que coincida con las SSD, 
+                aumenta el rendimiento de los datos a un valor increíble y transforma las PC de uso cotidiano a un sistema impulsado por el rendimiento.
+                Además, cuenta con Smart Fan 5, con esta refrigeración los usuarios pueden asegurarse de que su PC gaming puede mantener un rendimiento estable mientras se mantiene refrigerado.
+                Smart Fan 5 permite a los usuarios intercambiar sus conectores para los ventiladores para reflejar diferentes sensores térmicos en diferentes ubicaciones de la placa base. Además con Smart Fan 5 los conectores híbridos para el ventilador soportan ventiladores PWM y de voltaje,
+                esto hace que la placa base este más adaptada a montar refrigeración líquida.</Descripcion>
+                <Codigo Producto="4567"/>
+                <Precio>67,99€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Asus Prime A320M-K</Modelo>
+                <Descripcion>ASUS Prime es la próxima evolución de la placa madre ASUS, nacida de un pedigrí que se remonta a 1989. Nuestro equipo de ingenieros de clase mundial
+                 son apasionados de empoderar a todos para disfrutar de los beneficios de la personalización y afinación y la fuerza motriz detrás del desarrollo dePrime es hacer que los controles avanzados de los entusiastas sean fácilmente accesibles, 
+                 maximizando el rendimiento, la estabilidad y la compatibilidad para las mejores experiencias de la PC DIY.En pocas palabras: es hora de Prime.</Descripcion>
+                <Codigo Producto="2321"/>
+                <Precio>54,99€</Precio>
+                <Disponibilidad stock="No"/>
+            </Producto>
+
+        </Placas_Base>
+        
+
+        <Procesadores>
+
+            <Producto>
+                <Modelo> AMD Ryzen 5 2600 3.4 Ghz</Modelo>
+                <Descripcion>Te presentamos el AMD Ryzen 5 2600, un procesador que cuenta con 6 núcleos, socket AMD AM4 y arquitectura de 64 bits. Y es que la forma de contratacar de AMD ha sido contundente, 
+                lo nuevos Ryzen no solo demuestran mayor efectividad si no tambien un consumo mucho más contenido que sus predecesores. Los procesadores AMD Ryzen están diseñados para satisfacer las necesidades de los usuarios más avanzados y exigentes. 
+                Para minimizar la latencia de respuesta AMD lanza la tecnología Turbo Core que dará la mayor frecuencia del núcleo cuando lo necesita.</Descripcion>
+                <Codigo Producto="8976"/>
+                <Precio>165,99€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Intel Core i5-8400 2.8GHz BOX</Modelo>
+                <Descripcion>Te presentamos el Intel Core i5-8400, un procesador de 8ª Generación y socket Intel 1151.</Descripcion>
+                <Codigo Producto="4561"/>
+                <Precio>204,90€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+        </Procesadores>
+
+        <Discos_Duros>
+
+            <Producto>
+                <Modelo>Seagate BarraCuda 3.5" 1TB SATA3</Modelo>
+                <Descripcion>Versátiles. Rápidos. Fiables. La unidad de disco duro más increíble que haya conocido.</Descripcion>
+                <Codigo Producto="9856"/>
+                <Precio>44,03€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>WD Blue 1TB 3.5" SATA3</Modelo>
+                <Descripcion>Fabricado según los más altos estándares de calidad y fiabilidad de WD, WD Blue ofrece prestaciones y capacidades de nivel básico ideales para sus necesidades de informática. 
+                WD Blue está diseñado por la marca en que confía con la calidad que esperaría de una solución de almacenamiento probada para su uso diario.</Descripcion>
+                <Codigo Producto="4523"/>
+                <Precio>46 ,59€</Precio>
+                <Disponibilidad stock="No"/>
+            </Producto>
+
+        </Discos_Duros>
+
+        <Tarjetas_Graficas>
+
+            <Producto>
+                <Modelo>Gigabyte GeForce GTX 1070 G1 Gaming 8GB GDDR5</Modelo>
+                <Descripcion>Con hasta un 100% más de rendimiento que las tarjetas de la serie anterior y un espectacular desempeño gráfico en videojuegos y realidad virtual, llegan a nosotros las GTX 1070, las joyas de la corona de las tarjetas gráficas. 
+                La serie 70 es tradicionalmente la mejor serie en cuanto a relación calidad/precio.</Descripcion>
+                <Codigo Producto="9393"/>
+                <Precio>389,90€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>MSI GeForce GTX 1060 Armor OC V1 6GB GDDR5</Modelo>
+                <Descripcion>Ya está aquí la GeForce GTX 1060, la tercera de la familia de tarjetas gráficas Nvidia que estrenan Pascal como arquitectura, la revolución en gaming y computación gráfica.
+                Repleta de novedosas tecnologías,  la MSI GTX 1060 puede con todo. Parte de la culpa la tiene la mencionada tecnología Pascal utilizada para fabricar la GPU, de la que hablaremos a continuación,
+                sus 6GB de RAM GDDR5 y un diseño que exprime al máximo las posibilidades de este dispositivo en entornos de realidad virtual a cambio de un eficiente uso energético.</Descripcion>
+                <Codigo Producto="5109"/>
+                <Precio>249 ,90€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+        </Tarjetas_Graficas>
+
+        <RAMs>
+            <Producto>
+                <Modelo>G.Skill Trident Z RGB DDR4 3200 PC4-25600 16GB 2x8GB CL16</Modelo>
+                <Descripcion>La nueva gama de memorias RAM G.Skill Trident Z RGB ofrece soluciones para un rendimiento increíble. Estos kits optimizan el rendimiento de las plataformas de nueva generación, 
+                con la ventaja añadida de un alto potencial de overclocking. Además, estas rápidas memorias incorporan un sistema de iluminación LED RGB con hasta 16.8 millones de colores con varios modos de iluminación por software. 
+                Simplemente pincha la memoria Trident Z RGB en tu placa basey disfruta de la iluminación.</Descripcion>
+                <Codigo Producto="4581"/>
+                <Precio>159 €</Precio>
+                <Disponibilidad stock="No"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Kingston HyperX Fury Black DDR4 2400 PC4-19200 8GB CL15</Modelo>
+                <Descripcion>Te presentamos la revolución en las memorias para PC. La Kingston HyperX Fury DDR4 ha sido diseñada para ofrecer un rendimiento superior a lo establecido. 
+                Disfruta de toda la potencia y saca el mayor partido a tu procesador y gráfica con la serie Fury de Kingston. Con el lanzamiento del procesador Intel Skylake y los chipsets de serie 100, 
+                HyperX se complace en anunciar que todas sus unidades HyperX FURY DDR4 y HyperX Predator DDR4 son compatibles con Skylake. </Descripcion>
+                <Codigo Producto="7859"/>
+                <Precio>63 ,32€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+        </RAMs>
+
+        <Grabadoras_DVD_BluRay>
+            <Producto>
+                <Modelo>LG GH24NSD1 Grabadora DVD 24x Negra</Modelo>
+                <Descripcion>Te presentamos la GH24NSD1 de Lg, una grabadora DVD 24x acabada en color negro.</Descripcion>
+                <Codigo Producto="2369"/>
+                <Precio>15 ,50€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Asus DRW-24D5MT Grabadora DVD 24X Negra</Modelo>
+                <Descripcion>ASUS DRW-24D5MT es una unidad óptica DVD con protección de datos, eficiencia energética y grabación de alta velocidad.
+                 El soporte M-Disk te proporciona la solución de copias de seguridad más completa.</Descripcion>
+                <Codigo Producto="7895"/>
+                <Precio>18 ,50€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+        </Grabadoras_DVD_BluRay>
+
+        <Disqueteras>
+            <Producto>
+                <Modelo>Nilox Disquetera Floppy USB Externa</Modelo>
+                <Descripcion>El lector de tarjetas con Floppy Drive externo es una solución práctica y económica para aquellos que no quieren renunciar a los tradicionales Floppy
+                 con la posibilidad de incorporar un cómodo lector de tarjetas para manejar una variedad soportes.
+                 Compatible con las casas más populares del mercado.</Descripcion>
+                <Codigo Producto="7485"/>
+                <Precio>17 ,99€</Precio>
+                <Disponibilidad stock="No"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Disquetera externa Huatuo® USB 2.0 FDD portátil compatible con Windows 98SE/ME/2000/XP/Win7/Vista/Mac/OS8.6 negro</Modelo>
+                <Descripcion>Disquetera externa Huatuo® USB 2.0 FDD portátil compatible con Windows 98SE/ME/2000/XP/Win7/Vista/Mac/OS8.6</Descripcion>
+                <Codigo Producto="6325"/>
+                <Precio>EUR 11,88</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+        </Disqueteras>
+
+        <Multilectores>
+            <Producto>
+                <Modelo>Tacens Anima ACR3 Lector de Tarjetas + SIM + DNIe+ Bluetooth</Modelo>
+                <Descripcion>Lector interno de tarjetas 3.5” con puerto SIM, DNIe, SmartCard y Bluetooth.</Descripcion>
+                <Codigo Producto="7823"/>
+                <Precio>11 ,25€</Precio>
+                <Disponibilidad stock="No"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Tooq TQR-210B Lector de DNI-e USB</Modelo>
+                <Descripcion>Este lector de SmartCard permite leer tarjetas inteligentes, como los DNI electrónicos (DNIe) de forma que podemos centralizar en nuestro PC gestiones que hasta hace poco requerí­an nuestra presencia.</Descripcion>
+                <Codigo Producto="3654"/>
+                <Precio>10 ,93€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+        </Multilectores>
+
+        <Tarjetas_Sonido>
+            <Producto>
+                <Modelo>Creative Sound Blaster Z 5.1 PCIe</Modelo>
+                <Descripcion>Sound Blaster Z, que forma parte de las tarjeta de sonido de alto rendimiento de la serie Z de Sound Blaster® PCI-Express, es una solución para juegos y entretenimiento global que incorpora las funciones de la tarjeta Sound Blaster Zx e incluye un conjunto de micrófono de formación de haces de calidad. </Descripcion>
+                <Codigo Producto="4236"/>
+                <Precio>31€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Creative Sound Blaster Audigy FX PCI Express</Modelo>
+                <Descripcion>Sound Blaster Audigy Fx es la actualización perfecta desde el audio básico de la placa base al legendario sonido de Sound Blaster. Optimizada con la tecnología SBX Pro Studio, ofrece sonido cinemático 5.1 de gran alta calidad para películas, música y juegos. Incluye el Panel de control de Sound Blaster Audigy Fx, 
+                que brinda el control absoluto de la configuración de tu SBX Pro Studio.</Descripcion>
+                <Codigo Producto="2546"/>
+                <Precio>78€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+        </Tarjetas_Sonido>
+
+        <Torres>
+            <Producto>
+                <Modelo>Owlotech EVO USB 3.0 500W</Modelo>
+                <Descripcion>Te presentamos la EVO de Owlotech, una torre en formato ATX que no te dejará impasible. Construida con los mejores materiales y con una conectividad USB 3.0 en su parte frontal, 
+                la primera torre de la marca Owlotech se presenta cómo una torre con un precio increible.</Descripcion>
+                <Codigo Producto="5236"/>
+                <Precio>39 ,99€</Precio>
+                <Disponibilidad stock="No"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Tempest Spectra RGB USB 3.0 con Ventana</Modelo>
+                <Descripcion>Tempest expande su familia de torres con la nueva Spectra RGB, una caja modelo ATX con efectos de retroiluminación tanto en el frontal como en su ventilador trasero
+                que hará las delicias tanto de aquellos que acaban de llegar al mundo gaming como de los que lo conocen a fondo.</Descripcion>
+                <Codigo Producto="4723"/>
+                <Precio>29,98€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+        </Torres>
+
+        <Ventilacion>
+            <Producto>
+                <Modelo>Nfortec Vela KX CPU Cooler</Modelo>
+                <Descripcion>La familia de disipadores de Nfortec está compuesta por dos modelos que, a pesar de lo contenido de su precio, ofrecen unas prestaciones difícilmente igualables. En el caso del disipador Vela KX, nos encontramos con un disipador que incluye un total de 4 heatpipes con base de cobre, 
+                una configuración que ofrecerá el rendimiento esperado. </Descripcion>
+                <Codigo Producto="7569"/>
+                <Precio>23 ,99€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Nox Hummer H-212 CPU Cooler</Modelo>
+                <Descripcion>Nox incorpora el cooler H-212 a su serie Hummer. Se trata de un cooler con aletas de aluminio y 3 heatpipes con base de cobre,
+                 los cuales proporcionarán a la CPU un nivel de refrigeración máximo.</Descripcion>
+                <Codigo Producto="2548"/>
+                <Precio>21 €</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+        </Ventilacion>
+
+        <Fuentes_Alimentacion>
+            <Producto>
+                <Modelo>Tempest Gaming GPSU Fuente de Alimentación 750W</Modelo>
+                <Descripcion>Te presentamos la Fuente de Alimentación Tempest Gaming GPSU 750W.</Descripcion>
+                <Codigo Producto="3654"/>
+                <Precio>39 ,99€</Precio>
+                <Disponiblidad stock="No"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Owlotech BPS Fuente Alimentación 600W</Modelo>
+                <Descripcion>Te presentamos la Fuente de alimentación Owlotech BPS, una fuente con 600W de potencia.</Descripcion>
+                <Codigo Producto="9645"/>
+                <Precio>19 ,99€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+        </Fuentes_Alimentacion>
+
+        <Cables_Internos>
+            <Producto>
+                <Modelo>Owlotech Cable Alimentación Molex/SATA 15 cm</Modelo>
+                <Descripcion>Cable de Alimentación Serial ATA Molex 4 Pines Macho - Serial ATA 15 Pines</Descripcion>
+                <Codigo Producto="3642"/>
+                <Precio>1 ,99€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Phanteks RGB4P Cable Adaptador RGB LED</Modelo>
+                <Descripcion>El adaptador LED RGB de Phanteks es una solución simple y libre de frustraciones para aquellas placas base que cuentan LEDs RGB integrados. 
+                Este adaptador te permitirá sincronizar y controlar la iluminación de tu tira LED y las cajas Phanteks con el software de iluminación de la placa base.</Descripcion>
+                <Codigo Producto="7842"/>
+                <Precio>3 ,25€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+        </Cables_Internos>     
+
+    </Componentes>
+
+    <Conexión_LAN>
+        <Hubs_Switchs>
+            <Producto>
+                <Modelo>D-Link DGS-105 Switch 5 Puertos 10/100/1000Mbps</Modelo>
+                <Descripcion>Beneficiate del mayor ancho de banda para tu hogar o empresa gracias al Switch D-Link DGS-105. Proporciona 5 puertos Gigabit para una fácil expasión de su red y una forma rápida de actualizar tu red a la conectividad Gigabit.</Descripcion>
+                <Codigo Producto="3741"/>
+                <Precio>20 ,99€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>TP-Link TL-SG105 V3 Switch 5 Puertos</Modelo>
+                <Descripcion>El TL-SG105 de TP-LINK es un switch de sobremesa con 5 puertos 10/100/1000Mbps que le permite migrar fácilmente su red a la tecnología Gigabit Ethernet. Aumente tanto la velocidad de su servidor de red como la de las conexiones troncales o lleve la experiencia Gigabit a su escritorio. 
+                Adicionalmente, el diseño del TL-SG105 le permite reducir su consumo eléctrico. Gracias a su innovadora tecnología de eficiencia energética, el TL-SG105 ahorra hasta un 65% de energía eléctrica, lo que lo convierte en una solución ecológica para la red de su hogar o lugar de trabajo.</Descripcion>
+                <Codigo Producto="2654"/>
+                <Precio>19 ,54€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+        </Hubs_Switchs>
+
+        <Puntos_Acceso>
+
+            <Producto>
+                <Modelo>Ubiquiti UAP-AC-LR Punto de Acceso 5 GHz</Modelo>
+                <Descripcion>Ideal para despliegues de largo alcance y alto rendimiento, el UniFi AC LR ofrece doble banda simultanea 3x3 MIMO en 2.4GHz, y 2x2 MIMO en 5GHz. El diseño innovador de su antena, proporciona largo alcance, asi como un enlace simetrico en el area de cobertura. 
+                Esta disponible por separado o en packs de 5 unidades. (este ultimo no incluye los PoE de alimentacion).</Descripcion>
+                <Codigo Producto="4455"/>
+                <Precio>104 ,99€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Asus RT-N12 Router/Punto de Acceso/Repetidor Wireless N300</Modelo>
+                <Descripcion>El RT-N12 es un Router N inalámbrico a 300 Mbps con conexiones inalámbricas y por cable creado específicamente para pymes y oficinas domésticas. La tecnología 2T2R MIMO y las dos antenas 5 dbi desmontables permiten extender el área de cobertura con un rendimiento avanzado que resulta ideal para reproducir contenidos HD en streaming, 
+                hacer llamadas VoIP y disfrutar de juegos en línea. Las funciones Quick Internet Setup y Graphical User Interface los hacen muy fácil de instalar y configurar, ofreciendo control del acceso y priorización del ancho de banda con cuatro SSID activados.</Descripcion>
+                <Codigo Producto="6258"/>
+                <Precio>25 ,99€</Precio>
+                <Disponibilidad stock="No"/>
+            </Producto>
+
+        </Puntos_Acceso>
+
+        <Routers>
+            <Producto>
+                <Modelo> Asus RT-AC1200G Plus Router Inalámbrico AC1200</Modelo>
+                <Descripcion>Te presentamos en PcComponentes el RT-AC1200G Plus de Asus, un router con conectividad doble banda simultánea para una máxima compatibilidad y rendimiento extremo</Descripcion>
+                <Codigo Producto="7788"/>
+                <Precio>69 ,99€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Linksys WRT32X Router para Videojuegos de Doble Banda AC3200</Modelo>
+                <Descripcion>Diseñado específicamente para videojuegos el router para videojuegos Linksys WRT32X con Killer Prioritization Engine ofrece una red doméstica que te permitirá dominar en las competiciones en línea.
+                Este router de alto rendimiento para videojuegos se sincroniza con ordenadores, equipados con la tecnología Killer, de marcas como Alienware™, Gigabyte™, MSI™ y Razer™ para reducir los tiempos de ping máximos en un 77 % y ofrecer juegos fluidos y sin lag.*
+                Tendrás una ventaja inigualable sobre tus competidores en MOBA, shooters y otros juegos en los que un milisegundo puede marcar la diferencia entre la victoria y la derrota.</Descripcion>
+                <Codigo Producto="8563"/>
+                <Precio>179 €</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+        </Routers>
+
+        <Tarjetas_Red>
+            <Producto>
+                <Modelo>TP-LINK TL-WN881ND 300Mbs 11n Wireless PCI Express Ver 2.0</Modelo>
+                <Descripcion>El adaptador PCI inalámbrico N TL-WN851ND le permite conectar su ordenador de sobremesa a una red inalámbrica y acceder a ella a alta velocidad. 
+                Conforme con el estándar IEEE 802.11n, ofrece una velocidad inalámbrica de hasta 300 Mbps, perfecta para jugar online o el vídeo en streaming.</Descripcion>
+                <Codigo Producto="8555"/>
+                <Precio>12 ,78€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Asus PCE-N15 WiFi 11n 300Mbps Perfil Bajo PCI-e N300</Modelo>
+                <Descripcion>Adaptador PCI-E Wireless 802.11b/g/n 300Mbps</Descripcion>
+                <Codigo Producto="2332"/>
+                <Precio>16 ,25€</Precio>
+                <Disponibilidad stock="No"/>
+            </Producto>
+        </Tarjetas_Red>
+
+        <Armarios_Rack>
+            <Producto>
+                <Modelo>Armario Rack Mural 19" 22U 600x600</Modelo>
+                <Descripcion>Cumple con ANSI/EIARS-310-D, DIN41491, PART1, IEC297-2, DIN41494, PART7, GB/T3047.2-92. Compatible con ETSI y con los estándares internacionales de 19".</Descripcion>
+                <Codigo Producto="8563"/>
+                <Precio>219 €</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Digitus Armario Rack Mural 19" 7HU 600x450</Modelo>
+                <Descripcion>Los gabinetes de montaje en pared de la serie Unique fueron diseñados para la instalación fácil de los componentes de red activos y pasivos acompañados de una administración de cables ordenada. 
+                Cada bastidor consta de un material de chapa de acero resistente de hasta 1,5 mm que garantiza una muy buena estabilidad como una construcción de acero robusta. El color se crea mediante recubrimiento en polvo en gris (RAL 7035) y negro (RAL 9005).
+                La instalación en la pared se puede hacer fácilmente, hay dos pasos: monte la pared posterior de la carcasa en su pared y luego conéctela con la carcasa. Los pies o las ruedas de nivelación por separado están disponibles para propósitos independientes.
+                La puerta y los paneles laterales son fáciles de desmontar y el tope de la puerta se puede cambiar de derecha a izquierda.</Descripcion>
+                <Codigo Producto="8866"/>
+                <Precio>81 €</Precio>
+                <Disponibilidad stock="No"/>
+            </Producto>
+        </Armarios_Rack>
+
+        <Telefonos_VoIP>
+            <Producto>
+                <Modelo>Yealink SIP-W56H Teléfono VoIP</Modelo>
+                <Descripcion>El Yealink W56P se ha diseñado para mejorar la comunicación de los trabajadores que durante su jornada laboral se encuentran en movimiento constantemente.El W56P es un teléfono IP DECT con un diseño de alta gama, 
+                sonido HD con tecnología de banda ancha y permite hasta 5 cuentas SIP, 5 terminales adicionales y 4 llamadas simultáneas</Descripcion>
+                <Codigo Producto="7453"/>
+                <Precio>74 €</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Yealink SIP-T23G Teléfono VoIP</Modelo>
+                <Descripcion> El Yealink SIP-T23G posee características intuitivas de interfaz de usuario y una funcionalidad mejorada que hacen que sea fácil para que la gente interactúe y maximice la productividad. La tecnología HD de Yealink permite muy buenas comunicaciones de voz, completamente reales, opciones de gestión,
+                 un despliegue flexible y aplicaciones de comunicaciones de terceros.</Descripcion>
+                <Codigo Producto="6633"/>
+                <Precio>54 €</Precio>
+                <Disponibilidad stock="No"/>
+            </Producto>
+        </Telefonos_VoIP>
+
+        <Cableados_Red>
+            <Producto>
+                <Modelo>Owlotech Cable de Red RJ45 UTP Cat.6 10/100/1000 Gris (5m)</Modelo>
+                <Descripcion>Te presentamos el cable Owlotec, un cable de red UTP con certificación de Cat 6.</Descripcion>
+                <Codigo Producto="1121"/>
+                <Precio>3 ,69€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Equip Cable de Red UTP Cat 6 0,25m Rojo</Modelo>
+                <Descripcion>El cable de red UTP Equip está compuesto de materiales de alta calidad y completamente examinado para cumplir con los estándares industriales. Al ofrecer un mayor ancho de banda y un mejor margen de señal a ruido, 
+                el cable de Cat 6 puede ofrecer un rendimiento ultra alto y libre de errores en los entornos de red más exigentes.</Descripcion>
+                <Codigo Producto="6632"/>
+                <Precio>0 ,85€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+        </Cableados_Red>
+
+        <Paneles_Parcheo>
+            <Producto>
+                <Modelo>Equip Patch Panel 24 puertos Cat 6</Modelo>
+                <Descripcion>Panel de Parcheo de  24 puertos Cat 6</Descripcion>
+                <Codigo Producto="1141"/>
+                <Precio>36 €</Precio>
+                <Disponibilidad stock="No"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Digitus Panel de Parcheo 24 Puertos Cat6 Clase E Apantallado</Modelo>
+                <Descripcion>El panel de conexión DIGITUS® de 24 puertos 0,5U le ofrece una alta densidad de embalaje. 
+                Puesto que el panel solo mide 0,5 U de alto, se pueden instalar 48 puertos en 1U (2 paneles con 24 puertos cada uno).</Descripcion>
+                <Codigo Producto="5521"/>
+                <Precio>47 €</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+        </Paneles_Parcheo>    
+    
+    </Conexión_LAN>
+
+    <Servicios>
+
+        <Sistemas_Tolerantes_AFallos>
+            <Producto>
+                <Modelo>LaCie 12big Disco Duro 48TB RAID Thunderbolt 3 USB-C</Modelo>
+                <Descripcion>Este Disco Duro RAID es excepcional porque presenta en un accesorio dos cualidades de superioridad: doble conexión Thunderbolt 3 y Sistema RAID 0 y 5.
+                Para profesionales en la producción de videos, casas de producción o equipo técnico que necesite grandes volúmenes de capacidad y almacenamiento de calidad. La herramienta de trabajo para las grandes ideas.</Descripcion>
+                <Codigo Producto="1125"/>
+                <Precio>3.400,32€</Precio>
+                <Disponiblidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>AKiTio Thunder3 RAID Station Thunderbolt 3</Modelo>
+                <Descripcion>Thunder3 Thunder3 RAID Station es una caja externa de almacenamiento. Ha sido fabricada para profesionales que no sólo buscan un buen rendimiento, sino que también buscan flexibilidad para poder trabajar con distintos equipos. 
+                Además, si no tienes las herramientas para cambiar los discos, no es un problema, porque no las necesitarás.</Descripcion>
+                <Codigo Producto="3625"/>
+                <Precio>389,99€</Precio>
+                <Disponibilidad stock="No"/>
+            </Producto>
+        </Sistemas_Tolerantes_AFallos>
+
+        <Sistemas_Copias_Seguridad>
+            <Producto>
+                <Modelo>Acronis Backup</Modelo>
+                <Descripcion>Acronis Backup ofrece la protección de datos que cumple con las demandas actuales. Mantiene su negocio en funcionamiento, protegiendo cualquier carga de trabajo, escalando sin límites y ahorrándole dinero.</Descripcion>
+                <Codigo Producto="3254"/>
+                <Precio>75€/año</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Ease US Technician</Modelo>
+                <Descripcion>EaseUS Backup Center – la solución de administración de backup centralizada ayuda a hacer planes detallados de backup para un entorno empresarial específico, asignar tareas de respaldo a múltiples máquinas desde una sola consola, 
+                ejecutar y monitorear tareas de copia de seguridad en todos los sistemas fácilmente.</Descripcion>
+                <Codigo Producto="5566"/>
+                <Precio>929€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+        </Sistemas_Copias_Seguridad>
+
+        <Sistemas_Cifrado_Datos>
+            <Producto>
+                <Modelo>CYPHERIX STRONG ENCRYPTION</Modelo>
+                <Descripcion>Solución Completa para Proteger datos sensibles en cualquier PC con Windows, De Escritorio, Laptop, Disco Duro o Unidad Extraíble como USB Flash, Tarjeta de Memoria, etc.</Descripcion>
+                <Codigo Producto="4455"/>
+                <Precio>999€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+
+            <Producto>
+                <Modelo>Fort File Encryption</Modelo>
+                <Descripcion>Es un programa para Windows que permite a cualquier usuario proteger todos los archivos guardados en su PC. Ofrece tres opciones principales de cifrado, la que permite cifrar todo el disco duro de una sola vez, 
+                otra que ofrece la posibilidad de crear un contenedor donde todo lo que se guarde se va cifrando o la posibilidad e ir protegiendo archivos de forma individual.</Descripcion>
+                <Codigo Producto="4412"/>
+                <Precio>9999€</Precio>
+                <Disponibilidad stock="Si"/>
+            </Producto>
+        </Sistemas_Cifrado_Datos>
+    
+    </Servicios>
+</Catalgo>
