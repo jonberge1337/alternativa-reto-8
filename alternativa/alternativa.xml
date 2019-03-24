@@ -435,4 +435,349 @@
         <precio>18,50€</precio>
         <disponibilidad stock="Si" />
     </componente>
+
+    <componente tipo="Disquetera" marca="CSL" modelo="A19384x60">
+        <descripcion>El formato ultraplano de esta disquetera la convierte en la opción ideal para llevar a cualquier
+            parte o ahorrar espacio en su escritorio. Solo necesita conectar la disquetera a su portátil, PC o Mac.
+            Gracias a la función Plug & Play, su equipo reconocerá automáticamente la disquetera de 3,5" (a partir de
+            Windows 98). El suministro de corriente se produce a través del puerto USB, por lo que no requiere ninguna
+            fuente de alimentación adicional. Dado que la mayoría de los actuales sistemas de PC y portátiles carecen de
+            disquetera, esta unidad de disco especialmente compacta le permitirá guardar y transportar cómodamente datos
+            importantes como, p. ej., actualizaciones del BIOS, controladores RAID e incluso archivos MIDI para teclados
+            desactualizados.</descripcion>
+        <caracteristicas>
+            <caracteristica>Disquetera USB 3,5" </caracteristica>
+            <caracteristica>Diseño ultracompacto/slimline </caracteristica>
+            <caracteristica>Color: negro </caracteristica>
+            <caracteristica>Plug & Play / no requiere instalación de drivers / detección automática</caracteristica>
+            <caracteristica>Suministro de corriente mediante USB / no necesita fuente de alimentación adicional
+            </caracteristica>
+            <caracteristica>Dimensiones: aprox. 14 x 10 x 1,7 cm </caracteristica>
+            <caracteristica>Peso aprox. 300 g</caracteristica>
+            <caracteristica>Compatible con Windows 98 SE / Windows ME / Windows 2000 / Windows XP / Windows Vista /
+                Windows 7 / Windows 8 / Windows 8.1 / Windows 10</caracteristica>
+        </caracteristicas>
+        <codigo Producto="156248" />
+        <precio>12,99€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Multilector" marca="Tacens" modelo="Anima ACR3">
+        <descripcion>Lector interno de tarjetas 3.5” con puerto SIM, DNIe, SmartCard y Bluetooth.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Peso y dimensiones">Peso: 190 g</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Dimensiones (Ancho x Profundidad x Altura): 95 x 100 x 25 mm
+            </caracteristica>
+            <caracteristica tipo="Medios de almacenaje">Tarjetas de memoria compatibles: Memoria extraíble, MicroSD
+                (TransFlash), MiniSD, MMC, MMCmicro, MS Duo, MS PRO, MS PRO Duo, RS-MMC, SD, SDHC, SDXC</caracteristica>
+            <caracteristica tipo="Medios de almacenaje">Interno: Si</caracteristica>
+            <caracteristica tipo="Medios de almacenaje">Soporte de tarjeta SIM: Si</caracteristica>
+            <caracteristica tipo="Medios de almacenaje">Bahías de unidad soportadas: 3.5"</caracteristica>
+            <caracteristica tipo="Software">Sistema operativo Windows soportado: Windows 2000,Windows 2000
+                Professional,Windows 7 Home Basic,Windows 7 Home Basic x64,Windows 7 Home Premium,Windows 7 Home Premium
+                x64,Windows 7 Professional,Windows 7 Professional x64,Windows 7 Starter,Windows 7 Starter x64,Windows 7
+                Ultimate,Windows 7 Ultimate x64,Windows 8,Windows 8 Enterprise,Windows 8 Enterprise x64,Windows 8
+                Pro,Windows 8 Pro x64,Windows 8 x64,Windows 98,Windows 98SE,Windows ME,Windows Vista Business,Windows
+                Vista Business x64,Windows Vista Enterprise,Windows Vista Enterprise x64,Windows Vista Home
+                Basic,Windows Vista Home Basic x64,Windows Vista Home Premium,Windows Vista Home Premium x64,Windows
+                Vista Ultimate,Windows Vista Ultimate x64,Windows XP Home,Windows XP Home x64,Windows XP
+                Professional,Windows XP Professional x64</caracteristica>
+            <caracteristica tipo="Software">Sistema operativo MAC soportado: Mac OS X 10.1 Puma, Mac OS X 10.2 Jaguar,
+                Mac OS X 10.3 Panther, Mac OS X 10.4 Tiger, Mac OS X 10.5 Leopard, Mac OS X 10.6 Snow Leopard, Mac OS X
+                10.7 Lion, Mac OS X 10.8 Mountain Lion, Mac OS X 10.9 Mavericks</caracteristica>
+            <caracteristica tipo="Software">Sistema operativo Linux soportado: Si</caracteristica>
+        </caracteristicas>
+        <codigo Producto="64202" />
+        <precio>11,25€€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Multilector" marca="Tacens" modelo="Anima ACR1">
+        <descripcion>El ACR1 dispone de 6 puertos para más de 68 tipos de tarjetas y un puerto frontal USB 2.0. Además,
+            es compatible con tarjetas SD de alta definición.</descripcion>
+        <caracteristicas>
+            <caracteristica>Lector interno de tarjetas 3.5” con puerto frontal USB 2.0 .</caracteristica>
+            <caracteristica>6 puertos de tarjetas* para más de 68 tipos de tarjetas y 1 puerto USB 2.0.</caracteristica>
+            <caracteristica>Compatible con SD de alta definición.</caracteristica>
+            <caracteristica>Alta velocidad de transferencia de dates entre los puertos internos.</caracteristica>
+            <caracteristica>2 LEDs de actividad.</caracteristica>
+            <caracteristica>Soporta Hot swap y Plug & Play .</caracteristica>
+            <caracteristica>Soporta: windows98/98SE/ME/2000 /XP/Vista/7/8/MACOS 10.1.2 /Linux</caracteristica>
+            <caracteristica>Kernel 2.4.0 o superiores.</caracteristica>
+            <caracteristica>Tarjetas De Memorias Compatibles : CF, Memory Stick (MS), MicroSD (TransFlash), MiniSD, MMC,
+                MMCmicro, MS Duo, MS Micro (M2), MS PRO, MS PRO Duo, RS-MMC, SD, SDHC, SDXC, XD</caracteristica>
+        </caracteristicas>
+        <codigo Producto="64202" />
+        <precio>11,25€€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Tarjeta sonido" marca="Creative" modelo="Sound Blaster Audigy FX PCI Express">
+        <descripcion>Sound Blaster Audigy Fx es la actualización perfecta desde el audio básico de la placa base al
+            legendario sonido de Sound Blaster. Optimizada con la tecnología SBX Pro Studio, ofrece sonido cinemático
+            5.1 de gran alta calidad para películas, música y juegos. Incluye el Panel de control de Sound Blaster
+            Audigy Fx, que brinda el control absoluto de la configuración de tu SBX Pro Studio.</descripcion>
+        <caracteristicas>
+            <caracteristica>SBX Pro Studio Sí</caracteristica>
+            <caracteristica tipo="calidad reproduccion">Estéreo: 24bit /192kHz</caracteristica>
+            <caracteristica tipo="calidad reproduccion">5.1 Sonido envolvente: 24bit / 96KHz</caracteristica>
+            <caracteristica tipo="calidad grabacion">24-bit / 96kHz</caracteristica>
+            <caracteristica tipo="Salida maxima">5.1 canales</caracteristica>
+            <caracteristica tipo="Relación señal/ruido (SNR)">106dB</caracteristica>
+            <caracteristica>Mezcla de estéreo multicanal Sí</caracteristica>
+            <caracteristica tipo="Opciones de entrada (principal)">Auriculares/salida delantera:1 x Conector de 3,5 mm
+            </caracteristica>
+            <caracteristica tipo="Opciones de entrada (principal)">Salida trasera:1 x Conector de 3,5 mm
+            </caracteristica>
+            <caracteristica tipo="Opciones de entrada (principal)">Centro/subwoofer:1 x Conector de 3,5 mm
+            </caracteristica>
+            <caracteristica tipo="Opciones de entrada (principal)">Entrada de micrófono:1 x Conector de 3,5 mm
+            </caracteristica>
+            <caracteristica tipo="Opciones de entrada (principal)">Entrada de línea:1 x Conector de 3,5 mm
+            </caracteristica>
+            <caracteristica>Amplificador de cascos Hasta 600 Ohms</caracteristica>
+            <caracteristica>EAX Advanced 5.0</caracteristica>
+            <caracteristica tipo="Fidelidad de audio">Hasta 24-bit / 96kHz</caracteristica>
+            <caracteristica tipo="Software y compatibilidad">Sistemas operativos compatibles</caracteristica>
+            <caracteristica tipo="Software y compatibilidad">Windows® 8</caracteristica>
+            <caracteristica tipo="Software y compatibilidad">Windows® 7</caracteristica>
+            <caracteristica tipo="Software y compatibilidad">Windows Vista® SP1 o superior</caracteristica>
+            <caracteristica>Plataformas compatibles PC - PCIe x1</caracteristica>
+        </caracteristicas>
+        <codigo Producto="64202" />
+        <precio>11,25€€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Tarjeta sonido" marca="Approx" modelo="APPPCIE51">
+        <descripcion>La APPPCIE51 le permitirá convertir su PC en un sistema envolvente 3D 5.1. Con sus cinco conectores
+            de audio de Jack 3,5 mm podrá conectar auriculares o juegos de altavoces 2.0, 2.1, 4.0, 4.1, 5.1 y mediante
+            sus entradas Frontal, Trasero, Central y Amplifi cador de graves. También puede conectar un micrófono a la
+            entrada Micrófono de 3,5 mm y cualquier dispositivo de audio a la entrada de línea. Gracias a sus 6 canales
+            puede disfrutar completamente de su música y películas como nunca antes. ¡Disfrute de un sonido sin igual!
+        </descripcion>
+        <caracteristicas>
+            <caracteristica>Chipset: C-Media CM8738 PCI-6CH-LX.</caracteristica>
+            <caracteristica>Soporta salida 6 canales DAC 5.1 surround para home cinema y juegos.</caracteristica>
+            <caracteristica>Soporta entradas analógicas Linein, Mic-in,Aux,CD.</caracteristica>
+            <caracteristica>Soporta A3D y DS3D, Directsound 3D y Sonido EAX.</caracteristica>
+            <caracteristica>Full Duplex.</caracteristica>
+            <caracteristica>Adecuada para auriculares o juego de altavoces 2.0, 2.1, 4.0, 4.1, 5.1.</caracteristica>
+            <caracteristica>Equipada con cinco conectores de audio de 3,5 mm.</caracteristica>
+            <caracteristica tipo="Requisitos del sistema">Ranura PCI-E libre.</caracteristica>
+            <caracteristica tipo="Requisitos del sistema">Windows XP/Vista/7/8.</caracteristica>
+            <caracteristica tipo="Conexiones e interfaces">Conexión PCI-E.</caracteristica>
+            <caracteristica tipo="Conexiones e interfaces">nectores Audio Jack 3.5mm 2.0 / 2.1 / 4.0 / 4.1 / 5.1
+            </caracteristica>
+        </caracteristicas>
+        <codigo Producto="73764" />
+        <precio>19,99€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Torre" marca="Owlotech" modelo="EVO">
+        <descripcion>Te presentamos la EVO de Owlotech, una torre en formato ATX que no te dejará impasible. Construida
+            con los mejores materiales y con una conectividad USB 3.0 en su parte frontal, la primera torre de la marca
+            Owlotech se presenta cómo una torre con un precio increible.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Puertos">1xUSB 3.0</caracteristica>
+            <caracteristica tipo="Puertos">2xUSB 2.0</caracteristica>
+            <caracteristica tipo="Puertos">HD Audio</caracteristica>
+            <caracteristica tipo="Medidas (mm)">400x180x420</caracteristica>
+            <caracteristica tipo="Peso">Neto 3.2KG</caracteristica>
+            <caracteristica tipo="Peso">Bruto 3.7KG</caracteristica>
+            <caracteristica tipo="Compatibilidad placas">ATX,</caracteristica>
+            <caracteristica tipo="Compatibilidad placas">Micro ATX</caracteristica>
+            <caracteristica tipo="Compatibilidad placas">ITX</caracteristica>
+            <caracteristica tipo="Bahías">2 x 5.25"</caracteristica>
+            <caracteristica tipo="Bahías">2 x 3.5"</caracteristica>
+            <caracteristica tipo="Bahías">1 x SSD</caracteristica>
+            <caracteristica tipo="Ventilación">1 x 9cm (incluido),</caracteristica>
+            <caracteristica tipo="Ventilación">1 x 12cm lateral (opcional)</caracteristica>
+            <caracteristica>Tamaño máximo del disipador de la CPU 150mm</caracteristica>
+            <caracteristica>Tamaño máximo de la tarjeta gráfica 350mm</caracteristica>
+        </caracteristicas>
+        <codigo Producto="101871" />
+        <precio>39,99€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Torre" marca="Nox" modelo="Hummer MC">
+        <descripcion>Hummer MC es el chasis más especial de todo el catálogo de la marca, una semitorre con 7 colores de
+            iluminación LED diferentes en un solo chasis. Disponible en blanca y negra con una gran ventana lateral que
+            permitirá ver todo el interior del PC junto a todos los componentes iluminados por los LEDs que incorpora.
+        </descripcion>
+        <caracteristicas>
+            <caracteristica>Placa base ATX; micro ATX</caracteristica>
+            <caracteristica tipo="Sistema ventilación">Frontal: 1x 120 mm</caracteristica>
+            <caracteristica tipo="Sistema ventilación">Trasero: 1x 120 mm</caracteristica>
+            <caracteristica tipo="Sistema ventilación (opcional)">Frontal: 2x 120 mm</caracteristica>
+            <caracteristica tipo="Sistema ventilación (opcional)">Superior: 1x 120 mm</caracteristica>
+            <caracteristica tipo="Sistema ventilación (opcional)">Compartimento PSU: 2x 120 mm</caracteristica>
+            <caracteristica tipo="Opciones refrigeración líquida ">Frontal: 120 / 240 mm</caracteristica>
+            <caracteristica tipo="Opciones refrigeración líquida ">Superior: 120 mm</caracteristica>
+            <caracteristica tipo="Opciones refrigeración líquida ">Trasero: 120 mm</caracteristica>
+            <caracteristica tipo="Bahias">Externas: </caracteristica>
+            <caracteristica tipo="Bahias">Internas: 2x 3.5´´, 2x 2.5´</caracteristica>
+            <caracteristica tipo="Material">Chasis de acero SPCC 0.5 mm</caracteristica>
+            <caracteristica tipo="Material">Panel frontal de plástico ABS</caracteristica>
+            <caracteristica>Slots de expansión 7</caracteristica>
+            <caracteristica tipo="Puertos">1x USB 3.0</caracteristica>
+            <caracteristica tipo="Puertos">2x USB 2.0</caracteristica>
+            <caracteristica tipo="Puertos">HD Audio</caracteristica>
+            <caracteristica tipo="Puertos">Mic</caracteristica>
+            <caracteristica tipo="Puertos">2x controles de velocidad</caracteristica>
+            <caracteristica tipo="Color">Negro</caracteristica>
+            <caracteristica>Fuente alimentación Estándar ATX (no incluida)</caracteristica>
+            <caracteristica tipo="Espacio">VGA: 380 mm (longitud máxima)</caracteristica>
+            <caracteristica tipo="Espacio">Cooler CPU: 161 mm (altura máxima)</caracteristica>
+            <caracteristica tipo="Espacio">Fuente de alimentación: 270 mm (longitud máxima)</caracteristica>
+            <caracteristica>Dimensiones 206 x 470 x 460 mm (an x al x pr)</caracteristica>
+            <caracteristica tipo="Peso">4.8 Kg</caracteristica>
+        </caracteristicas>
+        <codigo Producto="99672" />
+        <precio>49,99€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Ventilador" marca="Nox" modelo="Hummer H-212">
+        <descripcion>Nox incorpora el cooler H-212 a su serie Hummer. Se trata de un cooler con aletas de aluminio y 3
+            heatpipes con base de cobre, los cuales proporcionarán a la CPU un nivel de refrigeración máximo.
+        </descripcion>
+        <caracteristicas>
+            <caracteristica>Material Heatpipes de cobre y aletas de aluminio</caracteristica>
+            <caracteristica>Rodamientos Hidráulicos</caracteristica>
+            <caracteristica>RPM 800 - 1600 RPM (PWM) ±10% .</caracteristica>
+            <caracteristica>Flujo de aire 56.0 CFM ± 10%</caracteristica>
+            <caracteristica>Nivel sonoro 8 dBA - 20 dBA ± 10%</caracteristica>
+            <caracteristica>Potencia 130 W (max.)</caracteristica>
+            <caracteristica>MTBF >40.000 h</caracteristica>
+            <caracteristica>Conectores 4-pin</caracteristica>
+            <caracteristica>Dimensiones ventilador 120(h) x 120(w) x 25(d)mm</caracteristica>
+            <caracteristica>Dimensiones disipador 140(h) x 120(w) x 75(d)mm</caracteristica>
+            <caracteristica tipo="Compatibilidad Intel Socket">LGA 1151 / LGA 1150 / LGA 2011 /LGA 1156 / LGA 1155 / LGA
+                2066</caracteristica>
+            <caracteristica tipo="AMD Socket">FM2+ / FM2 / FM1 / AM4 / AM3+ / AM3 / AM2+ / AM2</caracteristica>
+            <caracteristica tipo="Peso">450 gr</caracteristica>
+        </caracteristicas>
+        <codigo Producto="95520" />
+        <precio>21€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Ventilador" marca="Hyper" modelo="TX3 EVO">
+        <descripcion>Increible ventilador</descripcion>
+        <caracteristicas>
+            <caracteristica>CPU Socket Intel® Socket LGA1366/1156/1155/775/1150</caracteristica>
+            <caracteristica>AMD Socket FM1/FM2/AM3+/AM3/AM2+/AM2/AM4</caracteristica>
+            <caracteristica>Dimension 90 x 79 x 136 mm (3.5 x 3.1 x 5.4 inch)</caracteristica>
+            <caracteristica>Heat Sink Dimensions 90 x 51 x 136 mm (3.5 x 2.0 x 5.4 inch)</caracteristica>
+            <caracteristica>Heat Sink Material 3 Direct Contact Heat Pipes / Aluminum Fins</caracteristica>
+            <caracteristica>Heat Sink Weight 306g (0.68 lb)</caracteristica>
+            <caracteristica>Fan Dimension 92 x 92 x 25 mm (3.6 x 3.6 x 1 inch)</caracteristica>
+            <caracteristica>Fan Speed 800 - 2200 RPM (PWM) ± 10%</caracteristica>
+            <caracteristica>Fan Airflow 15.7 - 43.1 CFM ± 10%</caracteristica>
+            <caracteristica>Fan Air Pressure 0.35 - 2.63 mmH2O ± 10%</caracteristica>
+            <caracteristica>Fan Life Expectancy 40,000 hours</caracteristica>
+            <caracteristica>Fan Noise Level (dB-A) 17 - 30 dBA</caracteristica>
+            <caracteristica>Bearing Type Long Life Sleeve Bearing</caracteristica>
+            <caracteristica>Connector 4-Pin</caracteristica>
+            <caracteristica>Fan Weight 73g (0.16 lb)</caracteristica>
+            <caracteristica>Weight 386g (0.85 lb)</caracteristica>
+            <caracteristica>EAN Code 4719512033487</caracteristica>
+            <caracteristica>UPC Code 884102013652</caracteristica>
+        </caracteristicas>
+        <codigo Producto="47099" />
+        <precio>21,60€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Fuente alimentacion" marca="Owlotech" modelo="BPS">
+        <descripcion>Te presentamos la Fuente de alimentación Owlotech BPS, una fuente con 600W de potencia.
+        </descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Conector">1x ATX 20/24-pin</caracteristica>
+            <caracteristica tipo="Conector">1x 4-pin CPU</caracteristica>
+            <caracteristica tipo="Conector">3x SATA</caracteristica>
+            <caracteristica tipo="Conector">2x IDE</caracteristica>
+            <caracteristica tipo="Voltaje salida">3.3V: 18A</caracteristica>
+            <caracteristica tipo="Voltaje salida">5V: 25A</caracteristica>
+            <caracteristica tipo="Voltaje salida">+12V1: 20A</caracteristica>
+            <caracteristica tipo="Voltaje salida">+12V2: 20A</caracteristica>
+            <caracteristica tipo="Voltaje salida">-12V: 0.3A</caracteristica>
+            <caracteristica tipo="Voltaje salida">5Vsb: 2.5A</caracteristica>
+            <caracteristica tipo="Potencia máxima combinada: ">3.3V + 5V = 130W</caracteristica>
+            <caracteristica tipo="Potencia máxima combinada: ">+12V1 + +12V2 = 454W</caracteristica>
+            <caracteristica tipo="Potencia máxima combinada: ">-12V + 5Vsb= 16W</caracteristica>
+            <caracteristica tipo="Potencia máxima combinada: ">Potencia real total: 600W</caracteristica>
+        </caracteristicas>
+        <codigo Producto="101493" />
+        <precio>19,99€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Fuente alimentacion" marca="Owlotech" modelo="BPS">
+        <descripcion>No sólo de chasis y disipadores vive Nfortec sino que, como no podía ser menos, las fuentes de
+            alimentación forman una parte muy importante de su catálogo. Es por esto que la serie Scutum, tanto en su
+            forma modular como no modular, ha sido fabricada buscando la excelencia, tanto en rendimiento como en sus
+            acabados y materiales utilizados.</descripcion>
+        <caracteristicas>
+            <caracteristica>Watt: 650W</caracteristica>
+            <caracteristica>AC Input: 100-240VAC 10-5A 50-60Hz</caracteristica>
+            <caracteristica>Output Voltage:</caracteristica>
+            <caracteristica>3.3V: Min. 0.5A, Max. 18A</caracteristica>
+            <caracteristica>5V: Min. 0.5A, Max. 18A</caracteristica>
+            <caracteristica>+12V1: Min. 0.5A, Max. 22A</caracteristica>
+            <caracteristica>+12V2: Min. 0.5A, Max. 22A</caracteristica>
+            <caracteristica>-12V: Min. 0A, Max. 0.5A</caracteristica>
+            <caracteristica>5Vsb: Min. 0.1A, Max. 2.5A</caracteristica>
+            <caracteristica>Max. Combined Watt.:</caracteristica>
+            <caracteristica>3.3V + 5V = 115W</caracteristica>
+            <caracteristica>-12V = 6W</caracteristica>
+            <caracteristica>5Vsb= 12.5W</caracteristica>
+            <caracteristica>Certificado High-Efficiency – 85+</caracteristica>
+            <caracteristica>Ventilador silencioso de 14cm con control de velocidad inteligente.</caracteristica>
+            <caracteristica tipo="Conexion">3x Molex 4 Pin</caracteristica>
+            <caracteristica tipo="Conexion">5x Sata Pin</caracteristica>
+            <caracteristica tipo="Conexion">2x PCI 6+2 Pin</caracteristica>
+            <caracteristica tipo="Conexion">1x EPS12V 8 Pin</caracteristica>
+            <caracteristica tipo="Conexion">1x Main 20+4 Pin</caracteristica>
+        </caracteristicas>
+        <codigo Producto="108729" />
+        <precio>49,99€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Cables internos" marca="Owlotech" modelo="Molex">
+        <descripcion>Cable de Alimentación Serial ATA Molex 4 Pines Macho - Serial ATA 15 Pines</descripcion>
+        <caracteristicas>
+            <caracteristica>Compatible Serial ATA Ver. 1.0 Standard</caracteristica>
+            <caracteristica>Fabricado con cable de 7 conductores</caracteristica>
+            <caracteristica>Longitud 15 Cms.</caracteristica>
+        </caracteristicas>
+        <codigo Producto="102472" />
+        <precio>1,99€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Cables internos" marca="Phanteks" modelo="CB8P">
+        <descripcion>Fabricado con materiales de primera calidad, cables de extensión universal Phanteks ´ofrece una
+            mejor solución para los entusiastas del modding. Los cables de extensión de 500 mm están diseñados para ser
+            más largo, más flexible y más fácil para tendido de cables que los cables estándar del mercado. Los cables
+            de extensión están disponibles en 4 colores.</descripcion>
+        <caracteristicas>
+            <caracteristica>Conexión 8 Pines</caracteristica>
+            <caracteristica>Longitud 500 mm</caracteristica>
+            <caracteristica>AWG 18 AWG, 2,1 mm (RoHS)</caracteristica>
+            <caracteristica>Material Resistente</caracteristica>
+            <caracteristica>Resistencia de aislamiento 20M ohmios @ 200 VCD</caracteristica>
+            <caracteristica>20K ohmios</caracteristica>
+        </caracteristicas>
+        <codigo Producto="101622" />
+        <precio>7,25€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <conexion>
+    </conexion>
 </catalogo>
