@@ -1,361 +1,438 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE sales[
-<!ELEMENT sales (summary | data)>
 
-<!ELEMENT summary (heading, subhead, description)>
-
-<!ELEMENT heading (#PCDATA)>
-<!ELEMENT subhead (#PCDATA)>
-<!ELEMENT description (#PCDATA)>
-
-<!ELEMENT data (region+)>
-<!ELEMENT region (name, quarter+)>
-<!ELEMENT quarter EMPTY>
-
-<!ATTLIST quarter books_sold CDATA #REQUIRED>
-<!ATTLIST quarter number CDATA #REQUIRED>
-
-]>
 
 <catalogo>
-    <componentes>
-        <placaBase marca="Gygabyte GA-B360M DS3H" precio="73,99€">
-            <chipset>intel H310</chipset>
-            <conectividad>Bluetooth</conectividad>
-            <conectividad>Cable</conectividad>
-            <conectividad>Wifi</conectividad>
-            <conexion>
-                <externa>Displayport</externa>
-                <externa>HDMI</externa>
-                <externa>Jack</externa>
-                <interna>SATA 3</interna>
-            </conexion>
-            <forma tipo="micro ATX" />
-            <tecnologia>Nvidia SLI</tecnologia>
-            <socket>Socket 1150</socket>
-        </placaBase>
+    <componente tipo="Placa base" marca="Gygabyte" modelo="B450M DS3H">
+        <descripcion>Las placas base GIGABYTE serie 400 maximizan el potencial de su PC con la tecnología AMD StoreMI.
+            StoreMI acelera los dispositivos de almacenamiento tradicionales para reducir los tiempos de arranque y
+            mejorar la experiencia general del usuario. Esta utilidad fácil de usar combina la velocidad de las SSD con
+            la alta capacidad de las unidades de disco duro en una sola unidad, mejora las velocidades de lectura /
+            escritura del dispositivo para que coincida con las SSD, aumenta el rendimiento de los datos a un valor
+            increíble y transforma las PC de uso cotidiano a un sistema impulsado por el rendimiento. Además, cuenta con
+            Smart Fan 5, con esta refrigeración los usuarios pueden asegurarse de que su PC gaming puede mantener un
+            rendimiento estable mientras se mantiene refrigerado. Smart Fan 5 permite a los usuarios intercambiar sus
+            conectores para los ventiladores para reflejar diferentes sensores térmicos en diferentes ubicaciones de la
+            placa base. Además con Smart Fan 5 los conectores híbridos para el ventilador soportan ventiladores PWM y de
+            voltaje, esto hace que la placa base este más adaptada a montar refrigeración líquida.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Chipset">intel H110</caracteristica>
+            <caracteristica tipo="Conectividad">Bluetooth</caracteristica>
+            <caracteristica tipo="Conectividad">Wifi</caracteristica>
+            <caracteristica tipo="Conectividad">cable</caracteristica>
+            <caracteristica tipo="Conexion">DVI</caracteristica>
+            <caracteristica tipo="Conexion">HDMI</caracteristica>
+            <caracteristica tipo="Conexion">Jack</caracteristica>
+            <caracteristica tipo="Conexion interna">Sata 3</caracteristica>
+            <caracteristica tipo="Factor forma">Micro ATX</caracteristica>
+            <caracteristica tipo="Tecnologia Multi-GPU">NVIDIA SLI</caracteristica>
+            <caracteristica tipo="Tipo socket">Cpu integrada</caracteristica>
+        </caracteristicas>
+        <codigo Producto="4567" />
+        <precio>108,99€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+    <componente tipo="Placa base" marca="Asus" modelo="Prime A320M-K">
+        <descripcion>ASUS Prime es la próxima evolución de la placa madre ASUS,nacida de un pedigrí que se remonta a
+            1989. Nuestro equipo de ingenieros de clase mundial son apasionados de empoderar a todos para disfrutar de
+            los beneficios de la personalización y afinación y la fuerza motriz detrás del desarrollo dePrime es hacer
+            que los controles avanzados de los entusiastas sean fácilmente accesibles, maximizando el rendimiento, la
+            estabilidad y la compatibilidad para las mejores experiencias de la PC DIY.En pocas palabras: es hora de
+            Prime.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Chipset">intel H110</caracteristica>
+            <caracteristica tipo="Conectividad">cable</caracteristica>
+            <caracteristica tipo="Conexion">DVI</caracteristica>
+            <caracteristica tipo="Conexion">Jack</caracteristica>
+            <caracteristica tipo="Conexion interna">Sata 3</caracteristica>
+            <caracteristica tipo="Factor forma">Micro ATX</caracteristica>
+            <caracteristica tipo="Tecnologia Multi-GPU">NVIDIA SLI</caracteristica>
+            <caracteristica tipo="Tipo socket">Cpu integrada</caracteristica>
+        </caracteristicas>
+        <codigo Producto="2321" />
+        <precio>65,25€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
 
-        <placaBase marca="Gygabyte GA-H110M-S2H" precio="50,99€">
-            <chipset>intel H310</chipset>
-            <conectividad>Cable</conectividad>
-            <conectividad>Wifi</conectividad>
-            <conexion>
-                <externa>HDMI</externa>
-                <externa>Jack</externa>
-                <interna>SATA 3</interna>
-            </conexion>
-            <forma tipo="micro ATX" />
-            <tecnologia>Nvidia SLI</tecnologia>
-            <socket>Socket 1151</socket>
-        </placaBase>
+    <componente tipo="Procesador" marca="AMD" modelo="Ryzen 5 2600 3.4 Ghz">
+        <descripcion>Te presentamos el AMD Ryzen 5 2600, un procesador que cuenta con 6 núcleos, socket AMD AM4 y
+            arquitectura de 64 bits. Y es que la forma de contratacar de AMD ha sido contundente, lo nuevos Ryzen no
+            solo demuestran mayor efectividad si no tambien un consumo mucho más contenido que sus predecesores. Los
+            procesadores AMD Ryzen están diseñados para satisfacer las necesidades de los usuarios más avanzados y
+            exigentes. Para minimizar la latencia de respuesta AMD lanza la tecnología Turbo Core que dará la mayor
+            frecuencia del núcleo cuando lo necesita.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Procesador">Familia de procesador: AMD Ryzen 5</caracteristica>
+            <caracteristica tipo="Procesador">Frecuencia del procesador: 3,4 GHz</caracteristica>
+            <caracteristica tipo="Procesador">Número de núcleos de procesador: 6</caracteristica>
+            <caracteristica tipo="Procesador">Socket de procesador: Zócalo AM4</caracteristica>
+            <caracteristica tipo="Procesador">Litografía del procesador: 12 nm</caracteristica>
+            <caracteristica tipo="Procesador">Modelo del procesador: 2600</caracteristica>
+            <caracteristica tipo="Procesador">Número de filamentos de procesador: 12</caracteristica>
+            <caracteristica tipo="Procesador">Modo de procesador operativo: 32-bit, 64 bits</caracteristica>
+            <caracteristica tipo="Procesador">Caché del procesador: 16 MB</caracteristica>
+            <caracteristica tipo="Procesador">Tipo de cache en procesador: L3</caracteristica>
+            <caracteristica tipo="Procesador">Frecuencia del procesador turbo: 3,9 GHz</caracteristica>
+            <caracteristica tipo="Memoria">Canales de memoria que admite el procesador: Dual</caracteristica>
+            <caracteristica tipo="Memoria">Tipos de memoria que admite el procesador: DDR4-SDRAM</caracteristica>
+            <caracteristica tipo="Memoria">Velocidad de reloj de memoria que admite el procesador: 2933 MHz
+            </caracteristica>
+            <caracteristica tipo="Control de energia">Potencia de diseño térmico (TDP): 65 W</caracteristica>
+            <caracteristica tipo="Graficos">Adaptador gráfico incorporado: No</caracteristica>
+            <caracteristica tipo="Graficos">Adaptador de gráficos discreto: No</caracteristica>
+            <caracteristica tipo="Graficos">Modelo de adaptador gráfico incorporado: No disponible</caracteristica>
+            <caracteristica tipo="Graficos">Modelo de adaptador de gráficos discretos: No disponible</caracteristica>
+            <caracteristica tipo="Caracteristicas">Versión de entradas de PCI Express: 3.0</caracteristica>
+            <caracteristica tipo="Caracteristicas">Configuraciones PCI Express: 1x16</caracteristica>
+        </caracteristicas>
+        <codigo Producto="157402" />
+        <precio>165,99€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
 
-        <procesador marca="AMD" modelo="Ryzen 5 2600" precio="165,99€">
-            <frecuencia normal="3,4 GHz" turbo="3,9 GHz" />
-            <nucleo>6</nucleo>
-            <socket>zocalo AM4</socket>
-            <filamentos cantidad="12" />
-            <cache cantidad="12" tipo="L3" />
-        </procesador>
+    <componente tipo="Procesador" marca="intel" modelo="Core i5-8400 2.8GHz BOX">
+        <descripcion>Te presentamos el Intel Core i5-8400, un procesador de 8ª Generación y socket Intel 1151.
+        </descripcion>
+        <caracteristicas>
+            <caracteristica tipo="General">Type CPU / Microprocessor Market segment Desktop</caracteristica>
+            <caracteristica tipo="General">Family Intel Core i5</caracteristica>
+            <caracteristica tipo="General">Model number ? i5-8400</caracteristica>
+            <caracteristica tipo="General">Frequency ? 2800 MHz</caracteristica>
+            <caracteristica tipo="General">Turbo frequency 4000 MHz (1 core)</caracteristica>
+            <caracteristica tipo="General">3900 MHz (2, 3 or 4 cores)</caracteristica>
+            <caracteristica tipo="General">3800 MHz (5 or 6 cores)</caracteristica>
+            <caracteristica tipo="General">Low power frequency 800 MHz</caracteristica>
+            <caracteristica tipo="General">Bus speed ? 8 GT/s DMI</caracteristica>
+            <caracteristica tipo="General">Clock multiplier ? 28</caracteristica>
+            <caracteristica tipo="General">Package 1151-land Flip-Chip Land Grid Array</caracteristica>
+            <caracteristica tipo="General">Socket Socket 1151 / H4 / LGA1151</caracteristica>
+            <caracteristica tipo="General">Size 1.48" x 1.48" / 3.75cm x 3.75cm</caracteristica>
+            <caracteristica tipo="Arquitectura">Microarchitecture Coffee Lake</caracteristica>
+            <caracteristica tipo="Arquitectura">Processor core ? Coffee Lake-S</caracteristica>
+            <caracteristica tipo="Arquitectura">Manufacturing process 0.014 micron</caracteristica>
+            <caracteristica tipo="Arquitectura">Data width 64 bit</caracteristica>
+            <caracteristica tipo="Arquitectura">The number of CPU cores 6</caracteristica>
+            <caracteristica tipo="Arquitectura">The number of threads 6</caracteristica>
+            <caracteristica tipo="Arquitectura">Floating Point Unit Integrated</caracteristica>
+            <caracteristica tipo="Arquitectura">Level 1 cache size ? 6 x 32 KB data caches</caracteristica>
+            <caracteristica tipo="Arquitectura">Level 2 cache size ? 6 x 256 KB caches</caracteristica>
+            <caracteristica tipo="Arquitectura">Level 3 cache size 9 MB shared cache</caracteristica>
+            <caracteristica tipo="Arquitectura">Physical memory 64 GB</caracteristica>
+        </caracteristicas>
+        <codigo Producto="139906" />
+        <precio>204,90€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
 
-        <procesador marca="intel" modelo="i5-8400" precio="204,90€">
-            <frecuencia normal="2,8 GHz" turbo="4 GHz" />
-            <nucleo>6</nucleo>
-            <socket>1151 / H4 / LGA1151</socket>
-            <cache cantidad="9" tipo="L3" />
-        </procesador>
+    <componente tipo="Disco duro" marca="Seagate" modelo="BarraCuda">
+        <descripcion>Versátiles. Rápidos. Fiables. La unidad de disco duro más increíble que haya conocido.
+        </descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Disco duro">Capacidad de disco duro: 1000 GB
+            </caracteristica>
+            <caracteristica tipo="Disco duro">Interfaz del disco duro: Serial ATA
+                III</caracteristica>
+            <caracteristica tipo="Disco duro">Velocidad de rotación de disco duro:
+                7200 RPM</caracteristica>
+            <caracteristica tipo="Disco duro">Tamaño de disco duro: 3.5"
+            </caracteristica>
+            <caracteristica tipo="Disco duro">Unidad, tamaño de búfer: 64 MB
+            </caracteristica>
+            <caracteristica tipo="Disco duro">Tipo de dispositivo: Unidad de disco
+                duroB</caracteristica>
+            <caracteristica tipo="Disco duro">Acorde RoHS: Si</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Ancho: 101.6 mm
+            </caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Altura: 20.17 mm
+            </caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Profundidad: 147 mm
+            </caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Peso: 400 g</caracteristica>
+            <caracteristica tipo="Control de energía">Consumo de energía (inactivo):
+                0.94 W</caracteristica>
+            <caracteristica tipo="Control de energía">Consumo de energía (apagado):
+                0.94 W</caracteristica>
+            <caracteristica tipo="Control de energía">Consumo de energía (espera):
+                4.6 W</caracteristica>
+            <caracteristica tipo="Control de energía">Consumo Energía: 5.3W
+            </caracteristica>
+            <caracteristica tipo="Control de energía">Corriente de arranque: 2 A
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura
+                operativa: 0 - 60 °C</caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura
+                de almacenaje: -40 - 70 °C</caracteristica>
+        </caracteristicas>
+        <codigo Producto="111412" />
+        <precio>44,03€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
 
-        <discoDuro marca="Toshiba" modelo="DT01ACA100" precio="45,59€">
-            <tipo>hhd</tipo>
-            <almacenamiento>1 TB</almacenamiento>
-            <conexion>Sata 3</conexion>
-            <rendimiento>7200 RMP</rendimiento>
-            <velocidad>6 GB/seg</velocidad>
-            <pulagadas>3.5</pulagadas>
-            <consumos>
-                <lectura>6.4W</lectura>
-                <escritura>6.4W</escritura>
-                <reposo>3.7W</reposo>
-                <espera>1.0W</espera>
-            </consumos>
-        </discoDuro>
+    <componente tipo="Disco duro" marca="Toshiba" modelo="P300">
+        <descripcion>El disco duro interno P300 de 3,5" de Toshiba ofrece un altorendimiento para profesionales. Lo que
+            es más, tus datos e información multimedia están protegidos mediante un diseño de ramp loading y unsensor de
+            golpes. El disco duro interno P300 es ideal para diseñadores gráficos y profesionales creativos que buscan
+            un gran rendimiento. Este disco duro Toshiba ofrece una gran velocidad de lectura y escritura y un diseño
+            seguro.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Disco duro">Capacidad de disco duro: 1000 GB</caracteristica>
+            <caracteristica tipo="Disco duro">Interfaz del disco duro: Serial ATA III</caracteristica>
+            <caracteristica tipo="Disco duro">Velocidad de rotación de disco duro: 7200 RPM</caracteristica>
+            <caracteristica tipo="Disco duro">Tamaño de disco duro: 3.5"</caracteristica>
+            <caracteristica tipo="Disco duro">Unidad, tamaño de búfer: 64 MB</caracteristica>
+            <caracteristica tipo="Disco duro">Tipo de dispositivo: Unidad de disco duroB</caracteristica>
+            <caracteristica tipo="Disco duro">Promedio de latencia: 4,17ms</caracteristica>
+            <caracteristica tipo="Disco duro">Tipo de dispositivo: Unidad de disco duroB</caracteristica>
 
-        <discoDuro marca="Samsung" modelo="860 EVO Basic" precio="149,99€">
-            <tipo>hhd</tipo>
-            <almacenamiento>1 TB</almacenamiento>
-            <conexion>Sata 3</conexion>
-            <velocidad>6 GB/seg</velocidad>
-            <pulagadas>2.5</pulagadas>
-            <consumos>
-                <lectura>3.3W</lectura>
-                <escritura>3.3W</escritura>
-                <reposo>2.2W</reposo>
-                <espera>1.0W</espera>
-            </consumos>
-        </discoDuro>
+            <caracteristica tipo="Disco duro">Acorde RoHS: Si</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Ancho: 101.6 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Altura: 26,1 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Profundidad: 147 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Peso: 450 g</caracteristica>
+            <caracteristica tipo="Control de energía">Consumo de energía (lectura): 6,4 W</caracteristica>
+            <caracteristica tipo="Control de energía">Consumo de energía (escritura): 6,4 W</caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura operativa: 0 - 60 °C
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura de almacenaje: -40 - 70 °C
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Vibración operativa: 0,67 G</caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Vibración no operativa: 1,04 G</caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Golpes en funcionamiento: 70 G</caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Golpe (fuera de operación): 350 G</caracteristica>
+        </caracteristicas>
+        <codigo Producto="163054" />
+        <precio>43,99€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
 
-        <grafica marca="Gygabyte" modelo="GeForce GTX 1070" precio="389,90€">
-            <gaming>gaming</gaming>
-            <serie>GF 1050 series</serie>
-            <memoria>8GB</memoria>
-            <bus>256 bit</bus>
-            <tipo>GDDR5</tipo>
-            <resolucion>7680x4320</resolucion>
-            <directx>12</directx>
-            <openGL>4.5<openGL>
-        </grafica>
+    <componente tipo="Tarjeta grafica" marca="Zotac" modelo="GeForce GTX 1060 AMP! Edition">
+        <descripcion>La tarjeta gráfica ZOTAC GeForce GTX 1060 está cargada con nuevas e innovadoras tecnologías de
+            juego, lo que la convierte en la opción perfecta para los últimos juegos de alta definición. Desarrollado
+            por NVIDIA Pascal ™, la arquitectura GPU más avanzada jamás creada, la ZOTAC GeForce GTX 1060 ofrece un
+            rendimiento brillante que abre la puerta a la realidad virtual y más allá.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Procesador">Familia de procesadores de gráficos: NVIDIA</caracteristica>
+            <caracteristica tipo="Procesador">Procesador gráfico: GeForce GTX 1060</caracteristica>
+            <caracteristica tipo="Procesador">CUDA: Si</caracteristica>
+            <caracteristica tipo="Procesador">Frecuencia del procesador: 1607 MHz</caracteristica>
+            <caracteristica tipo="Procesador">FireStream: No</caracteristica>
+            <caracteristica tipo="Procesador">Aumento de la velocidad de reloj del procesador: 1835 MHz</caracteristica>
+            <caracteristica tipo="Procesador">Máximas pantallas por tarjeta de video: 4</caracteristica>
+            <caracteristica tipo="Procesador">Núcleos CUDA: 1280</caracteristica>
+            <caracteristica tipo="Memoria">Capacidad memoria de adaptador gráfico: 6 GB</caracteristica>
+            <caracteristica tipo="Memoria">Tipo de memoria de adaptador gráfico: GDDR5X</caracteristica>
+            <caracteristica tipo="Memoria">Ancho de datos: 192 bit</caracteristica>
+            <caracteristica tipo="Memoria">Velocidad de memoria del reloj: 10000 MHz</caracteristica>
+            <caracteristica tipo="Requisitos del sistema">Sistema operativo Windows soportado: Windows 10 Education
+                x64,Windows 10 Enterprise x64,Windows 10 Home x64,Windows 10 Pro x64,Windows 7 Enterprise x64,Windows 7
+                Home Basic x64,Windows 7 Home Premium x64,Windows 7 Professional x64,Windows 7 Starter x64,Windows 7
+                Ultimate x64,Windows 7 x64</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Tipo de interfaz: PCI Express x16 3.0</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Número de puertos HDMI: 1</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Cantidad de puertos DVI-D: 1</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Cantidad de DisplayPorts: 3</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Versión HDMI: 2.0b</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Versión de DisplayPort: 1.4</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Profundidad: 211 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Altura: 41 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Ancho: 125 mm</caracteristica>
+            <caracteristica tipo="Control de energia">Consumo energético: 120 W</caracteristica>
+            <caracteristica tipo="Control de energia">Conectores de energia suplementario: 1x 8-pin</caracteristica>
+            <caracteristica tipo="Diseño">Tipo de enfriamiento: Activo</caracteristica>
+            <caracteristica tipo="Diseño">Número de ventiladores: 2 Ventilador(es)</caracteristica>
+            <caracteristica tipo="Diseño">Número de ranuras: 2</caracteristica>
+            <caracteristica tipo="Diseño">Color del producto: Negro</caracteristica>
+            <caracteristica tipo="Desempeño">Sintonizador de TV integrado: No</caracteristica>
+            <caracteristica tipo="Desempeño">Versión DirectX: 12.0</caracteristica>
+            <caracteristica tipo="Desempeño">Versión OpenGL: 4.5</caracteristica>
+            <caracteristica tipo="Desempeño">HDCP: Si</caracteristica>
+            <caracteristica tipo="Desempeño">Dual Link DVI: Si</caracteristica>
+            <caracteristica tipo="Desempeño">Listo para realidad virtual (RV): Si</caracteristica>
+            <caracteristica tipo="Desempeño">Alta Definición Total: Si</caracteristica>
+            <caracteristica tipo="Desempeño">NVIDIA G-SYNC: Si</caracteristica>
+            <caracteristica tipo="Desempeño">NVIDIA GameStream: Si</caracteristica>
+            <caracteristica tipo="Desempeño">NVIDIA Ansel: Si</caracteristica>
+        </caracteristicas>
+        <codigo Producto="181310" />
+        <precio>244,99€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
 
-        <grafica marca="MSI" modelo="GeForce GTX 1060" precio="249,90€">
-            <gaming>multimedia</gaming>
-            <memoria>2GB</memoria>
-            <bus>256 bit</bus>
-            <tipo>GDDR5</tipo>
-            <resolucion>2560 x 1600</resolucion>
-            <directx>12</directx>
-            <openGL>4.5<openGL>
-        </grafica>
+    <componente tipo="Tarjeta grafica" marca="MSI" modelo="GTX 1050Ti Gaming X">
+        <descripcion>Te presentamos la GTX 1050Ti Gaming X, una gráfica con 4GB GDDR5 y VR Ready</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Procesador">Familia de procesadores de gráficos: NVIDIA</caracteristica>
+            <caracteristica tipo="Procesador">Procesador gráfico: GeForce GTX 1050</caracteristica>
+            <caracteristica tipo="Procesador">Núcleos CUDA: 768</caracteristica>
+            <caracteristica tipo="Memoria">Bus de memoria: 128 bits</caracteristica>
+            <caracteristica tipo="Memoria">Motor de Base de reloj: 1379 MHz</caracteristica>
+            <caracteristica tipo="Memoria">Boost: 1493 MHz</caracteristica>
+            <caracteristica tipo="Memoria">La memoria del reloj: 7108 MHz</caracteristica>
+            <caracteristica tipo="Requisitos del sistema">Sistemas operativos soportados: Windows 10/8/7 / Vista
+            </caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">PCI Express 3.0</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">1 x DisplayPort 1.4</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">1 x HDMI 2.0b</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">1 x DVI-DL</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Soporte HDCP</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">VR Ready</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Power Connectors: 6-pin x 1</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Dimensiones 229 x 131 x 39 mm</caracteristica>
+        </caracteristicas>
+        <codigo Producto="106073" />
+        <precio>184,90€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
 
-        <ram marca="Corsair" modelo="vengeance LPX" precio="139€">
-            <almacenamiento>8GB</almacenamiento>
-            <formato>DIMM</formato>
-            <frecuencia>2400Mhz</frecuencia>
-            <kit>1x8GB</kit>
-            <latencia>CL16</latencia>
-            <tipo>DDR4</tipo>
-            <voltaje>1.2</voltaje>
-        </ram>
+    <componente tipo="Memoria RAM" marca="G.Skill" modelo="Trident Z RGB">
+        <descripcion>La nueva gama de memorias RAM G.Skill Trident Z RGB ofrece soluciones para un rendimiento
+            increíble. Estos kits optimizan el rendimiento de las plataformas de nueva generación, con la ventaja
+            añadida de un alto potencial de overclocking. Además, estas rápidas memorias incorporan un sistema de
+            iluminación LED RGB con hasta 16.8 millones de colores con varios modos de iluminación por software.
+            Simplemente pincha la memoria Trident Z RGB en tu placa basey disfruta de la iluminación.</descripcion>
+        <caracteristicas>
+            <caracteristica>Tipo de la memoria DDR4</caracteristica>
+            <caracteristica>Capacidad 16GB (2x8GB)</caracteristica>
+            <caracteristica>Multi-Channel Kit de doble canal</caracteristica>
+            <caracteristica>Velocidad Probada 3200MHz</caracteristica>
+            <caracteristica>Latencia Probada 16-18-18-38</caracteristica>
+            <caracteristica>Voltaje Probada 1.35v</caracteristica>
+            <caracteristica>Dimensiones 16 x 13,7 x 1.4 cm</caracteristica>
+            <caracteristica>Peso 186g</caracteristica>
+        </caracteristicas>
+        <codigo Producto="114077" />
+        <precio>159€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
 
-        <ram marca="Kingston" modelo="Hyper Fury" precio="109€">
-            <almacenamiento>16GB</almacenamiento>
-            <formato>DIMM</formato>
-            <frecuencia>2400Mhz</frecuencia>
-            <kit>2x8GB</kit>
-            <latencia>CL15</latencia>
-            <tipo>DDR4</tipo>
-            <voltaje>1.5</voltaje>
-        </ram>
+    <componente tipo="Memoria RAM" marca="Corsair" modelo="Vengeance LPX">
+        <descripcion>La memoria Vengeance LPX se ha diseñado para overclocking de alto rendimiento. El disipador de
+            calor, fabricado en aluminio puro, permite una disipación térmica más rápida; la placa impresa de ocho capas
+            administra el calor y proporciona una capacidad superior para incrementar el overclocking. Cada circuito
+            integrado está seleccionado individualmente para el máximo potencial de rendimiento. El formato DDR4 está
+            optimizado para las placas base Intel de la serie X99 más recientes y ofrece frecuencias más elevadas, mayor
+            ancho de banda y menor consumo energético que los módulos DDR3. Se ha verificado la compatibilidad de los
+            módulos Vengeance LPX DDR4 para toda las placas base de la serie X99, lo que asegura un rendimiento rápido y
+            fiable. Compatibilidad con XMP 2.0 para un overclocking automático sin problemas. Y están disponibles en
+            distintos colores para combinar con su placa base, sus componentes, o sencillamente con su estilo personal.
+        </descripcion>
+        <caracteristicas>
+            <caracteristica>Difusor térmico Vengeance LPX</caracteristica>
+            <caracteristica>Configuración de la memoria Dual / Quad Channel</caracteristica>
+            <caracteristica>Series Memoria Vengeance</caracteristica>
+            <caracteristica>Tipo de la memoria DDR4</caracteristica>
+            <caracteristica>Paquete Formato de la memoria DIMM</caracteristica>
+            <caracteristica>Memoria Paquete Pin 288</caracteristica>
+            <caracteristica>Perfil Desempeño XMP 2.0</caracteristica>
+            <caracteristica>Tamaño de la memoria Kit de 16GB (2 x 8GB)</caracteristica>
+            <caracteristica>SPD Latencia 15-15-15-36</caracteristica>
+            <caracteristica>SPD velocidad 2133MHz</caracteristica>
+            <caracteristica>SPD Tensión 1.2V</caracteristica>
+            <caracteristica>Índice de velocidad PC4-24000 (3000MHz)</caracteristica>
+            <caracteristica>Latencia Probado 15-17-17-35</caracteristica>
+            <caracteristica>Velocidad Probado 3000 MHz</caracteristica>
+            <caracteristica>Tensión Probado 1.35V</caracteristica>
+        </caracteristicas>
+        <codigo Producto="100309" />
+        <precio>125€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
 
-        <grabadora marca="LG" modelo="Ultra Slim GP90EB70" precio="27,25">
-            <dimensiones>
-                <ancho milimetros="144mm" />
-                <profundidad milimetros="137mm" />
-                <altura milimetros="14mm" />
-            </dimensiones>
-            <velocidad>
-                <lectura>
-                    <cd>24x</cd>
-                    <dvd>8x</dvd>
-                </lectura>
-                <escritura>
-                    <cd>24x</cd>
-                    <dvd>8x</dvd>
-                </escritura>
-            </velocidad>
-        </grabadora>
+    <componente tipo="Memoria RAM" marca="LG" modelo="GH24NSD1">
+        <descripcion>Te presentamos la GH24NSD1 de Lg, una grabadora DVD 24x acabada en color negro.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Velocidad de escritura">Velocidad de escritura en CD 48 x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">Velocidad de reescritura en CD 24 x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">DVD-R, velocidad de escritura 24 x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">DVD-R Doble capa - velocidad de escritura 8 x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">DVD+R Doble capa - velocidad de escritura 12 x
+            </caracteristica>
+            <caracteristica tipo="Velocidad de escritura">DVD-RW, velocidad de escritura 6 x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">CD-R, velocidad de escritura 48 x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">CD-RW, velocidad de escritura 24 x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">Velocidad de lectura de CD 48 x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">DVD+R, velocidad de lectura 12 x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">DVD-R, velocidad de lectura 12 x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">DVD-RW, velocidad de lectura 12 x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">CD-R, velocidad de lectura 48 x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">CD-RW, velocidad de lectura 40 x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">DVD-R Doble capa - velocidad de lectura 12 x</caracteristica>
+            <caracteristica tipo="Impulsion optica">Interno.</caracteristica>
+            <caracteristica tipo="Impulsion optica">Tipo de carga en disco: bandeja.</caracteristica>
+            <caracteristica tipo="Impulsion optica">Tipo de unidad óptica: DVD Super Multi DL.</caracteristica>
+            <caracteristica tipo="Impulsion optica">Interfaz: SATA.</caracteristica>
+            <caracteristica tipo="Impulsion optica">Montaje: Horizontal.</caracteristica>
+            <caracteristica tipo="Impulsion optica">Diámetro del disco óptico: 120 mm.</caracteristica>
+            <caracteristica tipo="Impulsion optica">Tipos de discos soportados: CD, CD-R, CD-RW, DVD, DVD+R, DVD+R DL,
+                DVD+RW, DVD-R, DVD-R DL, DVD-RW, DVD-RW DL</caracteristica>
+            <caracteristica tipo="Color">Negro</caracteristica>
+        </caracteristicas>
+        <codigo Producto="72001" />
+        <precio>15,50€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
 
-        <grabadora marca="Asus" modelo="DRW-24D5MT" precio="18,50">
-            <dimensiones>
-                <ancho milimetros="146mm" />
-                <profundidad milimetros="170mm" />
-                <altura milimetros="41mm" />
-            </dimensiones>
-            <velocidad>
-                <lectura>
-                    <cd>48x</cd>
-                    <dvd>16x</dvd>
-                </lectura>
-                <escritura>
-                    <cd>48x</cd>
-                    <dvd>24x</dvd>
-                </escritura>
-            </velocidad>
-        </grabadora>
+    <componente tipo="Memoria RAM" marca="Asus" modelo="DRW-24D5MT">
+        <descripcion>ASUS DRW-24D5MT es una unidad óptica DVD con protección de datos, eficiencia energética y grabación
+            de alta velocidad. El soporte M-Disk te proporciona la solución de copias de seguridad más completa.
+        </descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Velocidad de escritura">Velocidad de escritura en CD: 48x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">CD-R, velocidad de escritura: 48x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">CD-RW, velocidad de escritura: 24x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">DVD+R, velocidad de escritura: 24x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">DVD-R, velocidad de escritura: 24x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">DVD-R Doble capa - velocidad de escritura: 8x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">DVD+R Doble capa - velocidad de escritura: 8x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">DVD+RW, velocidad de escritura: 8x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">DVD-RW, velocidad de escritura: 6x</caracteristica>
+            <caracteristica tipo="Velocidad de escritura">DVD-RAM, velocidad de escritura: 5x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">Velocidad de lectura de CD: 48x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">CD-R, velocidad de lectura: 48x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">CD-RW, velocidad de lectura: 40x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">CD-ROM, velocidad de lectura: 48x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">DVD+R, velocidad de lectura: 16x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">DVD-R, velocidad de lectura: 16x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">DVD-RW, velocidad de lectura: 8x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">DVD-RAM, velocidad de lectura: 5x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">DVD-ROM, velocidad máxima: 16x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">DVD-R Doble capa, velocidad de lectura: 12x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">DVD+R Doble capa - velocidad de escritura: 12x</caracteristica>
+            <caracteristica tipo="Velocidad de lectura">DVD+RW, velocidad de lectura: 12x</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Ancho: 146 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Profundidad: 170 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Altura: 41 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Peso: 700 g</caracteristica>
+            <caracteristica tipo="Modos de grabacion">Pista por pista (TAO): Si</caracteristica>
+            <caracteristica tipo="Modos de grabacion">Disco por vez(DAO): Si</caracteristica>
+            <caracteristica tipo="Modos de grabacion">Sesión por vez (SAO): Si</caracteristica>
+            <caracteristica tipo="Modos de grabacion">Grabación por paquetes: Si</caracteristica>
+            <caracteristica tipo="Modos de grabacion">Escritura secuencial: Si</caracteristica>
+            <caracteristica tipo="Modos de grabacion">escritura aleatoria: Si</caracteristica>
+        </caracteristicas>
+        <codigo Producto="85838" />
+        <precio>18,50€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
 
-        <multilectora marca="Tacens" modelo="Anima ACR3" precio="11,25€">
-            <lectura dni="si" tarjetas="si" sim="si" />
-            <conectividad>Bluetooth</conectividad>
-        </multilectora>
-
-        <multilectora marca="Tacens" modelo="Anima ACR1" precio="4,90€">
-            <lectura dni="si" tarjetas="no" sim="no" />
-        </multilectora>
-
-        <sonido marca="Creative" modelo="Sound Blaster Audigy FX PCI Express" precio="31€">
-            <reproduccion>
-                <estereo>24bit /192kHz</estereo>
-                <envolvente>24bit /96kHz</envolvente>
-            </reproduccion>
-            <grabacion>24-bit / 96kHz</grabacion>
-            <salida>5.1 canales</salida>
-            <entrada cantidad="5" tamaño="3,5mm" />
-        </sonido>
-
-        <sonido marca="Startech" modelo="PCISOUND5CH2" precio="18,99€">
-            <reproduccion>
-                <estereo>16bit /48kHz</estereo>
-                <envolvente>16bit /48kHz</envolvente>
-            </reproduccion>
-            <grabacion>16-bit / 48kHz</grabacion>
-            <salida>5.1 canales</salida>
-            <entrada cantidad="2" tamaño="3.5mm" />
-        </sonido>
-
-        <torres marca="Nox" modelo="Hummer MC" precio="44,99€">
-            <color>blanco</color>
-            <placaBase>micro ATX</placaBase>
-            <ventilacion frontal="120mm" trasero="120mm" />
-            <refrigeracion superior="120mm" trasero="120mm" />
-            <puertos>
-                <puerto cantidad="2">usb 2.0</puerto>
-                <puerto>usb 3.1</puerto>
-                <puerto>HD Audio</puerto>
-                <puerto>mic</puerto>
-                <puerto cantidad="2">controles de velocidad</puerto>
-            </puertos>
-        </torres>
-
-        <torres marca="Nox" modelo="Hummer MC" precio="44,99€">
-            <color>negro</color>
-            <placaBase>micro ATX</placaBase>
-            <ventilacion frontal="120mm" trasero="120mm" />
-            <refrigeracion superior="120mm" trasero="120mm" />
-            <puertos>
-                <puerto cantidad="2">usb 2.0</puerto>
-                <puerto>usb 3.1</puerto>
-                <puerto>HD Audio</puerto>
-                <puerto>mic</puerto>
-                <puerto cantidad="2">controles de velocidad</puerto>
-            </puertos>
-        </torres>
-
-        <carcasa marca="Tooq" modelo="TQE-2527B" precio="12,50€">
-            <color>negro</color>
-            <peso>80gr</peso>
-            <medidas>
-                <altura>12mm</altura>
-                <ancho>76mm</ancho>
-                <largo>130mm</largo>
-            </medidas>
-        </carcasa>
-
-        <carcasa marca="Tooq" modelo="TQE-3527B" precio="19,60€">
-            <color>negro</color>
-            <peso>350gr</peso>
-            <medidas>
-                <altura>30mm</altura>
-                <ancho>120mm</ancho>
-                <largo>206mm</largo>
-            </medidas>
-        </carcasa>
-
-        <ventilacion marca="Nox" modelo="Hummer H-212" precio="21€">
-            <material>cobre y aletas de aluminio</material>
-            <revoluciones>800 RMP - 1600 RPM (PWM) ±10%</revoluciones>
-            <flujo>56.0 CFM ± 10%</flujo>
-            <sonoro>8 dBA - 20 dBA ± 10%</sonoro>
-            <potencia>130W</potencia>
-            <conectores cantidad="4" />
-            <peso>450 gr</peso>
-        </ventilacion>
-
-        <ventilacion marca="Nox" modelo="Hummer H-212" precio="21€">
-            <material>cobre y aletas de aluminio</material>
-            <revoluciones>800 RMP - 1600 RPM (PWM) ±10%</revoluciones>
-            <flujo>56.0 CFM ± 10%</flujo>
-            <sonoro>8 dBA - 20 dBA ± 10%</sonoro>
-            <potencia>130W</potencia>
-            <conectores cantidad="4" />
-            <peso>450 gr</peso>
-        </ventilacion>
-
-        <fuentes marca="tempest" modelo="Gaming GPSU" precio="39,99€">
-            <certificacion>80 plus silver</certificacion>
-            <conectores>ATX 20/4Pin</conectores>
-            <potencia>400W</potencia>
-        </fuentes>
-
-        <fuentes marca="owlotech" modelo="BPS" precio="19,99€">>
-            <certificacion>80 plus gold</certificacion>
-            <conectores>CPU 4/4Pin</conectores>
-            <potencia>600W</potencia>
-        </fuentes>
-
-        <cable marca="Owlotech" modelo="Molex" precio="1,99">
-            <conductor>7</conductor>
-            <longitud>15 cm</longitud>
-        </cable>
-
-        <cable marca="Phanteks" modelo="Molex" precio="1,99">
-            <conductor>7</conductor>
-            <longitud>30 cm</longitud>
-        </cable>
-    </componentes>
-
-    <elementos>
-        <hub marca="trust" modelo="oila" precio="5,50€">
-            <puertos cantidad="4" />
-        </hub>
-
-        <hub marca="Unotec" modelo="Uh700" precio="9,50€">
-            <puertos cantidad="8" />
-        </hub>
-
-        <acceso marca="TP-link " modelo="TL-WA850RE" precio="17,99€">
-            <transmision>2,4GHz</transmision>
-            <memoria>
-                <flash>8 MB</flash>
-                <ram>32 MB</ram>
-            </memoria>
-        </acceso>
-
-        <acceso marca="Asus" modelo="RT-N12E" precio="18,98€">
-            <transmision>2,4GHz</transmision>
-            <memoria>
-                <flash>8 MB</flash>
-                <ram>32 MB</ram>
-            </memoria>
-        </acceso>
-
-        <router marca="TP-link" modelo="TL-MR6400" precio="96,99€">
-            <conectividad>Bluetooth</conectividad>
-            <conectividad>Cable</conectividad>
-            <conectividad>Wifi</conectividad>
-        </router>
-
-        <router marca="TP-link" modelo="Archer MR200" precio="108,99€">
-            <conectividad>Bluetooth</conectividad>
-            <conectividad>Cable</conectividad>
-            <conectividad>Wifi</conectividad>
-        </router>
-
-        <red marca="TP-link" modelo="TL-WN881ND" precio="12,78€">
-            <antena cantidad="2">
-            <aumento>2 DB</aumento>
-        </red>
-
-        <red marca="Asus" modelo="PCE-N15" precio="16,25€">
-            <antena cantidad="2">
-            <aumento>2 DB</aumento>
-        </red>
-
-        <rack marca="Equip" modelo="333282" precio="16,75">
-            <salida cantidad="9" />
-        </rack>
-
-        <rack marca="WP" modelo="333282" precio="17,75">
-            <salida cantidad="8" />
-        </rack>
-
-        <parcheo marca="Equip" precio="36€">
-            <puertos>24</puertos>
-        </parcheo>
-
-        <parcheo marca="Equip" precio="36€">
-            <puertos>24</puertos>
-        </parcheo>
-
-        <VoIP marca="Yealink" modelo="SIP-W56H" precio="74€">
-            
-        </VoIP>
-    </elementos>
+    <componente tipo="Disquetera" marca="Nilox" modelo="floppy">
+        <descripcion>El lector de tarjetas con Floppy Drive externo es una solución práctica y económica para aquellos
+            que no quieren renunciar a los tradicionales Floppy con la posibilidad de incorporar un cómodo lector de
+            tarjetas para manejar una variedad soportes. Compatible con las casas más populares del mercado.
+        </descripcion>
+        <caracteristicas>
+            <caracteristica>Color primario Negro</caracteristica>
+            <caracteristica>Interfaz USB 2.0</caracteristica>
+            <caracteristica>Tipología Externo</caracteristica>
+            <caracteristica>Lector Floppy</caracteristica>
+            <caracteristica>Versión Retail</caracteristica>
+            <caracteristica tipo="Dimensiones">Altura 18,6 mm</caracteristica>
+            <caracteristica tipo="Dimensiones">Profundidad 142,7 mm</caracteristica>
+            <caracteristica tipo="Dimensiones">Ancho 103,7 mm</caracteristica>
+            <caracteristica tipo="Dimensiones">Tamaño 3,5 "</caracteristica>
+        </caracteristicas>
+        <codigo Producto="85838" />
+        <precio>18,50€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
 </catalogo>
