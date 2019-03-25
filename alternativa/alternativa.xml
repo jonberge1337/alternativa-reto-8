@@ -13,22 +13,6 @@
 <!ATTLIST componente marca CDATA #REQUIERED>
 <!ATTLIST componente modelo CDATA #IMPLIED>
 <!ATTLIST caracteristica modelo CDATA #IMPLIED>
-
-<!ELEMENT Conexión_LAN(Hubs_Switchs, Puntos_Acceso, Routers, Tarjetas_Red, Armarios_Rack, Paneles_Parcheo, Telefonos_VoIP, Cableados_Red)>
-<!ELEMENT Hubs_Switchs, Puntos_Acceso, Routers, Tarjetas_Red, Armarios_Rack, Paneles_Parcheo, Telefonos_VoIP, Cableados_Red(Producto*)>
-
-
-<!ELEMENT Servicios(Sistemas_Tolerantes_AFallos,Sistemas_Copias_Seguridad,Sistemas_Cifrado_Datos)>
-<!ELEMENT Sistemas_Tolerantes_AFallos,Sistemas_Copias_Seguridad,Sistemas_Cifrado_Datos(Producto*)>
-
-<!ELEMENT Titulo(#PCDATA)>
-<!ELEMENT Producto(Modelo*, Descripcion*,Codigo*, Precio*, Disponibilidad*)>
-<!ELEMENT Modelo(#PCDATA)>
-<!ELEMENT Descripcion(#PCDATA)>
-<!ELEMENT Codigo EMPTY>
-<!ELEMENT Precio(#PCDATA)>
-<!ELEMENT Disponibilidad EMPTY>
-
 ]>
 
 
