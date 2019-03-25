@@ -778,6 +778,6 @@
         <disponibilidad stock="Si" />
     </componente>
 
-    <conexion>
-    </conexion>
+    <componente tipo="hub/switch" marca="tp-link" modelo="TL-SG105">
+    </componente>
 </catalogo>
