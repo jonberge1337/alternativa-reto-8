@@ -779,5 +779,395 @@
     </componente>
 
     <componente tipo="hub/switch" marca="tp-link" modelo="TL-SG105">
+        <descripcion>El TL-SG105 de TP-LINK es un switch de sobremesa con 5 puertos 10/100/1000Mbps que le permite
+            migrar fácilmente su red a la tecnología Gigabit Ethernet. Aumente tanto la velocidad de su servidor de red
+            como la de las conexiones troncales o lleve la experiencia Gigabit a su escritorio. Adicionalmente, el
+            diseño del TL-SG105 le permite reducir su consumo eléctrico. Gracias a su innovadora tecnología de
+            eficiencia energética, el TL-SG105 ahorra hasta un 65% de energía eléctrica, lo que lo convierte en una
+            solución ecológica para la red de su hogar o lugar de trabajo.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Puertos e interfaces">Cantidad de puertos básicos de conmutación RJ-45 Ethernet: 5
+            </caracteristica>
+            <caracteristica tipo="Puertos e interfaces">Enchufe de entrada de CC: Si</caracteristica>
+            <caracteristica tipo="Peso dimensiones">Ancho: 99,8 mm</caracteristica>
+            <caracteristica tipo="Peso dimensiones">Profundidad: 98 mm</caracteristica>
+            <caracteristica tipo="Peso dimensiones">Altura: 25 mm</caracteristica>
+            <caracteristica tipo="Control de energía">Voltaje de entrada AC: 100-240 V</caracteristica>
+            <caracteristica tipo="Control de energía">Frecuencia de entrada AC: 50/60 Hz</caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura operativa: 0 - 40 °C
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura de almacenaje: -40 - 70 °C
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de humedad relativa para funcionamiento: 10 - 90%
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de humedad relativa durante almacenaje: 5 - 90%
+            </caracteristica>
+            <caracteristica tipo="Protocolos">Protocolo de conmutación: CSMA/CD</caracteristica>
+            <caracteristica tipo="Conexión">Estándares de red: IEEE 802.3,IEEE 802.3ab,IEEE 802.3x</caracteristica>
+            <caracteristica tipo="Conexión">Soporte 10G: No</caracteristica>
+            <caracteristica tipo="Conexión">Bidireccional completo (Full duplex): Si</caracteristica>
+            <caracteristica tipo="Conexión">Soporte de control de flujo: Si</caracteristica>
+            <caracteristica tipo="Conexión">IGMP: Si</caracteristica>
+            <caracteristica tipo="Conexión">Auto MDI / MDI-X: Si</caracteristica>
+            <caracteristica tipo="Transmisión de datos">Tasas de transferencia soportadas: 10/100/1000Mbps
+            </caracteristica>
+            <caracteristica tipo="Transmisión de datos">Guardar y remitir: Si</caracteristica>
+            <caracteristica tipo="Transmisión de datos">Tasa de transferencia (máx): 2 Gbit/s</caracteristica>
+            <caracteristica tipo="Transmisión de datos">Jumbo Frames, soporte: Si</caracteristica>
+            <caracteristica tipo="Características de administración">Tipo de interruptor: Unmanaged network switch
+            </caracteristica>
+            <caracteristica tipo="Características de administración">Calidad de servicio (QoS) soporte: Si
+            </caracteristica>
+            <caracteristica tipo="Otras características">Tecnología de conectividad: Alámbrico</caracteristica>
+            <caracteristica tipo="Otras características">Wifi: No</caracteristica>
+            <caracteristica tipo="Otras características">LED de energía: Si</caracteristica>
+            <caracteristica tipo="Otras características">Ethernet: Si</caracteristica>
+            <caracteristica tipo="Otras características">Ethernet LAN, velocidad de transferencia de datos: 10,100,1000
+                Mbit/s</caracteristica>
+            <caracteristica tipo="Diseño">Color del producto: Negro</caracteristica>
+            <caracteristica tipo="Diseño">Indicadores LED: Si</caracteristica>
+            <caracteristica tipo="Diseño">Certificación: CE, FCC, RoHS</caracteristica>
+        </caracteristicas>
+        <codigo Producto="130604" />
+        <precio>7,25€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="hub/switch" marca="tp-link" modelo="TL-SG105">
+        <descripcion>El TL-SG105 de TP-LINK es un switch de sobremesa con 5 puertos 10/100/1000Mbps que le permite
+            migrar fácilmente su red a la tecnología Gigabit Ethernet. Aumente tanto la velocidad de su servidor de red
+            como la de las conexiones troncales o lleve la experiencia Gigabit a su escritorio. Adicionalmente, el
+            diseño del TL-SG105 le permite reducir su consumo eléctrico. Gracias a su innovadora tecnología de
+            eficiencia energética, el TL-SG105 ahorra hasta un 65% de energía eléctrica, lo que lo convierte en una
+            solución ecológica para la red de su hogar o lugar de trabajo.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Puertos e interfaces">Cantidad de puertos básicos de conmutación RJ-45 Ethernet: 5
+            </caracteristica>
+            <caracteristica tipo="Puertos e interfaces">Enchufe de entrada de CC: Si</caracteristica>
+            <caracteristica tipo="Peso dimensiones">Ancho: 99,8 mm</caracteristica>
+            <caracteristica tipo="Peso dimensiones">Profundidad: 98 mm</caracteristica>
+            <caracteristica tipo="Peso dimensiones">Altura: 25 mm</caracteristica>
+            <caracteristica tipo="Control de energía">Voltaje de entrada AC: 100-240 V</caracteristica>
+            <caracteristica tipo="Control de energía">Frecuencia de entrada AC: 50/60 Hz</caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura operativa: 0 - 40 °C
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura de almacenaje: -40 - 70 °C
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de humedad relativa para funcionamiento: 10 - 90%
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de humedad relativa durante almacenaje: 5 - 90%
+            </caracteristica>
+            <caracteristica tipo="Protocolos">Protocolo de conmutación: CSMA/CD</caracteristica>
+            <caracteristica tipo="Conexión">Estándares de red: IEEE 802.3,IEEE 802.3ab,IEEE 802.3x</caracteristica>
+            <caracteristica tipo="Conexión">Soporte 10G: No</caracteristica>
+            <caracteristica tipo="Conexión">Bidireccional completo (Full duplex): Si</caracteristica>
+            <caracteristica tipo="Conexión">Soporte de control de flujo: Si</caracteristica>
+            <caracteristica tipo="Conexión">IGMP: Si</caracteristica>
+            <caracteristica tipo="Conexión">Auto MDI / MDI-X: Si</caracteristica>
+            <caracteristica tipo="Transmisión de datos">Tasas de transferencia soportadas: 10/100/1000Mbps
+            </caracteristica>
+            <caracteristica tipo="Transmisión de datos">Guardar y remitir: Si</caracteristica>
+            <caracteristica tipo="Transmisión de datos">Tasa de transferencia (máx): 2 Gbit/s</caracteristica>
+            <caracteristica tipo="Transmisión de datos">Jumbo Frames, soporte: Si</caracteristica>
+            <caracteristica tipo="Características de administración">Tipo de interruptor: Unmanaged network switch
+            </caracteristica>
+            <caracteristica tipo="Características de administración">Calidad de servicio (QoS) soporte: Si
+            </caracteristica>
+            <caracteristica tipo="Otras características">Tecnología de conectividad: Alámbrico</caracteristica>
+            <caracteristica tipo="Otras características">Wifi: No</caracteristica>
+            <caracteristica tipo="Otras características">LED de energía: Si</caracteristica>
+            <caracteristica tipo="Otras características">Ethernet: Si</caracteristica>
+            <caracteristica tipo="Otras características">Ethernet LAN, velocidad de transferencia de datos: 10,100,1000
+                Mbit/s</caracteristica>
+            <caracteristica tipo="Diseño">Color del producto: Negro</caracteristica>
+            <caracteristica tipo="Diseño">Indicadores LED: Si</caracteristica>
+            <caracteristica tipo="Diseño">Certificación: CE, FCC, RoHS</caracteristica>
+        </caracteristicas>
+        <codigo Producto="130604" />
+        <precio>7,25€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Puntos de acceso" marca="Asus" modelo="RT-N12E">
+        <descripcion>El ASUS RT-N12E C1 es un router inalámbrico N a 300 Mbps diseñado para empresas pequeñas y
+            aplicaciones domésticas que ofrece conexiones de red por cable e inalámbricas. Gracias a la tecnología 2T2R
+            MIMO y a dos antenas externas de alto rendimiento, el RT-N12E C1 ofrece una zona de cobertura ampliada y
+            rendimiento inalámbrico avanzado, características que lo hacen ideal para streaming de vídeo en HD, llamadas
+            VoIP y gaming online. La interfaz gráfica de usuario y su rápida configuración en Internet permiten que
+            cualquier usuario pueda instalar y administrar el RT-N12E C1.</descripcion>
+        <caracteristicas>
+            <caracteristica>Estándar de red: IEEE 802.11b, IEEE 802.11g, IEEE 802.11n, IPv4, IPv6</caracteristica>
+            <caracteristica>Segmento de producto: N300 trabajo en red completo; 300Mbps</caracteristica>
+            <caracteristica>Cobertura: Hogares medianos</caracteristica>
+            <caracteristica>Velocidad de transferencia: 802.11n: hasta 300 Mbps</caracteristica>
+            <caracteristica>Antena: Externa antena x 2</caracteristica>
+            <caracteristica tipo="Transmision/recepcion">Tecnología MIMO</caracteristica>
+            <caracteristica tipo="Transmision/recepcion">2.4 GHz 2 x 2</caracteristica>
+            <caracteristica tipo="Memoria">8 MB Flash</caracteristica>
+            <caracteristica tipo="Memoria">32 MB RAM</caracteristica>
+            <caracteristica>Frecuencia de funcionamiento: 2.4 GHz</caracteristica>
+            <caracteristica>Cifrado: 64-bit WEP, 128-bit WEP, WPA2-PSK, WPA-PSK, WPA-Enterprise , WPA2-Enterprise , WPS
+                compatible</caracteristica>
+            <caracteristica>Gestión: UPnP, DLNA, IGMP v1/v2/v3, DNS Proxy, NTP Client, DDNS, Port Trigger, DMZ
+            </caracteristica>
+            <caracteristica>Tipo de conexión WAN: Tipo de conexión a internet: IP automática, IP estática, PPPoE
+                (compatible MPPE), PPTP, L2TP</caracteristica>
+            <caracteristica tipo="Utilidades">Detección de dispositivos, Recuperación de firmware</caracteristica>
+            <caracteristica tipo="Utilidades">*Descárgalo en la pestaña de soporte</caracteristica>
+            <caracteristica>Puertos: 1 x RJ45 para 10/100 BaseT para WAN, 4 x RJ45 para 10/100 BaseT para LAN
+            </caracteristica>
+            <caracteristica>Botón: Botón WPS, Botón reset</caracteristica>
+            <caracteristica tipo="Características">Red de invitado</caracteristica>
+            <caracteristica tipo="Características">Servidor VPN</caracteristica>
+            <caracteristica tipo="Características">Control parental</caracteristica>
+            <caracteristica tipo="Características">Soporte IPTV</caracteristica>
+            <caracteristica tipo="Indicadores LED">Power x 1</caracteristica>
+            <caracteristica tipo="Indicadores LED">Wi-Fi x 1</caracteristica>
+            <caracteristica tipo="Indicadores LED">WAN x 1</caracteristica>
+            <caracteristica tipo="Indicadores LED">LAN x 1</caracteristica>
+            <caracteristica tipo="Fuente de alimentación">Entrada AC: 110V~240V(50~60Hz)</caracteristica>
+            <caracteristica tipo="Fuente de alimentación">Salida DC: 5 V con máx. 1 A</caracteristica>
+            <caracteristica tipo="SO compatibles">Windows 8.1</caracteristica>
+            <caracteristica tipo="SO compatibles">Windows 10</caracteristica>
+            <caracteristica tipo="SO compatibles">Windows 7</caracteristica>
+            <caracteristica tipo="SO compatibles">Windows 8</caracteristica>
+            <caracteristica tipo="SO compatibles">Windows XP</caracteristica>
+            <caracteristica tipo="SO compatibles">Mac OS X 10.4</caracteristica>
+            <caracteristica tipo="SO compatibles">Mac OS X</caracteristica>
+            <caracteristica tipo="SO compatibles">Mac OS X 10.1</caracteristica>
+            <caracteristica tipo="SO compatibles">Mac OS X 10.5</caracteristica>
+            <caracteristica tipo="SO compatibles">Mac OS X 10.4</caracteristica>
+            <caracteristica tipo="SO compatibles">Mac OS X 10.6</caracteristica>
+            <caracteristica tipo="SO compatibles">Mac OS X 10.7</caracteristica>
+            <caracteristica tipo="SO compatibles">Mac OS X 10.8</caracteristica>
+            <caracteristica>Dimensiones: 146 x 111 x 28 ~ mm (Sin adaptador)</caracteristica>
+            <caracteristica>Peso: 168.9 g</caracteristica>
+            <caracteristica tipo="Contenido de la caja">Router RT-N12E C1</caracteristica>
+            <caracteristica tipo="Contenido de la caja">Tarjeta de garantía</caracteristica>
+            <caracteristica tipo="Contenido de la caja">Fuente de alimentación</caracteristica>
+            <caracteristica tipo="Contenido de la caja">*Contenidos sujetos a cada país.</caracteristica>
+            <caracteristica tipo="Operation mode">Modo router inalámbrico</caracteristica>
+            <caracteristica tipo="Operation mode">Modo repetidor</caracteristica>
+            <caracteristica tipo="Operation mode">Modo punto de acceso</caracteristica>
+        </caracteristicas>
+        <codigo Producto="77501" />
+        <precio>18,98€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Router" marca="Google" modelo="wifi">
+        <descripcion>Conexión rápida y a tu servicio. Disfruta de una conexión rápida en todas las habitaciones y con
+            todos tus dispositivos. Google Wifi es un nuevo tipo de sistema conectado que te ofrece cobertura estable en
+            toda la casa1.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Conexión inalámbrica">Wi-Fi AC1200 2x2 Wave 2</caracteristica>
+            <caracteristica tipo="Conexión inalámbrica">Wi-Fi en malla ampliable</caracteristica>
+            <caracteristica tipo="Conexión inalámbrica">Wi-Fi dual simultáneo (2,4 y 5 GHz) compatible con IEEE
+                802.11a/b/g/n/ac</caracteristica>
+            <caracteristica tipo="Conexión inalámbrica">Transmisión TX</caracteristica>
+            <caracteristica tipo="Conexión inalámbrica">Bluetooth® Smart Ready</caracteristica>
+            <caracteristica tipo="Puerto">2 puertos Gigabit Ethernet por unidad de Google Wifi</caracteristica>
+            <caracteristica tipo="Puerto">WAN y LAN en la unidad de Google Wifi principal (ambos actúan como puertos LAN
+                en otras unidades Wifi)</caracteristica>
+            <caracteristica tipo="Color y material">Plástico resistente y ligero de color blanco</caracteristica>
+            <caracteristica tipo="Seguridad">WPA2-PSK</caracteristica>
+            <caracteristica tipo="Seguridad">Actualizaciones de seguridad automáticas</caracteristica>
+            <caracteristica tipo="Seguridad">Módulo de plataforma de confianza SLB 9615</caracteristica>
+            <caracteristica tipo="Memoria">RAM de 512 MB</caracteristica>
+            <caracteristica tipo="Memoria">Flash eMMC de 4 GB</caracteristica>
+            <caracteristica tipo="Procesador">CPU ARM de cuatro núcleos (cada uno hasta 710 MHz)</caracteristica>
+            <caracteristica tipo="Alimentación">Adaptador de corriente de 15 W</caracteristica>
+            <caracteristica tipo="Alimentación">Consumo de 9 W aproximadamente</caracteristica>
+            <caracteristica tipo="Dimensiones y peso">Diámetro: 106,12 mm</caracteristica>
+            <caracteristica tipo="Dimensiones y peso">Alto: 68,75 mm</caracteristica>
+            <caracteristica tipo="Dimensiones y peso">340 g</caracteristica>
+        </caracteristicas>
+        <codigo Producto="164479" />
+        <precio>119€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Tarjeta red" marca="TP-LINK" modelo="TL-WN881ND">
+        <descripcion>El adaptador PCI inalámbrico N TL-WN851ND le permite conectar su ordenador de sobremesa a una red
+            inalámbrica y acceder a ella a alta velocidad. Conforme con el estándar IEEE 802.11n, ofrece una velocidad
+            inalámbrica de hasta 300 Mbps, perfecta para jugar online o el vídeo en streaming.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Requisitos del sistema">Uso recomendado: PC</caracteristica>
+            <caracteristica tipo="Requisitos del sistema">Compatible con Mac: No</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Tecnología de conectividad: Inalámbrico</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Interno: Si</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Interfaz de host: PCI-E</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Interfaz: WLAN</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Ancho: 21,5 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Profundidad: 120,8 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Altura: 78,5 mm</caracteristica>
+            <caracteristica tipo="Anchura de banda">Tasa de transferencia (máx): 300 Mbit/s</caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura operativa: 0 - 40 °C
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura de almacenaje: -40 - 70 °C
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de humedad relativa para funcionamiento: 10 - 90%
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de humedad relativa durante almacenaje: 5 - 90%
+            </caracteristica>
+            <caracteristica tipo="Conexión">Estándares de red: IEEE 802.11b,IEEE 802.11g,IEEE 802.11n</caracteristica>
+            <caracteristica tipo="Conexión">Modulación: 16-QAM,64-QAM,DBPSK,DQPSK,OFDM</caracteristica>
+            <caracteristica tipo="Conexión">Frecuencia de banda: 2.400 - 2.4835</caracteristica>
+            <caracteristica tipo="Aprobaciones reguladoras">Certificación: CE, FCC</caracteristica>
+            <caracteristica tipo="Aprobaciones reguladoras">Acorde RoHS: Si</caracteristica>
+            <caracteristica tipo="Características de LAN inalámbrico">Wifi: Si</caracteristica>
+            <caracteristica tipo="Características de LAN inalámbrico">Estándar Wi-Fi: IEEE 802.11n</caracteristica>
+            <caracteristica tipo="Características de LAN inalámbrico">Wi-Fi estándares: IEEE 802.11b,IEEE 802.11g,IEEE
+                802.11n</caracteristica>
+            <caracteristica tipo="Características de LAN inalámbrico">WLAN velocidad de transferencia de datos,
+                soportada: 11,54,150,300 Mbit/s</caracteristica>
+            <caracteristica tipo="Contenido del embalaje">Manual de usuario: Si</caracteristica>
+            <caracteristica tipo="Contenido del embalaje">Guía de configuración rápida: Si</caracteristica>
+            <caracteristica tipo="Antena">Antena: Si</caracteristica>
+            <caracteristica tipo="Antena">Tipo de antena: Externo</caracteristica>
+            <caracteristica tipo="Antena">Tipo de conector de antena: RP-SMA</caracteristica>
+            <caracteristica tipo="Antena">Aumento: 2 dBi</caracteristica>
+            <caracteristica tipo="Antena">Cantidad de antenas: 2</caracteristica>
+        </caracteristicas>
+        <codigo Producto="48628" />
+        <precio>13,29€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Armario rack" marca="Mural">
+        <descripcion>Estupendo armario</descripcion>
+        <caracteristicas>
+            <caracteristica>Exquisito diseño con precisas dimensiones. (Diseño avanzado)</caracteristica>
+            <caracteristica>Buena compatibilidad.</caracteristica>
+            <caracteristica>Perfecta ventilación</caracteristica>
+            <caracteristica>Puerta principal y trasera con una ventilación perfecta para el funcionamiento.
+            </caracteristica>
+            <caracteristica>Los paneles laterales son fácilmente ensamblables.</caracteristica>
+            <caracteristica>Cabina sólida y eficiente.</caracteristica>
+            <caracteristica>La ruedas y los pies puede ponerse al mismo tiempo.</caracteristica>
+            <caracteristica>Peso máximo: (800 Kg)(Con pies ajustable).</caracteristica>
+            <caracteristica>Acabado de la superficie: desengrasado, decapado, fosfatado, revestimiento en polvo.
+            </caracteristica>
+            <caracteristica>Alto, ancho y fondo seleccionable (Amplia gama de accesorios)</caracteristica>
+            <caracteristica>Color: RAL (9004)</caracteristica>
+            <caracteristica tipo="Material">Lámina de chapa de acero en frio. Espesor de 1,2 mm, montaje carril de 2,0
+                mm (1,5 mm de profundidad en armarios 600 mm), 1,2 mm en los estantes fijos.</caracteristica>
+            <caracteristica tipo="Material">Espesor del vidrio ahumado, 5 mm.</caracteristica>
+            <caracteristica tipo="Medidas">22U</caracteristica>
+            <caracteristica tipo="Medidas">Ancho x fondo x alto (mm): 600x600x1166.</caracteristica>
+        </caracteristicas>
+        <codigo Producto="54882" />
+        <precio>219€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Telefonos VoIP" marca="Yealink" modelo="SIP-T21 E2">
+        <descripcion>El nuevo SIP-T21 de Yealink, es un teléfono IP básico, pero con un nivel nunca antes alcanzado.
+            Fabricado con material de la mas alta calidad, cuenta con una pantalla LCD extra grande de 132x64 pixeles
+            que muestra claramente 5 líneas de datos, lo que facilita la lectura y mejora la experiencia del usuario, al
+            mostrar mas información en una sola vista.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Exhibición">Pantalla táctil: No</caracteristica>
+            <caracteristica tipo="Exhibición">Pantalla: LCD</caracteristica>
+            <caracteristica tipo="Exhibición">Resolución de la pantalla: 132 x 64 Pixeles</caracteristica>
+            <caracteristica tipo="Exhibición">Diagonal de la pantalla: 5,84 cm (2.3")</caracteristica>
+            <caracteristica tipo="Audio">Micrófono mudo: Si</caracteristica>
+            <caracteristica tipo="Audio">Codecs de voz: G.711,G.722,G.723.1,G.726,G.729ab,iLBC</caracteristica>
+            <caracteristica tipo="Audio">Reducción de ruido: Si</caracteristica>
+            <caracteristica tipo="Audio">Detección de actividad de voz: Si</caracteristica>
+            <caracteristica tipo="Audio">Generación de ruido confortable (CNG): Si</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Ethernet LAN (RJ-45) cantidad de puertos: 2</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Cantidad de puertos RJ-9: 2</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Ancho: 209 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Profundidad: 188 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Altura: 150 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Ancho del paquete: 215 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Profundidad del paquete: 200 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Altura del paquete: 121 mm</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Peso del paquete: 1,1 kg</caracteristica>
+            <caracteristica tipo="Control de energía">Voltaje de entrada de adaptador AC: 100 - 240 V</caracteristica>
+            <caracteristica tipo="Control de energía">Frecuencia de entrada: 50 - 60 Hz</caracteristica>
+            <caracteristica tipo="Control de energía">Voltaje de salida de adaptador AC: 5 V</caracteristica>
+            <caracteristica tipo="Control de energía">Corriente de salida de adaptador AC: 0,6 A</caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura operativa: -10 - 50 °C
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de humedad relativa para funcionamiento: 10 - 95%
+            </caracteristica>
+            <caracteristica tipo="Conexión">Ethernet: Si</caracteristica>
+            <caracteristica tipo="Conexión">Calidad de servicio (QoS) soporte: Si</caracteristica>
+            <caracteristica tipo="Conexión">Syslog: Si</caracteristica>
+            <caracteristica tipo="Conexión">Estándares de red: IEEE 802.1Q,IEEE 802.1p,IEEE 802.1x</caracteristica>
+            <caracteristica tipo="Características del teléfono">Identificador de llamadas: Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Capacidad de lista de direcciones: 1000 entradas
+            </caracteristica>
+            <caracteristica tipo="Características del teléfono">Llamada en espera: Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Marcación rápida: Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Llamada en espera: Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Capacidad de transferencia de llamada: Si
+            </caracteristica>
+            <caracteristica tipo="Características del teléfono">Llamada en conferencia: Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Función No molestar: Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Retener llamada: Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Llamada anónima: Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Rechazo de llamadas anónimas: Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Bidireccional completo (Full duplex): Si
+            </caracteristica>
+            <caracteristica tipo="Características del teléfono">Servicios de mensajes cortos (SMS): Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Transferencia de llamada: Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Indicador de mensaje en espera (MWI): Si
+            </caracteristica>
+            <caracteristica tipo="Seguridad">Algoritmos de seguridad soportados: AES,MD5,SRTP</caracteristica>
+            <caracteristica tipo="Cámara fotográfica">Cámara incorporada: No</caracteristica>
+            <caracteristica tipo="Contenido del embalaje">Número de empuñaduras incluidas: 1 pieza(s)</caracteristica>
+            <caracteristica tipo="Contenido del embalaje">Manual de usuario: Si</caracteristica>
+            <caracteristica tipo="Contenido del embalaje">Cables incluidos: LAN (RJ-45)</caracteristica>
+            <caracteristica tipo="Contenido del embalaje">Adaptador AC incluido: Si</caracteristica>
+            <caracteristica>Color del producto: Negro, Oro</caracteristica>
+            <caracteristica>Tipo de auricular: Terminal con conexión por cable</caracteristica>
+            <caracteristica>Montaje de pared: Si</caracteristica>
+            <caracteristica>Bloqueo de dispositivo: Si</caracteristica>
+            <caracteristica>Montaje: Escritorio/pared</caracteristica>
+            <caracteristica>Voicemail integrado: Si</caracteristica>
+            <caracteristica>Número de teclas programables: 9</caracteristica>
+            <caracteristica>Número de botones de función: 6</caracteristica>
+            <caracteristica>Modos de marcación multifrecuencia de tono dual: En banda, Out-of band, Información SIP
+            </caracteristica>
+        </caracteristicas>
+        <codigo Producto="181966" />
+        <precio>44,13€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+
+    <componente tipo="Cable" marca="Owlotech" modelo="RJ45 UTP">
+        <descripcion>Te presentamos el cable Owlotec, un cable de red UTP con certificación de Cat 6.</descripcion>
+        <caracteristicas>
+            <caracteristica>Fabricado con cable Flexible de Cobre (Multifilar).</caracteristica>
+            <caracteristica>Certificado 3P Categoría 6</caracteristica>
+            <caracteristica>Pares Trenzados (4 x 2 AWG 26/7) 100 Ohm.</caracteristica>
+            <caracteristica>Conexión Pin a Pin 1:1</caracteristica>
+            <caracteristica>Conectores: 2 x RJ45 Macho con protecciones de plástico inyectado del mismo color que el cable.</caracteristica>
+            <caracteristica>Color Gris / Beige</caracteristica>
+            <caracteristica>Longitud: 1 metros</caracteristica>
+        </caracteristicas>
+        <codigo Producto="102456" />
+        <precio>1,95€</precio>
+        <disponibilidad stock="Si" />
+    </componente>
+    
+    <componente tipo="Paneles parcheo" marca="Equip" modelo="Patch">
+        <descripcion>Panel de Parcheo de  24 puertos Cat 6</descripcion>
+        <caracteristicas>
+            <caracteristica>Clase E de acuerdo con ISO / IEC 11801 y EN50173</caracteristica>
+            <caracteristica>24 x puertos RJ45 con contactos de oro</caracteristica>
+            <caracteristica>45 ° doble IDC (LSA y 110) compatible</caracteristica>
+            <caracteristica>Cumple con las normas ANSI / TIA / EIA estándar de 568</caracteristica>
+            <caracteristica>Color de IDC T568A/T568B codificado</caracteristica>
+            <caracteristica>Carcasa de chapa de acero con entrada de cables</caracteristica>
+            <caracteristica>Color: negro</caracteristica>
+            <caracteristica>19 "1U</caracteristica>
+        </caracteristicas>
+        <codigo Producto="68556" />
+        <precio>36€</precio>
+        <disponibilidad stock="Si" />
     </componente>
 </catalogo>
