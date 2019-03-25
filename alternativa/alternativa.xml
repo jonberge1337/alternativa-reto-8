@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE catalogo[
+<!ELEMENT catalogo (componente, servicio)>
+<!ELEMENT componente (descripcion, caracteristicas, codigo, precio, disponibilidad)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT caracteristicas (caracteristica)+>
+<!ELEMENT caracteristica EMPTY>
+<!ELEMENT codigo EMPTY>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT disponibilidad EMPTY>
+<!ATTLIST componente tipo CDATA #REQUIERED>
+<!ATTLIST componente marca CDATA #REQUIERED>
+<!ATTLIST componente modelo CDATA #IMPLIED>
+<!ATTLIST caracteristica modelo CDATA #IMPLIED>
+
+<!ELEMENT Conexión_LAN(Hubs_Switchs, Puntos_Acceso, Routers, Tarjetas_Red, Armarios_Rack, Paneles_Parcheo, Telefonos_VoIP, Cableados_Red)>
+<!ELEMENT Hubs_Switchs, Puntos_Acceso, Routers, Tarjetas_Red, Armarios_Rack, Paneles_Parcheo, Telefonos_VoIP, Cableados_Red(Producto*)>
+
+
+<!ELEMENT Servicios(Sistemas_Tolerantes_AFallos,Sistemas_Copias_Seguridad,Sistemas_Cifrado_Datos)>
+<!ELEMENT Sistemas_Tolerantes_AFallos,Sistemas_Copias_Seguridad,Sistemas_Cifrado_Datos(Producto*)>
+
+<!ELEMENT Titulo(#PCDATA)>
+<!ELEMENT Producto(Modelo*, Descripcion*,Codigo*, Precio*, Disponibilidad*)>
+<!ELEMENT Modelo(#PCDATA)>
+<!ELEMENT Descripcion(#PCDATA)>
+<!ELEMENT Codigo EMPTY>
+<!ELEMENT Precio(#PCDATA)>
+<!ELEMENT Disponibilidad EMPTY>
+
+]>
 
 
 <catalogo>
@@ -32,6 +62,7 @@
         <precio>108,99€</precio>
         <disponibilidad stock="Si" />
     </componente>
+
     <componente tipo="Placa base" marca="Asus" modelo="Prime A320M-K">
         <descripcion>ASUS Prime es la próxima evolución de la placa madre ASUS,nacida de un pedigrí que se remonta a
             1989. Nuestro equipo de ingenieros de clase mundial son apasionados de empoderar a todos para disfrutar de
