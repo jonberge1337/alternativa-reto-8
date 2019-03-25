@@ -1,180 +1,222 @@
 <!-- 1 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <marcadores>
-  <marcador>
-    <nombre>W3C</nombre>
-    <uri>http://www.w3.org/</uri>
-  </marcador>
-  <marcador>
-    <nombre>Web Hypertext Application Technology Working Group (WHATWG)   </nombre>
-    <uri>http://www.whatwg.org/</uri>
-  </marcador>
+	<marcador>
+		<nombre>W3C</nombre>
+		<uri>http://www.w3.org/</uri>
+	</marcador>
+	<marcador>
+		<nombre>Web Hypertext Application Technology Working Group (WHATWG) </nombre>
+		<uri>http://www.whatwg.org/</uri>
+	</marcador>
 </marcadores>
 
-<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
-    <xsd:simpleType name="TipoNombre">
-        <xsd:restriction base="xsd:string">
-            <xsd:pattern value="[a-z A-Z()1-9]" />
-        </xsd:restriction>
-    </xsd:simpleType>
-    <xsd:simpleType name="TipoURI">
-        <xsd:restriction base="xsd:anyURI">
-            <xsd:pattern value="http://[a-zA-Z]+\.org" />
-        </xsd:restriction>
-    </xsd:simpleType>
-    <xsd:element name="marcadores">
-        <xsd:complexType>
-            <xsd:sequence>
-                <xsd:element name="marcador" maxOccurs="unbounded">
-                    <xsd:complexType>
-                        <xsd:sequence>
-                            <xsd:element name="nombre" type="TipoNombre">
-                            <xsd:element name="uri" type="TipoUri">
-                        </xsd:sequence>
-                    </xsd:complexType>
-                </xsd:element>
-            </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema> <xsd:simpleType name="TipoNombre">
+	<xsd:restriction base="xsd:string">
+		<xsd:pattern value="[a-z A-Z()1-9]" />
+	</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="TipoURI">
+		<xsd:restriction base="xsd:anyURI">
+			<xsd:pattern value="http://[a-zA-Z]+\.org" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:element name="marcadores">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="marcador" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="nombre" type="TipoNombre">
+								<xsd:element name="uri" type="TipoUri">
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
 </xsd:schema>
 
 <!-- 2 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <efemerides>
-  <efemeride>
-    <fecha>20 de julio de 1969</fecha>
-    <hecho>Llegada del hombre a la Luna</hecho>
-  </efemeride>
-  <efemeride>
-    <fecha>12 de octubre de 1492</fecha>
-    <hecho>Llegada de Colón a América</hecho>
-  </efemeride>
-  <efemeride>
-    <fecha>6 de abril de 1909</fecha>
-    <hecho>llegada de Robert Peary al Polo Norte</hecho>
-  </efemeride>
+	<efemeride>
+		<fecha>20 de julio de 1969</fecha>
+		<hecho>Llegada del hombre a la Luna</hecho>
+	</efemeride>
+	<efemeride>
+		<fecha>12 de octubre de 1492</fecha>
+		<hecho>Llegada de Colón a América</hecho>
+	</efemeride>
+	<efemeride>
+		<fecha>6 de abril de 1909</fecha>
+		<hecho>llegada de Robert Peary al Polo Norte</hecho>
+	</efemeride>
 </efemerides>
 
 <xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
-    <xsd:simpleType name="tipoHecho">
-        <xsd:restriction base="xsd:string">
-            <xsd:pattern value="[a-z A-Z]" />
-        </xsd:restriction>
-    </xsd:simpleType>
-    
-    <xsd:element name="efemerides">
+<xsd:simpleType name="tipoFecha">
+	<xsd:restriction base="xsd:string">
+		<xsd:pattern value="([1-9]|[1-2][0-9]|[3][0-1])\sde\s(enero|marzo|mayo|julio|octubre|diciembre)\sde\s(19[0-9][0-9]|20[0-9][0-9])" />
+		<xsd:pattern value="([1-9]|[1-2][0-9]|[30])\sde\s(abril|junio|septiembre|noviembre)\sde\s(19[0-9][0-9]|20[0-9][0-9])" />
+		<xsd:pattern value="([1-9]|[1][0-9]|[2][0-8]) de febrero de (19[0-9][0-9]|20[0-9][0-9])" />
+	</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="tipoHecho">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[a-z A-Z]" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:element name="efemerides">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="efemeride" maxOccurs="unbounded ">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="fecha" type="tipoFecha" />
+							<xsd:element name="hecho" type="tipoHecho" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
 </xsd:schema>
 
 <!-- 3 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <aeropuertos>
-  <aeropuerto>
-    <nombre>Berlín Schönefeld (SFX)</nombre>
-  </aeropuerto>
-  <aeropuerto>
-    <nombre>Berlín Tempelhof (THF)</nombre>
-    <cerrado />
-</aeropuerto>
+	<aeropuerto>
+		<nombre>Berlín Schönefeld (SFX)</nombre>
+	</aeropuerto>
+	<aeropuerto>
+		<nombre>Berlín Tempelhof (THF)</nombre>
+		<cerrado />
+	</aeropuerto>
 </aeropuertos>
+
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema> 
+	<xsd:simpleType name="tipoNombre">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[a-z A-Z()]" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:element name="aeropuertos">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="aeropuerto" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="nombre" type="tipoNombre" />
+							<xsd:element name="cerrado" type="tipoHecho" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
 
 <!-- 4 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <vuelos>
-  <vuelo>
-    <origen>Valencia (VLC)</origen>
-    <destino>Londres Heathrow (LHR)</destino>
-  </vuelo>
-  <vuelo>
-    <destino>Berlín Schönefeld (SFX)</destino>
-    <origen>Paris Charles de Gaulle (CDG)</origen>
-  </vuelo>
+	<vuelo>
+		<origen>Valencia (VLC)</origen>
+		<destino>Londres Heathrow (LHR)</destino>
+	</vuelo>
+	<vuelo>
+		<destino>Berlín Schönefeld (SFX)</destino>
+		<origen>Paris Charles de Gaulle (CDG)</origen>
+	</vuelo>
 </vuelos>
 
 <!-- 5 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <reyes>
-  <rey>
-    <nombre>Felipe III</nombre>
-    <padre>Felipe II</padre>
-    <madre>Ana de Austria</madre>
-  </rey>
-  <reina>
-    <nombre>Juana la Loca</nombre>
-    <padre>Fernando el Católico</padre>
-    <madre>Isabel la Católica</madre>
-  </reina>
-  <rey>
-    <nombre>Carlos I</nombre>
-    <padre>Felipe el Hermoso</padre>
-    <madre>Juan la Loca</madre>
-  </rey> 
+	<rey>
+		<nombre>Felipe III</nombre>
+		<padre>Felipe II</padre>
+		<madre>Ana de Austria</madre>
+	</rey>
+	<reina>
+		<nombre>Juana la Loca</nombre>
+		<padre>Fernando el Católico</padre>
+		<madre>Isabel la Católica</madre>
+	</reina>
+	<rey>
+		<nombre>Carlos I</nombre>
+		<padre>Felipe el Hermoso</padre>
+		<madre>Juan la Loca</madre>
+	</rey>
 </reyes>
 
 <!-- 6 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <paises>
-  <pais>
-    <nombre>España</nombre>
-    <unionEuropea />
-    <otan />
-  </pais>
-  <pais>
-    <nombre>Noruega</nombre>
-    <otan />
-  </pais>
-  <pais>
-    <nombre>Austria</nombre>
-    <unionEuropea />
-  </pais>
+	<pais>
+		<nombre>España</nombre>
+		<unionEuropea />
+		<otan />
+	</pais>
+	<pais>
+		<nombre>Noruega</nombre>
+		<otan />
+	</pais>
+	<pais>
+		<nombre>Austria</nombre>
+		<unionEuropea />
+	</pais>
 </paises>
 
 <!-- 7 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <colores>
-  <color>
-    <nombreSvg>Purple</nombreSvg>
-    <codigo>
-      <rgb>#800080</rgb>
-    </codigo>
-  </color>
-  <color>
-    <nombreSvg>Purple</nombreSvg>
-    <codigo>
-      <cmyk>#00FF007F</cmyk>
-    </codigo>
-  </color>
+	<color>
+		<nombreSvg>Purple</nombreSvg>
+		<codigo>
+			<rgb>#800080</rgb>
+		</codigo>
+	</color>
+	<color>
+		<nombreSvg>Purple</nombreSvg>
+		<codigo>
+			<cmyk>#00FF007F</cmyk>
+		</codigo>
+	</color>
 </colores>
 
 <!-- 8 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <contabilidad>
-  <apunte>
-    <ingreso />
-    <fecha>24 de febrero de 2011</fecha>
-    <cantidad>1800,00 €</cantidad>
-    <concepto>Salario</concepto>
-  </apunte>
-  <apunte>
-    <gasto />
-    <fecha>28 de febrero de 2011</fecha>
-    <cantidad>74,25 €</cantidad>
-    <concepto>Recibo luz</concepto>
-  </apunte>
+	<apunte>
+		<ingreso />
+		<fecha>24 de febrero de 2011</fecha>
+		<cantidad>1800,00 €</cantidad>
+		<concepto>Salario</concepto>
+	</apunte>
+	<apunte>
+		<gasto />
+		<fecha>28 de febrero de 2011</fecha>
+		<cantidad>74,25 €</cantidad>
+		<concepto>Recibo luz</concepto>
+	</apunte>
 </contabilidad>
 
 <!-- 9 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <mensajes>
-  <mensaje>
-    <de>Pepe (pepe@example.com)</de>
-    <para>Juan (juan@example.com)</para>
-    <hora>28/02/2011 17:48:23,61</hora>
-    <texto>¿Hola, Juan, qué haces?</texto>
-  </mensaje>
-  <mensaje>
-    <de>Juan (juan@example.com)</de>
-    <para>Pepe (pepe@example.com)</para>
-    <hora>28/02/2011 17:54:20,87</hora>
-    <texto>Aquí, aprendiendo <strong>XML</strong></texto>
-  </mensaje>
+	<mensaje>
+		<de>Pepe (pepe@example.com)</de>
+		<para>Juan (juan@example.com)</para>
+		<hora>28/02/2011 17:48:23,61</hora>
+		<texto>¿Hola, Juan, qué haces?</texto>
+	</mensaje>
+	<mensaje>
+		<de>Juan (juan@example.com)</de>
+		<para>Pepe (pepe@example.com)</para>
+		<hora>28/02/2011 17:54:20,87</hora>
+		<texto>Aquí, aprendiendo <strong>XML</strong></texto>
+	</mensaje>
 </mensajes>
