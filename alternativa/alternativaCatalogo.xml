@@ -13,12 +13,17 @@
 <!ATTLIST componente marca CDATA #REQUIERED>
 <!ATTLIST componente modelo CDATA #IMPLIED>
 <!ATTLIST caracteristica modelo CDATA #IMPLIED>
+<!ATTLIST codigo tipo CDATA #REQUIERED>
+<!ATTLIST disponibilidad tipo CDATA #REQUIERED>
 <!ELEMENT servicio (modelo, descripcion, codigo, precio, disponibilidad)>
 <!ELEMENT modelo (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT codigo EMPTY>
 <!ELEMENT precio (#PCDATA)>
 <!ELEMENT disponibilidad EMPTY>
+<!ATTLIST servicio tipo CDATA #REQUIERED>
+<!ATTLIST codigo tipo CDATA #REQUIERED>
+<!ATTLIST disponibilidad tipo CDATA #REQUIERED>
 ]>
 
 
