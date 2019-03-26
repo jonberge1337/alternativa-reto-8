@@ -13,6 +13,12 @@
 <!ATTLIST componente marca CDATA #REQUIERED>
 <!ATTLIST componente modelo CDATA #IMPLIED>
 <!ATTLIST caracteristica modelo CDATA #IMPLIED>
+<!ELEMENT servicio (modelo, descripcion, codigo, precio, disponibilidad)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT codigo EMPTY>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT disponibilidad EMPTY>
 ]>
 
 
@@ -1185,4 +1191,30 @@
         <precio>36€</precio>
         <disponibilidad stock="Si" />
     </componente>
+
+    <servicio tipo="Sistemas Tolerantes A Fallos">
+        <Modelo>LaCie 12big Disco Duro 48TB RAID Thunderbolt 3 USB-C</Modelo>
+        <Descripcion>Este Disco Duro RAID es excepcional porque presenta en un accesorio dos cualidades de superioridad: doble conexión Thunderbolt 3 y Sistema RAID 0 y 5.
+        Para profesionales en la producción de videos, casas de producción o equipo técnico que necesite grandes volúmenes de capacidad y almacenamiento de calidad. La herramienta de trabajo para las grandes ideas.</Descripcion>
+        <Codigo Producto="1125"/>
+        <Precio>3.400,32€</Precio>
+        <Disponiblidad stock="Si"/>
+    </servicio>
+
+    <servicio tipo="Sistemas Copias Seguridad">
+        <Modelo>Acronis Backup</Modelo>
+        <Descripcion>Acronis Backup ofrece la protección de datos que cumple con las demandas actuales. Mantiene su negocio en funcionamiento, protegiendo cualquier carga de trabajo, escalando sin límites y ahorrándole dinero.</Descripcion>
+        <Codigo Producto="3254"/>
+        <Precio>75€/año</Precio>
+        <Disponibilidad stock="Si"/>
+    </servicio>
+
+    <servicio tipo="Sistemas Cifrado Datos">
+        <Modelo>CYPHERIX STRONG ENCRYPTION</Modelo>
+        <Descripcion>Solución Completa para Proteger datos sensibles en cualquier PC con Windows, De Escritorio, Laptop, Disco Duro o Unidad Extraíble como USB Flash, Tarjeta de Memoria, etc.</Descripcion>
+        <Codigo Producto="4455"/>
+        <Precio>999€</Precio>
+        <Disponibilidad stock="Si"/>
+    </servicio>
+
 </catalogo>
