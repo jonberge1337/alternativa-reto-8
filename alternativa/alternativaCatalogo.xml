@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE catalogo[
-<!ELEMENT catalogo (componente, servicio)>
+<!ELEMENT catalogo (componente|servicio)+>
 <!ELEMENT componente (descripcion, caracteristicas, codigo, precio, disponibilidad)>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT caracteristicas (caracteristica)+>
@@ -13,7 +13,7 @@
 <!ATTLIST componente marca CDATA #REQUIERED>
 <!ATTLIST componente modelo CDATA #IMPLIED>
 <!ATTLIST caracteristica modelo CDATA #IMPLIED>
-<!ATTLIST codigo tipo CDATA #REQUIERED>
+<!ATTLIST codigo producto ID #REQUIERED>
 <!ATTLIST disponibilidad tipo CDATA #REQUIERED>
 <!ELEMENT servicio (modelo, descripcion, codigo, precio, disponibilidad)>
 <!ELEMENT modelo (#PCDATA)>
@@ -23,7 +23,6 @@
 <!ELEMENT disponibilidad EMPTY>
 <!ATTLIST servicio tipo CDATA #REQUIERED>
 <!ATTLIST codigo tipo CDATA #REQUIERED>
-<!ATTLIST disponibilidad tipo CDATA #REQUIERED>
 ]>
 
 
@@ -514,7 +513,7 @@
             <caracteristica tipo="Software">Sistema operativo Linux soportado: Si</caracteristica>
         </caracteristicas>
         <codigo Producto="64202" />
-        <precio>11,25€€</precio>
+        <precio>11,25€</precio>
         <disponibilidad stock="Si" />
     </componente>
 
@@ -534,7 +533,7 @@
                 MMCmicro, MS Duo, MS Micro (M2), MS PRO, MS PRO Duo, RS-MMC, SD, SDHC, SDXC, XD</caracteristica>
         </caracteristicas>
         <codigo Producto="64202" />
-        <precio>11,25€€</precio>
+        <precio>11,25€</precio>
         <disponibilidad stock="Si" />
     </componente>
 
@@ -570,8 +569,8 @@
             <caracteristica tipo="Software y compatibilidad">Windows Vista® SP1 o superior</caracteristica>
             <caracteristica>Plataformas compatibles PC - PCIe x1</caracteristica>
         </caracteristicas>
-        <codigo Producto="64202" />
-        <precio>11,25€€</precio>
+        <codigo Producto="61113" />
+        <precio>31€</precio>
         <disponibilidad stock="Si" />
     </componente>
 
@@ -1202,24 +1201,21 @@
         <Descripcion>Este Disco Duro RAID es excepcional porque presenta en un accesorio dos cualidades de superioridad: doble conexión Thunderbolt 3 y Sistema RAID 0 y 5.
         Para profesionales en la producción de videos, casas de producción o equipo técnico que necesite grandes volúmenes de capacidad y almacenamiento de calidad. La herramienta de trabajo para las grandes ideas.</Descripcion>
         <Codigo Producto="1125"/>
-        <Precio>3.400,32€</Precio>
-        <Disponiblidad stock="Si"/>
+        <precio>3.400,32€</precio>
     </servicio>
 
     <servicio tipo="Sistemas Copias Seguridad">
         <Modelo>Acronis Backup</Modelo>
         <Descripcion>Acronis Backup ofrece la protección de datos que cumple con las demandas actuales. Mantiene su negocio en funcionamiento, protegiendo cualquier carga de trabajo, escalando sin límites y ahorrándole dinero.</Descripcion>
         <Codigo Producto="3254"/>
-        <Precio>75€/año</Precio>
-        <Disponibilidad stock="Si"/>
+        <precio>75€/año</precio>
     </servicio>
 
     <servicio tipo="Sistemas Cifrado Datos">
         <Modelo>CYPHERIX STRONG ENCRYPTION</Modelo>
         <Descripcion>Solución Completa para Proteger datos sensibles en cualquier PC con Windows, De Escritorio, Laptop, Disco Duro o Unidad Extraíble como USB Flash, Tarjeta de Memoria, etc.</Descripcion>
         <Codigo Producto="4455"/>
-        <Precio>999€</Precio>
-        <Disponibilidad stock="Si"/>
+        <precio>999€</precio>
     </servicio>
 
 </catalogo>
