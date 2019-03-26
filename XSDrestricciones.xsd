@@ -148,8 +148,6 @@
 								<xsd:element name="origen" type="OrigenDestino" />
 								<xsd:element name="destino" type="OrigenDestino" />
 							</xsd:sequence>
-						</xsd:choice>
-						<xsd:choice>
 							<xsd:sequence>
 								<xsd:element name="destino" type="OrigenDestino" />
 								<xsd:element name="origen" type="OrigenDestino" />
@@ -190,7 +188,7 @@
 
 	<xsd:element name="reyes">
 		<xsd:complexType>
-			<xsd:all>
+			<xsd:choice>
 				<xsd:element name="rey" maxOccurs="unbounded">
 					<xsd:complexType>
 						<xsd:sequence>
@@ -209,7 +207,7 @@
 						</xsd:sequence>
 					</xsd:complexType>
 				</xsd:element>
-			</xsd:all>
+			</xsd:choice>
 		</xsd:complexType>
 	</xsd:element>
 </xsd:schema>
@@ -245,11 +243,11 @@
 					<xsd:complexType>
 						<xsd:sequence>
 							<xsd:element name="nombre" type="tipoPais" />
+							<xsd:choice>
+								<xsd:element name="otan" minOccurs="0" maxOccurs="0" />
+								<xsd:element name="unionEuropea" minOccurs="0" maxOccurs="0" />
+							</xsd:choice>
 						</xsd:sequence>
-						<xsd:choice>
-							<xsd:element name="otan" minOccurs="0" maxOccurs="0" />
-							<xsd:element name="unionEuropea" minOccurs="0" maxOccurs="0" />
-						</xsd:choice>
 					</xsd:complexType>
 				</xsd:element>
 			</xsd:sequence>
@@ -274,6 +272,33 @@
 	</color>
 </colores>
 
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema> <xsd:simpleType name="tipoPais">
+	<xsd:restriction base="xsd:string">
+		<xsd:pattern value="[a-z A-Z]" />
+	</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:element name="colores">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="color" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="nombreSvg" type="mio:colorIngles" />
+							<xsd:complexType>
+								<xsd:element name="codigo" type="mio:colorIngles" />
+								<xsd:choice>
+									<xsd:element name="rgb" />
+									<xsd:element name="cmyk" />
+								</xsd:choice>
+							</xsd:complexType>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
 <!-- 8 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <contabilidad>
@@ -291,6 +316,35 @@
 	</apunte>
 </contabilidad>
 
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema> <xsd:simpleType name="tipoPais">
+	<xsd:restriction base="xsd:string">
+		<xsd:pattern value="[a-z A-Z]" />
+	</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:element name="contabilidad">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="apunte" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:choice>
+								<xsd:element name="ingreso" type="mio:vacio" minOccurs="0" />
+								<xsd:element name="gasto" type="mio:vacio" minOccurs="0" />
+							</xsd:choice>
+							<xsd:sequence>
+								<xsd:element name="fecha" type="mio:fechaTextual" />
+								<xsd:element name="cantidad" type="mio:solotexto" />
+								<xsd:element name="concepto" type="mio:solotexto" />
+							</xsd:sequence>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
+
 <!-- 9 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <mensajes>
@@ -307,3 +361,31 @@
 		<texto>Aquí, aprendiendo <strong>XML</strong></texto>
 	</mensaje>
 </mensajes>
+
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema> <xsd:simpleType name="tipoPais">
+	<xsd:restriction base="xsd:string">
+		<xsd:pattern value="[a-z A-Z]" />
+	</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:element name="mensajes">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="mensaje" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="de" type="mio:solotexto" />
+							<xsd:element name="para" type="mio:solotexto" />
+							<xsd:element name="hora" type="mio:fecha" />
+							<xsd:element name="texto" type="mio:solotextooEtiqueta">
+								<xsd:complexType>
+									<xsd:element name="strong" type="mio:negrita" />
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>	
