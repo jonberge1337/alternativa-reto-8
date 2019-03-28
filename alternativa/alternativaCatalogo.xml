@@ -5,24 +5,21 @@
 <!ELEMENT componente (descripcion, caracteristicas, codigo, precio, disponibilidad)>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT caracteristicas (caracteristica)+>
-<!ELEMENT caracteristica EMPTY>
+<!ELEMENT caracteristica (#PCDATA)>
 <!ELEMENT codigo EMPTY>
 <!ELEMENT precio (#PCDATA)>
 <!ELEMENT disponibilidad EMPTY>
-<!ATTLIST componente tipo CDATA #REQUIERED>
-<!ATTLIST componente marca CDATA #REQUIERED>
+<!ATTLIST componente tipo CDATA #REQUIRED>
+<!ATTLIST componente marca CDATA #REQUIRED>
 <!ATTLIST componente modelo CDATA #IMPLIED>
 <!ATTLIST caracteristica modelo CDATA #IMPLIED>
-<!ATTLIST codigo producto ID #REQUIERED>
-<!ATTLIST disponibilidad tipo CDATA #REQUIERED>
-<!ELEMENT servicio (modelo, descripcion, codigo, precio, disponibilidad)>
+<!ATTLIST caracteristica tipo CDATA #IMPLIED>
+<!ATTLIST codigo producto CDATA #REQUIRED>
+<!ATTLIST disponibilidad stock CDATA #REQUIRED>
+<!ELEMENT servicio (modelo, descripcion, codigo, precio)>
 <!ELEMENT modelo (#PCDATA)>
-<!ELEMENT descripcion (#PCDATA)>
-<!ELEMENT codigo EMPTY>
-<!ELEMENT precio (#PCDATA)>
-<!ELEMENT disponibilidad EMPTY>
-<!ATTLIST servicio tipo CDATA #REQUIERED>
-<!ATTLIST codigo tipo CDATA #REQUIERED>
+<!ATTLIST servicio tipo CDATA #REQUIRED>
+<!ATTLIST codigo producto CDATA #REQUIRED>
 ]>
 
 
@@ -52,7 +49,7 @@
             <caracteristica tipo="Tecnologia Multi-GPU">NVIDIA SLI</caracteristica>
             <caracteristica tipo="Tipo socket">Cpu integrada</caracteristica>
         </caracteristicas>
-        <codigo Producto="4567" />
+        <codigo producto="4567" />
         <precio>108,99€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -74,7 +71,7 @@
             <caracteristica tipo="Tecnologia Multi-GPU">NVIDIA SLI</caracteristica>
             <caracteristica tipo="Tipo socket">Cpu integrada</caracteristica>
         </caracteristicas>
-        <codigo Producto="2321" />
+        <codigo producto="2321" />
         <precio>65,25€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -92,7 +89,7 @@
             <caracteristica tipo="Procesador">Número de núcleos de procesador: 6</caracteristica>
             <caracteristica tipo="Procesador">Socket de procesador: Zócalo AM4</caracteristica>
             <caracteristica tipo="Procesador">Litografía del procesador: 12 nm</caracteristica>
-            <caracteristica tipo="Procesador">Modelo del procesador: 2600</caracteristica>
+            <caracteristica tipo="Procesador">modelo del procesador: 2600</caracteristica>
             <caracteristica tipo="Procesador">Número de filamentos de procesador: 12</caracteristica>
             <caracteristica tipo="Procesador">Modo de procesador operativo: 32-bit, 64 bits</caracteristica>
             <caracteristica tipo="Procesador">Caché del procesador: 16 MB</caracteristica>
@@ -105,12 +102,12 @@
             <caracteristica tipo="Control de energia">Potencia de diseño térmico (TDP): 65 W</caracteristica>
             <caracteristica tipo="Graficos">Adaptador gráfico incorporado: No</caracteristica>
             <caracteristica tipo="Graficos">Adaptador de gráficos discreto: No</caracteristica>
-            <caracteristica tipo="Graficos">Modelo de adaptador gráfico incorporado: No disponible</caracteristica>
-            <caracteristica tipo="Graficos">Modelo de adaptador de gráficos discretos: No disponible</caracteristica>
+            <caracteristica tipo="Graficos">modelo de adaptador gráfico incorporado: No disponible</caracteristica>
+            <caracteristica tipo="Graficos">modelo de adaptador de gráficos discretos: No disponible</caracteristica>
             <caracteristica tipo="Caracteristicas">Versión de entradas de PCI Express: 3.0</caracteristica>
             <caracteristica tipo="Caracteristicas">Configuraciones PCI Express: 1x16</caracteristica>
         </caracteristicas>
-        <codigo Producto="157402" />
+        <codigo producto="157402" />
         <precio>165,99€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -144,7 +141,7 @@
             <caracteristica tipo="Arquitectura">Level 3 cache size 9 MB shared cache</caracteristica>
             <caracteristica tipo="Arquitectura">Physical memory 64 GB</caracteristica>
         </caracteristicas>
-        <codigo Producto="139906" />
+        <codigo producto="139906" />
         <precio>204,90€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -188,7 +185,7 @@
             <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura
                 de almacenaje: -40 - 70 °C</caracteristica>
         </caracteristicas>
-        <codigo Producto="111412" />
+        <codigo producto="111412" />
         <precio>44,03€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -225,7 +222,7 @@
             <caracteristica tipo="Condiciones ambientales">Golpes en funcionamiento: 70 G</caracteristica>
             <caracteristica tipo="Condiciones ambientales">Golpe (fuera de operación): 350 G</caracteristica>
         </caracteristicas>
-        <codigo Producto="163054" />
+        <codigo producto="163054" />
         <precio>43,99€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -278,7 +275,7 @@
             <caracteristica tipo="Desempeño">NVIDIA GameStream: Si</caracteristica>
             <caracteristica tipo="Desempeño">NVIDIA Ansel: Si</caracteristica>
         </caracteristicas>
-        <codigo Producto="181310" />
+        <codigo producto="181310" />
         <precio>244,99€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -304,7 +301,7 @@
             <caracteristica tipo="Puertos e Interfaces">Power Connectors: 6-pin x 1</caracteristica>
             <caracteristica tipo="Peso y dimensiones">Dimensiones 229 x 131 x 39 mm</caracteristica>
         </caracteristicas>
-        <codigo Producto="106073" />
+        <codigo producto="106073" />
         <precio>184,90€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -325,7 +322,7 @@
             <caracteristica>Dimensiones 16 x 13,7 x 1.4 cm</caracteristica>
             <caracteristica>Peso 186g</caracteristica>
         </caracteristicas>
-        <codigo Producto="114077" />
+        <codigo producto="114077" />
         <precio>159€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -358,7 +355,7 @@
             <caracteristica>Velocidad Probado 3000 MHz</caracteristica>
             <caracteristica>Tensión Probado 1.35V</caracteristica>
         </caracteristicas>
-        <codigo Producto="100309" />
+        <codigo producto="100309" />
         <precio>125€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -392,7 +389,7 @@
                 DVD+RW, DVD-R, DVD-R DL, DVD-RW, DVD-RW DL</caracteristica>
             <caracteristica tipo="Color">Negro</caracteristica>
         </caracteristicas>
-        <codigo Producto="72001" />
+        <codigo producto="72001" />
         <precio>15,50€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -435,7 +432,7 @@
             <caracteristica tipo="Modos de grabacion">Escritura secuencial: Si</caracteristica>
             <caracteristica tipo="Modos de grabacion">escritura aleatoria: Si</caracteristica>
         </caracteristicas>
-        <codigo Producto="85838" />
+        <codigo producto="85838" />
         <precio>18,50€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -456,7 +453,7 @@
             <caracteristica tipo="Dimensiones">Ancho 103,7 mm</caracteristica>
             <caracteristica tipo="Dimensiones">Tamaño 3,5 "</caracteristica>
         </caracteristicas>
-        <codigo Producto="85838" />
+        <codigo producto="85838" />
         <precio>18,50€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -464,7 +461,7 @@
     <componente tipo="Disquetera" marca="CSL" modelo="A19384x60">
         <descripcion>El formato ultraplano de esta disquetera la convierte en la opción ideal para llevar a cualquier
             parte o ahorrar espacio en su escritorio. Solo necesita conectar la disquetera a su portátil, PC o Mac.
-            Gracias a la función Plug & Play, su equipo reconocerá automáticamente la disquetera de 3,5" (a partir de
+            Gracias a la función Plug &amp; Play, su equipo reconocerá automáticamente la disquetera de 3,5" (a partir de
             Windows 98). El suministro de corriente se produce a través del puerto USB, por lo que no requiere ninguna
             fuente de alimentación adicional. Dado que la mayoría de los actuales sistemas de PC y portátiles carecen de
             disquetera, esta unidad de disco especialmente compacta le permitirá guardar y transportar cómodamente datos
@@ -474,7 +471,7 @@
             <caracteristica>Disquetera USB 3,5" </caracteristica>
             <caracteristica>Diseño ultracompacto/slimline </caracteristica>
             <caracteristica>Color: negro </caracteristica>
-            <caracteristica>Plug & Play / no requiere instalación de drivers / detección automática</caracteristica>
+            <caracteristica>Plug &amp; Play / no requiere instalación de drivers / detección automática</caracteristica>
             <caracteristica>Suministro de corriente mediante USB / no necesita fuente de alimentación adicional
             </caracteristica>
             <caracteristica>Dimensiones: aprox. 14 x 10 x 1,7 cm </caracteristica>
@@ -482,7 +479,7 @@
             <caracteristica>Compatible con Windows 98 SE / Windows ME / Windows 2000 / Windows XP / Windows Vista /
                 Windows 7 / Windows 8 / Windows 8.1 / Windows 10</caracteristica>
         </caracteristicas>
-        <codigo Producto="156248" />
+        <codigo producto="156248" />
         <precio>12,99€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -512,7 +509,7 @@
                 10.7 Lion, Mac OS X 10.8 Mountain Lion, Mac OS X 10.9 Mavericks</caracteristica>
             <caracteristica tipo="Software">Sistema operativo Linux soportado: Si</caracteristica>
         </caracteristicas>
-        <codigo Producto="64202" />
+        <codigo producto="64202" />
         <precio>11,25€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -526,13 +523,13 @@
             <caracteristica>Compatible con SD de alta definición.</caracteristica>
             <caracteristica>Alta velocidad de transferencia de dates entre los puertos internos.</caracteristica>
             <caracteristica>2 LEDs de actividad.</caracteristica>
-            <caracteristica>Soporta Hot swap y Plug & Play .</caracteristica>
+            <caracteristica>Soporta Hot swap y Plug &amp; Play .</caracteristica>
             <caracteristica>Soporta: windows98/98SE/ME/2000 /XP/Vista/7/8/MACOS 10.1.2 /Linux</caracteristica>
             <caracteristica>Kernel 2.4.0 o superiores.</caracteristica>
             <caracteristica>Tarjetas De Memorias Compatibles : CF, Memory Stick (MS), MicroSD (TransFlash), MiniSD, MMC,
                 MMCmicro, MS Duo, MS Micro (M2), MS PRO, MS PRO Duo, RS-MMC, SD, SDHC, SDXC, XD</caracteristica>
         </caracteristicas>
-        <codigo Producto="64202" />
+        <codigo producto="64202" />
         <precio>11,25€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -569,7 +566,7 @@
             <caracteristica tipo="Software y compatibilidad">Windows Vista® SP1 o superior</caracteristica>
             <caracteristica>Plataformas compatibles PC - PCIe x1</caracteristica>
         </caracteristicas>
-        <codigo Producto="61113" />
+        <codigo producto="61113" />
         <precio>31€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -595,7 +592,7 @@
             <caracteristica tipo="Conexiones e interfaces">nectores Audio Jack 3.5mm 2.0 / 2.1 / 4.0 / 4.1 / 5.1
             </caracteristica>
         </caracteristicas>
-        <codigo Producto="73764" />
+        <codigo producto="73764" />
         <precio>19,99€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -622,7 +619,7 @@
             <caracteristica>Tamaño máximo del disipador de la CPU 150mm</caracteristica>
             <caracteristica>Tamaño máximo de la tarjeta gráfica 350mm</caracteristica>
         </caracteristicas>
-        <codigo Producto="101871" />
+        <codigo producto="101871" />
         <precio>39,99€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -660,7 +657,7 @@
             <caracteristica>Dimensiones 206 x 470 x 460 mm (an x al x pr)</caracteristica>
             <caracteristica tipo="Peso">4.8 Kg</caracteristica>
         </caracteristicas>
-        <codigo Producto="99672" />
+        <codigo producto="99672" />
         <precio>49,99€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -685,7 +682,7 @@
             <caracteristica tipo="AMD Socket">FM2+ / FM2 / FM1 / AM4 / AM3+ / AM3 / AM2+ / AM2</caracteristica>
             <caracteristica tipo="Peso">450 gr</caracteristica>
         </caracteristicas>
-        <codigo Producto="95520" />
+        <codigo producto="95520" />
         <precio>21€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -712,7 +709,7 @@
             <caracteristica>EAN Code 4719512033487</caracteristica>
             <caracteristica>UPC Code 884102013652</caracteristica>
         </caracteristicas>
-        <codigo Producto="47099" />
+        <codigo producto="47099" />
         <precio>21,60€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -736,7 +733,7 @@
             <caracteristica tipo="Potencia máxima combinada: ">-12V + 5Vsb= 16W</caracteristica>
             <caracteristica tipo="Potencia máxima combinada: ">Potencia real total: 600W</caracteristica>
         </caracteristicas>
-        <codigo Producto="101493" />
+        <codigo producto="101493" />
         <precio>19,99€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -768,7 +765,7 @@
             <caracteristica tipo="Conexion">1x EPS12V 8 Pin</caracteristica>
             <caracteristica tipo="Conexion">1x Main 20+4 Pin</caracteristica>
         </caracteristicas>
-        <codigo Producto="108729" />
+        <codigo producto="108729" />
         <precio>49,99€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -780,7 +777,7 @@
             <caracteristica>Fabricado con cable de 7 conductores</caracteristica>
             <caracteristica>Longitud 15 Cms.</caracteristica>
         </caracteristicas>
-        <codigo Producto="102472" />
+        <codigo producto="102472" />
         <precio>1,99€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -798,7 +795,7 @@
             <caracteristica>Resistencia de aislamiento 20M ohmios @ 200 VCD</caracteristica>
             <caracteristica>20K ohmios</caracteristica>
         </caracteristicas>
-        <codigo Producto="101622" />
+        <codigo producto="101622" />
         <precio>7,25€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -853,7 +850,7 @@
             <caracteristica tipo="Diseño">Indicadores LED: Si</caracteristica>
             <caracteristica tipo="Diseño">Certificación: CE, FCC, RoHS</caracteristica>
         </caracteristicas>
-        <codigo Producto="130604" />
+        <codigo producto="130604" />
         <precio>7,25€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -908,7 +905,7 @@
             <caracteristica tipo="Diseño">Indicadores LED: Si</caracteristica>
             <caracteristica tipo="Diseño">Certificación: CE, FCC, RoHS</caracteristica>
         </caracteristicas>
-        <codigo Producto="130604" />
+        <codigo producto="130604" />
         <precio>7,25€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -975,7 +972,7 @@
             <caracteristica tipo="Operation mode">Modo repetidor</caracteristica>
             <caracteristica tipo="Operation mode">Modo punto de acceso</caracteristica>
         </caracteristicas>
-        <codigo Producto="77501" />
+        <codigo producto="77501" />
         <precio>18,98€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -1007,7 +1004,7 @@
             <caracteristica tipo="Dimensiones y peso">Alto: 68,75 mm</caracteristica>
             <caracteristica tipo="Dimensiones y peso">340 g</caracteristica>
         </caracteristicas>
-        <codigo Producto="164479" />
+        <codigo producto="164479" />
         <precio>119€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -1054,7 +1051,7 @@
             <caracteristica tipo="Antena">Aumento: 2 dBi</caracteristica>
             <caracteristica tipo="Antena">Cantidad de antenas: 2</caracteristica>
         </caracteristicas>
-        <codigo Producto="48628" />
+        <codigo producto="48628" />
         <precio>13,29€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -1081,7 +1078,7 @@
             <caracteristica tipo="Medidas">22U</caracteristica>
             <caracteristica tipo="Medidas">Ancho x fondo x alto (mm): 600x600x1166.</caracteristica>
         </caracteristicas>
-        <codigo Producto="54882" />
+        <codigo producto="54882" />
         <precio>219€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -1158,7 +1155,7 @@
             <caracteristica>Modos de marcación multifrecuencia de tono dual: En banda, Out-of band, Información SIP
             </caracteristica>
         </caracteristicas>
-        <codigo Producto="181966" />
+        <codigo producto="181966" />
         <precio>44,13€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -1174,7 +1171,7 @@
             <caracteristica>Color Gris / Beige</caracteristica>
             <caracteristica>Longitud: 1 metros</caracteristica>
         </caracteristicas>
-        <codigo Producto="102456" />
+        <codigo producto="102456" />
         <precio>1,95€</precio>
         <disponibilidad stock="Si" />
     </componente>
@@ -1191,30 +1188,30 @@
             <caracteristica>Color: negro</caracteristica>
             <caracteristica>19 "1U</caracteristica>
         </caracteristicas>
-        <codigo Producto="68556" />
+        <codigo producto="68556" />
         <precio>36€</precio>
         <disponibilidad stock="Si" />
     </componente>
 
     <servicio tipo="Sistemas Tolerantes A Fallos">
-        <Modelo>LaCie 12big Disco Duro 48TB RAID Thunderbolt 3 USB-C</Modelo>
-        <Descripcion>Este Disco Duro RAID es excepcional porque presenta en un accesorio dos cualidades de superioridad: doble conexión Thunderbolt 3 y Sistema RAID 0 y 5.
-        Para profesionales en la producción de videos, casas de producción o equipo técnico que necesite grandes volúmenes de capacidad y almacenamiento de calidad. La herramienta de trabajo para las grandes ideas.</Descripcion>
-        <Codigo Producto="1125"/>
+        <modelo>LaCie 12big Disco Duro 48TB RAID Thunderbolt 3 USB-C</modelo>
+        <descripcion>Este Disco Duro RAID es excepcional porque presenta en un accesorio dos cualidades de superioridad: doble conexión Thunderbolt 3 y Sistema RAID 0 y 5.
+        Para profesionales en la producción de videos, casas de producción o equipo técnico que necesite grandes volúmenes de capacidad y almacenamiento de calidad. La herramienta de trabajo para las grandes ideas.</descripcion>
+        <codigo producto="1125"/>
         <precio>3.400,32€</precio>
     </servicio>
 
     <servicio tipo="Sistemas Copias Seguridad">
-        <Modelo>Acronis Backup</Modelo>
-        <Descripcion>Acronis Backup ofrece la protección de datos que cumple con las demandas actuales. Mantiene su negocio en funcionamiento, protegiendo cualquier carga de trabajo, escalando sin límites y ahorrándole dinero.</Descripcion>
-        <Codigo Producto="3254"/>
+        <modelo>Acronis Backup</modelo>
+        <descripcion>Acronis Backup ofrece la protección de datos que cumple con las demandas actuales. Mantiene su negocio en funcionamiento, protegiendo cualquier carga de trabajo, escalando sin límites y ahorrándole dinero.</descripcion>
+        <codigo producto="3254"/>
         <precio>75€/año</precio>
     </servicio>
 
     <servicio tipo="Sistemas Cifrado Datos">
-        <Modelo>CYPHERIX STRONG ENCRYPTION</Modelo>
-        <Descripcion>Solución Completa para Proteger datos sensibles en cualquier PC con Windows, De Escritorio, Laptop, Disco Duro o Unidad Extraíble como USB Flash, Tarjeta de Memoria, etc.</Descripcion>
-        <Codigo Producto="4455"/>
+        <modelo>CYPHERIX STRONG ENCRYPTION</modelo>
+        <descripcion>Solución Completa para Proteger datos sensibles en cualquier PC con Windows, De Escritorio, Laptop, Disco Duro o Unidad Extraíble como USB Flash, Tarjeta de Memoria, etc.</descripcion>
+        <codigo producto="4455"/>
         <precio>999€</precio>
     </servicio>
 

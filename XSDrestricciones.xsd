@@ -362,10 +362,17 @@
 	</mensaje>
 </mensajes>
 
-<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema> <xsd:simpleType name="tipoPais">
-	<xsd:restriction base="xsd:string">
-		<xsd:pattern value="[a-z A-Z]" />
-	</xsd:restriction>
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema> 
+	<xsd:simpleType name="correo">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[a-z A-Z]+\s\([A-Za-z]+@[A-Za-z]+\.[a-z]{2,3}\)" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="horafecha">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[0-9]{2}\/[0-9]{2}\/[0-9]{4}\s([0-9]|[1][0-9]|[2][0-3]|00):([1-9]|[1-5][0-9]|00):[0-9],[0-9]{2}" />
+		</xsd:restriction>
 	</xsd:simpleType>
 
 	<xsd:element name="mensajes">

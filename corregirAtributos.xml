@@ -1,0 +1,59 @@
+<!-- 1 -->
+<!ELEMENT persona EMPTY>
+<!ATTLIST persona nombre CDATA #IMPLIED>
+<xsd:element name="persona">
+  <xsd:complexType>
+    <xsd:complexContent>
+      <xsd:restriction base="xsd:string">
+        <xsd:attribute name="nombre" type="xsd:string"/>
+      </xsd:restriction>
+    </xsd:complexContent>
+  </xsd:complexType>
+</xsd:element>
+
+<!-- 2 -->
+<!ELEMENT pelicula EMPTY>
+<!ATTLIST pelicula titulo CDATA #IMPLIED>
+<xsd:element name="pelicula">
+  <xsd:complexType>
+    <xsd:complexContent>
+      <xsd:restriction base="xsd:string">
+        <xsd:attribute name="titulo" type="xsd:typeString"/>
+      </xsd:restriction>
+    </xsd:complexContent>
+  </xsd:complexType>
+</xsd:element>
+<!-- 3 -->
+  <!ELEMENT cuadros (cuadro*)>
+  <!ELEMENT cuadro EMPTY>
+  <!ATTLIST cuadro titulo ID #REQUIRED>
+  <!ATTLIST cuadro autor CDATA #REQUIRED>
+<xsd:element name="cuadros">
+    <xsd:complexType>
+        <xsd:complexContent>
+            <xsd:restriction base="xsd:string">
+                <xsd:attribute name="titulo" type="xsd:typeString"/>
+            </xsd:restriction>
+        </xsd:complexContent>
+    </xsd:complexType>
+</xsd:element>
+<!-- 4 -->
+<!ELEMENT listaCompra (item*)>
+  <!ELEMENT item EMPTY>
+  <!ATTLIST item nombre CDATA #REQUIRED>
+  <!ATTLIST item cantidad CDATA #REQUIRED>
+
+<!-- 5 -->
+<!ELEMENT futbol (jugador*)>
+  <!ELEMENT jugador EMPTY>
+  <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+  <!ATTLIST jugador codigo ID #REQUIRED>
+
+<!-- 6 -->
+  <!ELEMENT futbol ((jugador|equipo)*)>
+  <!ELEMENT jugador EMPTY>
+  <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+  <!ATTLIST jugador codigo ID #REQUIRED>
+  <!ELEMENT equipo EMPTY>
+  <!ATTLIST equipo nombre CDATA #REQUIRED>
+  <!ATTLIST equipo jugadores IDREFS #IMPLIED>
