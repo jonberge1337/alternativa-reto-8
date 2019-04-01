@@ -1,0 +1,43 @@
+<!-- 1 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<inventores>
+  <inventor nombre="Robert Adler" invento="Mando a distancia" />
+  <inventor nombre="Laszlo Josef Biro" invento="Bolígrafo" />
+  <inventor nombre="Josephine Garis Cochran" invento="Lavaplatos" />
+  <inventor invento="Fuego" />
+</inventores>
+
+<xsd:element name>
+
+<!-- 2 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<cosasPorHacer>
+  <cosa fecha="20 de febrero de 2011" fechaLimite="1 de marzo de 2011">
+  Preparar ejercicios de DTDs</cosa>
+  <cosa fecha="21 de febrero de 2011" fechaLimite="5 de marzo de 2011">
+  Preparar tema XSLT</cosa>
+</cosasPorHacer>
+
+<xsd:element name="CosasPorHacer">
+    
+</xsd:element name="CosasPorHacer">
+
+
+<!-- 3 -->
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<resoluciones>
+  <resolucion nombre="VGA" alto="480" ancho="640" />
+  <resolucion nombre="XGA" alto="1024" ancho="768" />
+  <resolucion nombre="HD 1080" alto="1920" ancho="1080" />
+</resoluciones>
+
+<!-- 4 -->
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<albumesMortadelo>
+  <album nombre="El sulfato atómico" fecha="1969"/>
+  <album nombre="La caja de diez cerrojos" fecha="1971"/>
+  <album nombre="El otro yo del profesor Bacterio" fecha="1973"/>
+  <album nombre="Los cacharros majaretas" fecha="1974"/>
+</albumesMortadelo>

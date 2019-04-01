@@ -16,13 +16,14 @@
 <!ATTLIST pelicula titulo CDATA #IMPLIED>
 <xsd:element name="pelicula">
   <xsd:complexType>
-    <xsd:complexContent>
+    <xsd:simpleContent>
       <xsd:restriction base="xsd:string">
         <xsd:attribute name="titulo" type="xsd:typeString"/>
       </xsd:restriction>
     </xsd:complexContent>
   </xsd:complexType>
 </xsd:element>
+
 <!-- 3 -->
   <!ELEMENT cuadros (cuadro*)>
   <!ELEMENT cuadro EMPTY>
@@ -30,30 +31,96 @@
   <!ATTLIST cuadro autor CDATA #REQUIRED>
 <xsd:element name="cuadros">
     <xsd:complexType>
-        <xsd:complexContent>
-            <xsd:restriction base="xsd:string">
-                <xsd:attribute name="titulo" type="xsd:typeString"/>
-            </xsd:restriction>
-        </xsd:complexContent>
-    </xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="cuadro" minOccurs="0" maxOccurs="unbounded" />
+    </xsd:complexType>
+    <xsd:simpleType>
+        <xsd:restriction base="xsd:vacio">
+         <xsd:attribute name="titulo" type="xsd:typeString" use="required"/>
+         <xsd:attribute name="autor" type="xsd:typeString" use="required"/>
+        </xsd:restriction>
+      </xsd:sequence>
+  	<xsd:key name="PK">
+    <xsd:selector xpath="cuadro">
+    <xsd:field xpath="@titulo">
+  </xsd:key>
 </xsd:element>
+
 <!-- 4 -->
 <!ELEMENT listaCompra (item*)>
   <!ELEMENT item EMPTY>
   <!ATTLIST item nombre CDATA #REQUIRED>
   <!ATTLIST item cantidad CDATA #REQUIRED>
+<xsd:element name="listaCompra">
+	<xsd:complexType>
+	    <xsd:sequence>
+			<xsd:element name="item" minOccurs="0" maxOccurs="0" />
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:string">
+				<xsd:attribute name="nombre" type="xsd:typeString" use="required" />
+				<xsd:attribute name="cantidad" type="xsd:typeString" use="required" />
+			</xsd:simpleType>
+	    </xsd:sequence>
+    </xsd:complexType>
+			<xsd:simpleType>
+</xsd:element>
 
 <!-- 5 -->
 <!ELEMENT futbol (jugador*)>
-  <!ELEMENT jugador EMPTY>
-  <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
-  <!ATTLIST jugador codigo ID #REQUIRED>
+<!ELEMENT jugador EMPTY>
+<!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+<!ATTLIST jugador codigo ID #REQUIRED>
+<xsd:element name="futbol">
+	<xsd:complexType>
+	    <xsd:sequence>
+			<xsd:element name="jugador" minOccurs="0" maxOccurs="unbounded"/>
+		        <xsd:complexType>
+			        <xsd:simpleContent>
+				        <xsd:extension base="vacio">
+				            <xsd:attribute name="nombre" type="xsd:typeNMTOKENS" use="required" />
+				            <xsd:attribute name="codigo" type="xsd:typeString" use="required" />
+				        </xsd:extension>
+			        </xsd:simpleContent>
+	            </xsd:complexType>
+	        </xsd:element>
+	    <xsd:sequence>
+    </xsd:complexType>
+
+	</xsd:complexType>
+  	<xsd:key name="PK">
+        <xsd:selector xpath="jugador">
+        <xsd:field xpath="@codigo">
+    </xsd:key>
+</xsd:element>
 
 <!-- 6 -->
-  <!ELEMENT futbol ((jugador|equipo)*)>
-  <!ELEMENT jugador EMPTY>
-  <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
-  <!ATTLIST jugador codigo ID #REQUIRED>
-  <!ELEMENT equipo EMPTY>
-  <!ATTLIST equipo nombre CDATA #REQUIRED>
-  <!ATTLIST equipo jugadores IDREFS #IMPLIED>
+<!ELEMENT futbol ((jugador|equipo)*)>
+<!ELEMENT jugador EMPTY>
+<!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+<!ATTLIST jugador codigo ID #REQUIRED>
+<!ELEMENT equipo EMPTY>
+<!ATTLIST equipo nombre CDATA #REQUIRED>
+<!ATTLIST equipo jugadores IDREFS #IMPLIED>
+
+<xsd:element name="futbol">
+	<xsd:complexType>
+	    <xsd:sequence>
+			<xsd:element name="jugador" minOccurs="0" maxOccurs="unbounded"/>
+		        <xsd:complexType>
+			        <xsd:simpleContent>
+				        <xsd:extension base="vacio">
+				            <xsd:attribute name="nombre" type="xsd:typeNMTOKENS" use="required" />
+				            <xsd:attribute name="codigo" type="xsd:typeString" use="required" />
+				        </xsd:extension>
+			        </xsd:simpleContent>
+	            </xsd:complexType>
+	        </xsd:element>
+	    <xsd:sequence>
+    </xsd:complexType>
+
+	</xsd:complexType>
+  	<xsd:key name="PK">
+        <xsd:selector xpath="jugador">
+        <xsd:field xpath="@codigo">
+    </xsd:key>
+</xsd:element>

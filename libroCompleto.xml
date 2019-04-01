@@ -1,0 +1,80 @@
+<!-- 1 -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<libro xmnlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../ejer/xsd_31.xsd"
+    autor="Mario Vargas LLosa" />
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema> <xsd:element name="libro">
+    <xsd:simpleContent>
+        <xsd:extension base="vacio">
+            <xsd:attribute name="libro" type="vacio" use="required" />
+        </xsd:extension>
+    </xsd:simpleContent>
+    </xsd:element>
+</xsd:schema>
+
+<!-- 2 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<inventores>
+    <inventor nombre="Robert Adler" invento="Mando a distancia" />
+    <inventor nombre="Laszlo Josef Biro" invento="Bolígrafo" />
+    <inventor nombre="Josephine Garis Cochran" invento="Lavaplatos" />
+    <inventor invento="Fuego" />
+</inventores>
+
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
+    <xsd:element name="inventores">
+        <xsd:complextype>
+            <xsd:sequence>
+                <xsd:element name="inventor">
+                    <xsd:simpleType>
+                        <xsd:attribute name="nombre" type="xsd:string" use="required" />
+                        <xsd:attribute name="invento" type="xsd:string" use="implied" />
+                    </xsd:simpleType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complextype>
+    </xsd:element>
+</xsd:schema>
+
+<!-- 3 -->
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<cosasPorHacer>
+    <cosa fecha="20 de febrero de 2011" fechaLimite="1 de marzo de 2011">
+        Preparar ejercicios de DTDs</cosa>
+    <cosa fecha="21 de febrero de 2011" fechaLimite="5 de marzo de 2011">
+        Preparar tema XSLT</cosa>
+</cosasPorHacer>
+
+<xsd:schema xmlns:xsd=http://www.w3.org/2001/XMLSchema>
+    <xsd:element name="cosasPorHacer">
+        <xsd:complextype>
+            <xsd:element name="cosa">
+                <xsd:simpleType>
+					<xsd:attribute name="fecha" type="xsd:string" use="required" />
+					<xsd:attribute name="fechaLimite" type="xsd:string" use="required" />
+                </xsd:simpleType>
+            </xsd:element>
+        </xsd:complextype>
+    </xsd:element>
+</xsd:schema>
+
+
+<!-- 4 -->
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<resoluciones>
+    <resolucion nombre="VGA" alto="480" ancho="640" />
+    <resolucion nombre="XGA" alto="1024" ancho="768" />
+    <resolucion nombre="HD 1080" alto="1920" ancho="1080" />
+</resoluciones>
+
+<!-- 5 -->
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<albumesMortadelo>
+    <album nombre="El sulfato atómico" fecha="1969" />
+    <album nombre="La caja de diez cerrojos" fecha="1971" />
+    <album nombre="El otro yo del profesor Bacterio" fecha="1973" />
+    <album nombre="Los cacharros majaretas" fecha="1974" />
+</albumesMortadelo>
