@@ -1,0 +1,36 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="biblioteca">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="genero" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="libro">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="title" type="xsd:string" />
+                                        <xsd:element name="autor" type="xsd:string" />
+                                        <xsd:element name="editorial" type="xsd:string" />
+                                        <xsd:element name="edicion" type="xsd:string" />
+                                        <xsd:element ref="fechaPublicacion" />
+                                        <xsd:element name="isbn" type="xsd:string" />
+                                        <xsd:element name="numeroPaginas" type="xsd:integer" />
+                                    </xsd:sequence>
+                                <xsd:attribute name="codigo" use="required" type="xsd:string" />
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    <xsd:attribute name="nombre" use="required" type="xsd:string" />
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="fechaPublicacion">
+        <xsd:complexType>
+            <xsd:attribute name="año" use="required" type="xsd:integer" />
+            <xsd:attribute name="mes" use="required" type="xsd:integer" />
+            <xsd:attribute name="dia" use="required" type="xsd:integer" />
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

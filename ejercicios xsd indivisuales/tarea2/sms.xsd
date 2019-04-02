@@ -1,0 +1,44 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="buzonEntrada">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="sms" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="receptor" type="xsd:integer" />
+                            <xsd:element ref="fecha" />
+                            <xsd:element ref="horario" />
+                            <xsd:element ref="contenedor" />
+                        </xsd:sequence>
+                        <xsd:attribute name="remitente" use="required" type="xsd:string" />
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="fecha">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="dia" type="xsd:integer" />
+                <xsd:element name="mes" type="xsd:integer" />
+                <xsd:element name="anno" type="xsd:integer" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="horario">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="hora" type="xsd:integer" />
+                <xsd:element name="minuto" type="xsd:integer" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="contenedor">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="asunto" type="xsd:string" />
+                <xsd:element name="cuerpo" type="xsd:string" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

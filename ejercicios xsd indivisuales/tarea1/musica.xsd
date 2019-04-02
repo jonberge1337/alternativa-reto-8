@@ -1,0 +1,19 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="CATALOGO">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="CD" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="TITULO" type="xsd:string" />
+                            <xsd:element name="ARTISTA" type="xsd:string" />
+                            <xsd:element name="ORGIGEN" type="xsd:string" />
+                            <xsd:element name="PRECIO" type="xsd:decimal" />
+                            <xsd:element name="ANO" type="xsd:integer" />
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

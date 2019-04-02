@@ -1,0 +1,18 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="menu_almuerzo">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="comida" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="nombre" type="xsd:string" />
+                            <xsd:element name="precio" type="xsd:string" />
+                            <xsd:element name="descripcion" type="xsd:string" />
+                            <xsd:element name="calorias" type="xsd:string" />
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
