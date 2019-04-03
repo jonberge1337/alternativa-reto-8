@@ -2,30 +2,30 @@
 
 <lista_de_personas xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance” xsi:noNamespaceSchemaLocation=“personas.xsd”>
 
-<persona nacionalidad="español">
+    <persona nacionalidad="español">
 
-<nombre>José García</nombre>
+        <nombre>José García</nombre>
 
-<fechanacimiento>25/04/1984</fechanacimiento>
+        <fechanacimiento>25/04/1984</fechanacimiento>
 
-<telefono>670201256</telefono>
+        <telefono>670201256</telefono>
 
-<telefono>968472898</telefono>
+        <telefono>968472898</telefono>
 
-<sexo>Varón</sexo>
+        <sexo>Varón</sexo>
 
-</persona>
+    </persona>
 
-<persona nacionalidad="español">
+    <persona nacionalidad="español">
 
-<nombre>Juan Antonio</nombre>
+        <nombre>Juan Antonio</nombre>
 
-<fechanacimiento>25/04/1984</fechanacimiento>
+        <fechanacimiento>25/04/1984</fechanacimiento>
 
-<telefono>670201256</telefono>
+        <telefono>670201256</telefono>
 
-<numeroseguridadsocial>2569587412569</numeroseguridadsocial>
+        <numeroseguridadsocial>2569587412569</numeroseguridadsocial>
 
-</persona>
+    </persona>
 
 </lista_de_personas>
