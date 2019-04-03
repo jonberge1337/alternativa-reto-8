@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology descripcion = "Ontologia de la estructura organica operativa del IFAI">
+
+    <estructura>
+        <pleno>
+            <comisionado titular="comisionado0" tipo="presidente" />
+            <comisionado titular="comisionado1" tipo="normal" />
+            <comisionado titular="comisionado2" tipo="normal" />
+            <comisionado titular="comisionado3" tipo="normal" />
+            <comisionado titular="comisionado4" tipo="normal" />
+        </pleno>
+        <direccion_general_especial>
+            <asuntos_juridicos titular="titular1"/>
+            <comunicacion_social titular="titular2"/>
+        </direccion_general_especial>
+        <secretaria>
+            <general titular="titular1"/>
+            <tecnica_del_pleno titular="titular1"/>
+            <tecnica_del_pleno titular="titular2"/>
+            <acceso_informacion titular="titular3"/>
+            <proteccion_datos_personales titular="titular4"/>
+        </secretaria>
+    </estructura>
+
+<ontology>  
