@@ -1,0 +1,25 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:simpleType name="tipo">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-Za-z]{1}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="pedidos">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="pedido" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="fecha" type="xsd:string" />
+                            <xsd:element name="pu" type="xsd:string" />
+                            <xsd:element name="cantidad" type="xsd:string" />
+                            <xsd:element name="descripcion" type="xsd:string" />
+                            <xsd:element name="tipo" type="tipo" />
+                        </xsd:sequence>
+                        <xsd:attribute name="cod" use="required" type="xsd:string" />
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

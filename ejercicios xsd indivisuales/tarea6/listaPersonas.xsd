@@ -9,12 +9,22 @@
 			<xsd:pattern value="([0-9]{3})"/>
 		</xsd:restriction>
     </xsd:simpleType>
+    <xsd:simpleType name="tipoFecha">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="()"/>
+		</xsd:restriction>
+    </xsd:simpleType>
     <xsd:simpleType name="tipoTlf">
 		<xsd:restriction base="xsd:string">
 			<xsd:pattern value="([0-9]{9})"/>
 		</xsd:restriction>
     </xsd:simpleType>
-    <xsd:element name="alumnos">
+    <xsd:simpleType name="tipoVacio">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="([0-9]{9})"/>
+		</xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="ListaPersonal">
         <xsd:complextype>
             <xsd:sequence>
                 <xsd:element name="alumno" maxOccurs="unbounded">
@@ -27,7 +37,8 @@
                     </xsd:complexType>
                 </xsd:element>
             </xsd:sequence>
-            <xsd:attribute name="dni" use="required" type="tipoDni" />
+            <xsd:attribute name="estudiante" use="required" type="tipoNombre" />
+            <xsd:attribute name="fecha" use="required" type="tipoDni" />
         </xsd:complextype>
     </xsd:element>
     <xsd:element name="direccion">
@@ -39,6 +50,6 @@
                 <xsd:element name="numero" type="tipoNombre" />
             </xsd:sequence>
         </xsd:complexType>
-    </xsd:element name="direccion">
     </xsd:element>
+
 </xsd:schema>

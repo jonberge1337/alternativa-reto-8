@@ -1,0 +1,21 @@
+<ListaPersonal Tipo="estudiante" Fecha="12-12-06">
+    <Titulo Valor="Lista Estudiantes"/>
+    <Contenido>
+        <Persona>
+            <Nombre>Juan Perez</Nombre>
+            <Id>11</Id>
+            <Direccion>
+                <Calle>La Lomada</Calle>
+                <Numero>123</Numero>
+            </Direccion>
+        </Persona>
+        <Persona>
+            <Nombre>Luis García</Nombre>
+            <Id>33</Id>
+            <Direccion>
+                <Calle>El Pozo</Calle>
+                <Numero>4</Numero>
+            </Direccion>
+        </Persona>
+    </Contenido>
+</ListaPersonal>

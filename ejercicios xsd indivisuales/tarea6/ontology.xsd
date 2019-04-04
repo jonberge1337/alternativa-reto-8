@@ -1,0 +1,44 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="vacio">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:maxLength value="0" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xsd:element name="ontology">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="estructura" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="pleno" />
+                            <xsd:element ref="direccion_general_especial" />
+                            <xsd:element ref="secretaria" />
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="pleno">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="comisionado" type="vacio" />
+            </xsd:sequence>
+            <xsd:attribute name="titular" use="required" type="xsd:string" />
+            <xsd:attribute name="tipo" use="required" type="xsd:string" />
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="direccion_general_especial">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="comisionado" type="vacio" />
+            </xsd:sequence>
+            <xsd:attribute name="titular" use="required" type="xsd:string" />
+            <xsd:attribute name="tipo" use="required" type="xsd:string" />
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
