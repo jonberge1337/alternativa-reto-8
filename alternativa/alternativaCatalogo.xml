@@ -1,28 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE catalogo[
-<!ELEMENT catalogo (componente|servicio)+>
-<!ELEMENT componente (descripcion, caracteristicas, codigo, precio, disponibilidad)>
-<!ELEMENT descripcion (#PCDATA)>
-<!ELEMENT caracteristicas (caracteristica)+>
-<!ELEMENT caracteristica (#PCDATA)>
-<!ELEMENT codigo EMPTY>
-<!ELEMENT precio (#PCDATA)>
-<!ELEMENT disponibilidad EMPTY>
-<!ATTLIST componente tipo CDATA #REQUIRED>
-<!ATTLIST componente marca CDATA #REQUIRED>
-<!ATTLIST componente modelo CDATA #IMPLIED>
-<!ATTLIST caracteristica modelo CDATA #IMPLIED>
-<!ATTLIST caracteristica tipo CDATA #IMPLIED>
-<!ATTLIST codigo producto CDATA #REQUIRED>
-<!ATTLIST disponibilidad stock CDATA #REQUIRED>
-<!ELEMENT servicio (modelo, descripcion, codigo, precio)>
-<!ELEMENT modelo (#PCDATA)>
-<!ATTLIST servicio tipo CDATA #REQUIRED>
-<!ATTLIST codigo producto CDATA #REQUIRED>
-]>
-
-
 <catalogo>
     <componente tipo="Placa base" marca="Gygabyte" modelo="B450M DS3H">
         <descripcion>Las placas base GIGABYTE serie 400 maximizan el potencial de su PC con la tecnología AMD StoreMI.

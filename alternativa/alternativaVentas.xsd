@@ -1,0 +1,77 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:simpleType name="tipoPrecio">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[1-9]€" />
+			<xsd:pattern value="[1-9][0-9]{1,2}€" />
+			<xsd:pattern value="[1-9][0-9]{1,2}\.[0-9]{3}€" />
+			<xsd:pattern value="[1-9][0-9]{1,2}\.[0-9]{3}\.[0-9]{3}€" />
+			<xsd:pattern value="[1-9],[0-9]{1,2}€" />
+			<xsd:pattern value="[1-9][0-9]{1,2},[0-9]{1,2}€" />
+			<xsd:pattern value="[1-9]\.[0-9]{3},[0-9]{1,2}€" />
+			<xsd:pattern value="[1-9][0-9]{1,2}\.[0-9]{3},[0-9]{1,2}€" />
+			<xsd:pattern value="[1-9][0-9]{1,2}\.[0-9]{3}\.[0-9]{3},[0-9]{1,2}€" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="tipoCodigo">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[1-9][0-9]{1,8}" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="tipoVacio">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="0" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="tipoProducto">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern
+				value="(Placa base|Procesador|Disco duro|Tarjeta grafica|Memoria RAM|Disquetera|Multilector|Tarjeta sonido|Torre|Ventilador|Fuente alimentacion|Cables internos|hub/switch|Puntos de acceso|Router|Tarjeta red|Armario rack|Telefonos VoIP|Cable|Paneles parcheo|Sistemas Tolerantes a Fallos|Sistemas Copias Seguridad|Sistemas Cifrado Datos)" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:element name="ventas">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="componente" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="codigo">
+								<xsd:complexType>
+									<xsd:simpleContent>
+										<xsd:extension base="tipoVacio">
+											<xsd:attribute name="producto" type="tipoCodigo" />
+										</xsd:extension>
+									</xsd:simpleContent>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="precio" type="tipoPrecio" />
+							<xsd:element name="stock" type="xsd:positiveInteger" />
+							<xsd:element name="minimo" type="xsd:positiveInteger" />
+							<xsd:element name="vendidos" type="xsd:positiveInteger" />
+						</xsd:sequence>
+						<xsd:attribute name="tipo" use="required" type="tipoProducto" />
+						<xsd:attribute name="marca" use="required" type="xsd:string" />
+						<xsd:attribute name="modelo" type="xsd:string" />
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="servicio" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="codigo">
+								<xsd:complexType>
+									<xsd:simpleContent>
+										<xsd:extension base="tipoVacio">
+											<xsd:attribute name="producto" type="tipoCodigo" />
+										</xsd:extension>
+									</xsd:simpleContent>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="precio" type="tipoPrecio" />
+							<xsd:element name="vendidos" type="xsd:positiveInteger" />
+						</xsd:sequence>
+						<xsd:attribute name="tipo" use="required" type="xsd:string" />
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE ventas[
-<!ELEMENT ventas (componente|servicio)+>
-<!ELEMENT componente (codigo, precio, stock, vendidos)>
-<!ELEMENT codigo EMPTY>
-<!ELEMENT precio (#PCDATA)>
-<!ELEMENT stock (#PCDATA)>
-<!ELEMENT vendidos (#PCDATA)>
-<!ATTLIST componente tipo CDATA #IMPLIED>
-<!ATTLIST componente marca CDATA #REQUIRED>
-<!ATTLIST componente modelo CDATA #IMPLIED>
-<!ATTLIST codigo producto CDATA #REQUIRED>
-<!ELEMENT servicio (codigo, precio, vendidos)>
-<!ATTLIST servicio tipo CDATA #REQUIRED>
-<!ATTLIST codigo producto ID #REQUIRED>
-]>
-
-<ventas>
+<ventas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alternativaVentas.xsd">
     <componente tipo="Placa base" marca="Gygabyte" modelo="B450M DS3H">
         <codigo producto="4567" />
         <precio>108,99€</precio>
@@ -24,7 +8,6 @@
         <minimo>50</minimo>
         <vendidos>7</vendidos>
     </componente>
-
 
     <componente tipo="Procesador" marca="AMD" modelo="Ryzen 5 2600 3.4 Ghz">
         <codigo producto="157402" />
@@ -186,7 +169,7 @@
 
     <servicio tipo="Sistemas Copias Seguridad">
         <codigo producto="3254" />
-        <precio>75€/año</precio>
+        <precio>75€</precio>
         <vendidos>125</vendidos>
     </servicio>
 
