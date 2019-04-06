@@ -1,44 +1,132 @@
+<?xml version="1.0"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="vacio">
-        <xs:simpleType>
-            <xs:restriction base="xs:string">
-                <xs:maxLength value="0" />
-            </xs:restriction>
-        </xs:simpleType>
-    </xs:element>
-    <xsd:element name="ontology">
-        <xsd:complexType>
-            <xsd:sequence>
-                <xsd:element name="estructura" maxOccurs="unbounded">
-                    <xsd:complexType>
-                        <xsd:sequence>
-                            <xsd:element ref="pleno" />
-                            <xsd:element ref="direccion_general_especial" />
-                            <xsd:element ref="secretaria" />
-                        </xsd:sequence>
-                    </xsd:complexType>
-                </xsd:element>
-            </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
 
-    <xsd:element name="pleno">
-        <xsd:complexType>
-            <xsd:sequence>
-                <xsd:element name="comisionado" type="vacio" />
-            </xsd:sequence>
-            <xsd:attribute name="titular" use="required" type="xsd:string" />
-            <xsd:attribute name="tipo" use="required" type="xsd:string" />
-        </xsd:complexType>
-    </xsd:element>
+	<xsd:simpleType name="tipoComisionado">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="presidente"/>
+			<xsd:enumeration value="normal"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 
-    <xsd:element name="direccion_general_especial">
-        <xsd:complexType>
-            <xsd:sequence>
-                <xsd:element name="comisionado" type="vacio" />
-            </xsd:sequence>
-            <xsd:attribute name="titular" use="required" type="xsd:string" />
-            <xsd:attribute name="tipo" use="required" type="xsd:string" />
-        </xsd:complexType>
-    </xsd:element>
+	<xsd:simpleType name="titularNum">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="comisionado[0-9]+"/>
+			<xsd:pattern value="titular[0-9]+"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="vacio">
+		<xsd:restriction base="xsd:string">
+			<xsd:length value="0"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:element name="ontology">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="estructura" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="pleno">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element ref="comisionado" maxOccurs="unbounded"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="direccion_general_especial">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element ref="asuntos_juridicos"/>
+										<xsd:element ref="comunicacion_social"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="secretaria">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element ref="general"/>
+										<xsd:element ref="tecnica_del_pleno" maxOccurs="unbounded"/>
+										<xsd:element ref="acceso_informacion"/>
+										<xsd:element ref="proteccion_datos_personales"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+			<xsd:attribute name="descripcion" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="comisionado">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="vacio">
+					<xsd:attribute name="titular" type="titularNum"/>
+					<xsd:attribute name="tipo" type="tipoComisionado"/>
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="asuntos_juridicos">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="vacio">
+					<xsd:attribute name="titular" type="titularNum"/>
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="comunicacion_social">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="vacio">
+					<xsd:attribute name="titular" type="titularNum"/>
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="general">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="vacio">
+					<xsd:attribute name="titular" type="titularNum"/>
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="tecnica_del_pleno">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="vacio">
+					<xsd:attribute name="titular" type="titularNum"/>
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="acceso_informacion">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="vacio">
+					<xsd:attribute name="titular" type="titularNum"/>
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="proteccion_datos_personales">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="vacio">
+					<xsd:attribute name="titular" type="titularNum"/>
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
 </xsd:schema>

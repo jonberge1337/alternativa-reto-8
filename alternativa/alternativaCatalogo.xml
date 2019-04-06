@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<catalogo>
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alternativaCatalogo.xsd">
     <componente tipo="Placa base" marca="Gygabyte" modelo="B450M DS3H">
         <descripcion>Las placas base GIGABYTE serie 400 maximizan el potencial de su PC con la tecnología AMD StoreMI.
             StoreMI acelera los dispositivos de almacenamiento tradicionales para reducir los tiempos de arranque y
