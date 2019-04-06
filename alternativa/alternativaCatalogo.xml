@@ -1217,7 +1217,7 @@
         <modelo>Acronis Backup</modelo>
         <descripcion>Acronis Backup ofrece la protección de datos que cumple con las demandas actuales. Mantiene su negocio en funcionamiento, protegiendo cualquier carga de trabajo, escalando sin límites y ahorrándole dinero.</descripcion>
         <codigo producto="3254"/>
-        <precio>75€/año</precio>
+        <precio>75€</precio>
     </servicio>
 
     <servicio tipo="Sistemas Cifrado Datos">
