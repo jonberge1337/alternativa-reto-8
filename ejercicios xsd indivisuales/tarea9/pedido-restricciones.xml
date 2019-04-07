@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pedidos>
+    <pedido>
+        <cod_pedido>s1234567</cod_pedido>
+        <sucursal>sucursal1</sucursal>
+    </pedido>
+    <pedido>
+        <cod_pedido>A1234567</cod_pedido>
+        <sucursal>sucursal2</sucursal>
+    </pedido>
+    <pedido>
+        <cod_pedido>X1234567</cod_pedido>
+        <sucursal>sucursal3</sucursal>
+    </pedido>
+</pedidos>

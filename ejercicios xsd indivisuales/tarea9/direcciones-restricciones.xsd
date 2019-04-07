@@ -2,7 +2,7 @@
   <xsd:simpleType name="tipoNombre">
     <xsd:restriction base="xsd:string">
       <xsd:pattern value="[A-Z][a-z A-Záéíóúñ]+" />
-      <xs:maxLength value="30"/>
+      <xsd:maxLength value="30"/>
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:simpleType name="tipoBoolean">
@@ -13,6 +13,22 @@
       <xsd:pattern value="true" />
       <xsd:pattern value="true" />
       <xsd:pattern value="true" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="tipoTelefono">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[9][0-9]{8,9}" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="tipoPostal">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-4][0-9][0-9]{3}" />
+      <xsd:pattern value="[5][0-2][0-9]{3}" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="tipoEmail">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[^@]+@[^\.]+\..+"/>
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:element name="catalogo_de_dieccion">
@@ -47,16 +63,16 @@
   <xsd:element name="telefono">
     <xsd:complexType>
       <xsd:simpleContent>
-        <xsd:extension base="xsd:long">
-          <xsd:attribute type="xsd:string" name="principal"/>
+        <xsd:extension base="tipoTelefono">
+          <xsd:attribute name="principal" type="tipoBoolean"/>
         </xsd:extension>
       </xsd:simpleContent>
     </xsd:complexType>
   </xsd:element>
-  <xsd:element name="email" type="xsd:string"/>
+  <xsd:element name="email" type="tipoEmail"/>
   <xsd:element name="calle" type="tipoNombre"/>
   <xsd:element name="ciudad" type="tipoNombre"/>
   <xsd:element name="provincia" type="tipoNombre"/>
-  <xsd:element name="codigo_postal" type="xsd:short"/>
+  <xsd:element name="codigo_postal" type="tipoPostal"/>
   <xsd:element name="pais" type="tipoNombre"/>
 </xsd:schema>

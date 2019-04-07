@@ -1,0 +1,79 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:simpleType name="tipoNumero">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[0-9]+" />
+            <xsd:maxLength value="20"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="tipoLetra">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[a-zA-Z .]+" />
+            <xsd:maxLength value="20"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="tipoLetraNumero">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[a-zA-Z 0-9]+" />
+            <xsd:maxLength value="20"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="enviNFe">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="idLote" />
+                <xsd:element ref="NFe" />
+            </xsd:sequence>
+            <xsd:attribute type="xsd:float" name="versao" />
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="idLote" type="xsd:byte" />
+    <xsd:element name="NFe">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="infNFe" />
+                <xsd:element ref="Emit" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="infNFe">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="cUF" />
+                <xsd:element ref="XXX" />
+                <xsd:element ref="cNF" maxOccurs="unbounded" />
+            </xsd:sequence>
+            <xsd:attribute type="xsd:float" name="versao" />
+            <xsd:attribute type="tipoLetraNumero" name="id" />
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="Emit">
+        <xsd:complexType mixed="true">
+            <xsd:sequence>
+                <xsd:element ref="CNPJ" />
+                <xsd:element ref="xNome" />
+                <xsd:element ref="xFant" />
+                <xsd:element ref="enderEmit" />
+                <xsd:element ref="IE" />
+                <xsd:element ref="IM" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="cUF" type="xsd:positiveInteger" />
+    <xsd:element name="XXX" type="tipoLetra" />
+    <xsd:element name="cNF" type="tipoLetraNumero" />
+    <xsd:element name="CNPJ" type="tipoNumero" />
+    <xsd:element name="xNome" type="tipoLetra" />
+    <xsd:element name="xFant" type="tipoLetra" />
+    <xsd:element name="enderEmit">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="xLgr" />
+                <xsd:element ref="nro" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="IE" type="tipoNumero" />
+    <xsd:element name="IM" type="tipoNumero" />
+    <xsd:element name="xLgr" type="tipoLetra" />
+    <xsd:element name="nro" type="tipoNumero" />
+</xsd:schema>

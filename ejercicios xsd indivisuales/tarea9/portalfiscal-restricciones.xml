@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enviNFe xmlns:xsi="http://www.portalfiscal.inf.br/nfe" versao="1.10" si:noNamespaceSchemaLocation="portalfiscal-restricciones.xsd">
+    <idLote>71</idLote>
+    <NFe>
+        <infNFe versao="2.00" id="NFe3508059978">
+            <cUF>35</cUF>
+            <XXX>aaa</XXX>
+            <cNF>518005127</cNF>
+            <cNF> </cNF>
+        </infNFe>
+        <Emit>
+            518005127
+            <CNPJ>08133339000152</CNPJ>
+            <xNome>Empresa X</xNome>
+            <xFant>XXX</xFant>
+            <enderEmit>
+                <xLgr>R. XX</xLgr>
+                <nro>99</nro>
+            </enderEmit>
+            <IE>143333334114</IE>
+            <IM>35544447</IM>
+        </Emit>
+    </NFe>
+</enviNFe>
