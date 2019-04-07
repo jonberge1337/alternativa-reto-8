@@ -75,7 +75,7 @@
     </xsd:complexType>
   </xsd:element>
   <xsd:element name="Calle" type="tipoNombre" />
-  <xsd:element name="Numero" type="xsd:byte" />
+  <xsd:element name="Numero" type="xsd:short" />
   <xsd:element name="Nombre" type="tipoNombre" />
   <xsd:element name="Id" type="xsd:positiveInteger" />
 </xsd:schema>
