@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" si:noNamespaceSchemaLocation="clientes-restricciones.xsd">
+    <cliente id="1">
+        <nombre>JUAN SANCHEZ LOPEZ</nombre>
+        <nif>78562876E</nif>
+        <saldopte>156.78</saldopte>
+        <diaspago>120</diaspago>
+    </cliente>
+    <cliente id="2">
+        <nombre>ROSA MARTINEZ GUILLEN</nombre>
+        <nif>43897653W</nif>
+        <saldopte>93.81</saldopte>
+        <diaspago>30</diaspago>
+    </cliente>
+</clientes>

@@ -1,0 +1,34 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:simpleType name="tipoNombre">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[A-Z][ A-Z]+" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="tipoDni">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9]{8}[A-Z]" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:element name="clientes">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="cliente" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="cliente">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="nombre"/>
+        <xsd:element ref="nif"/>
+        <xsd:element ref="saldopte"/>
+        <xsd:element ref="diaspago"/>
+      </xsd:sequence>
+      <xsd:attribute type="xsd:positiveInteger" name="id" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nombre" type="tipoNombre"/>
+  <xsd:element name="nif" type="tipoDni"/>
+  <xsd:element name="saldopte" type="xsd:float"/>
+  <xsd:element name="diaspago" type="xsd:byte"/>
+</xsd:schema>

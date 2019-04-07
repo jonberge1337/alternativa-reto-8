@@ -1,0 +1,65 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:simpleType name="tipoNombre">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[a-z A-z]+" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="tipoTitulo">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[a-z A-z0-9]+" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="tipoDuracion">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9]{1,2}:[0-5][0-9]" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:element name="cancion">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="titulo"/>
+        <xsd:element ref="compositores"/>
+        <xsd:element ref="productores"/>
+        <xsd:element ref="sello"/>
+        <xsd:element ref="artista"/>
+      </xsd:sequence>
+      <xsd:attribute type="tipoDuracion" name="duracion"/>
+      <xsd:attribute type="xsd:positiveInteger" name="anio"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="titulo" type="tipoTitulo"/>
+  <xsd:element name="compositores">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="compositor"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="productores">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="productor"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="compositor">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="nombres"/>
+        <xsd:element ref="apellidos"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="productor">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="nombres"/>
+        <xsd:element ref="apellidos"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="sello" type="tipoNombre"/>
+  <xsd:element name="artista" type="tipoNombre"/>
+  <xsd:element name="nombres" type="tipoNombre"/>
+  <xsd:element name="apellidos" type="tipoNombre"/>
+</xsd:schema>

@@ -1,25 +1,41 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<xsd:simpleType name="tipo">
-        <xsd:restriction base="xsd:string">
-            <xsd:pattern value="[A-Za-z]{1}"/>
-        </xsd:restriction>
-    </xsd:simpleType>
-    <xsd:element name="pedidos">
-        <xsd:complexType>
-            <xsd:sequence>
-                <xsd:element name="pedido" maxOccurs="unbounded">
-                    <xsd:complexType>
-                        <xsd:sequence>
-                            <xsd:element name="fecha" type="xsd:string" />
-                            <xsd:element name="pu" type="xsd:string" />
-                            <xsd:element name="cantidad" type="xsd:string" />
-                            <xsd:element name="descripcion" type="xsd:string" />
-                            <xsd:element name="tipo" type="tipo" />
-                        </xsd:sequence>
-                        <xsd:attribute name="cod" use="required" type="xsd:string" />
-                    </xsd:complexType>
-                </xsd:element>
-            </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+  <xsd:simpleType name="tipoFecha">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="([0-3][0-9])-([0-1][1-9])-([1-2][0-9]{3})" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="tipoPedido">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[A-Z]" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="tipoDescripcion">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[A-Z a-z]+" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:element name="pedidos">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="pedido" maxOccurs="unbounded" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="pedido">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="fecha"/>
+        <xsd:element ref="pu"/>
+        <xsd:element ref="cantidad"/>
+        <xsd:element ref="descripcion"/>
+        <xsd:element ref="tipo"/>
+      </xsd:sequence>
+      <xsd:attribute type="xsd:byte" name="cod" use="optional"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="fecha" type="tipoFecha"/>
+  <xsd:element name="pu" type="xsd:float"/>
+  <xsd:element name="cantidad" type="xsd:byte"/>
+  <xsd:element name="descripcion" type="tipoDescripcion"/>
+  <xsd:element name="tipo" type="tipoPedido"/>
 </xsd:schema>

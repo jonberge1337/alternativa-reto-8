@@ -1,0 +1,62 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:simpleType name="tipoNombre">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[A-Z][a-z A-Záéíóúñ]+" />
+      <xs:maxLength value="30"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="tipoBoolean">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="true" />
+      <xsd:pattern value="True" />
+      <xsd:pattern value="TRUE" />
+      <xsd:pattern value="true" />
+      <xsd:pattern value="true" />
+      <xsd:pattern value="true" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:element name="catalogo_de_dieccion">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="entrada" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="entrada">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="nombre"/>
+        <xsd:element ref="direccion" minOccurs="0"/>
+        <xsd:element ref="telefono" maxOccurs="unbounded" minOccurs="0"/>
+        <xsd:element ref="email"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nombre" type="tipoNombre"/>
+  <xsd:element name="direccion">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="calle"/>
+        <xsd:element ref="ciudad"/>
+        <xsd:element ref="provincia"/>
+        <xsd:element ref="codigo_postal"/>
+        <xsd:element ref="pais"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="telefono">
+    <xsd:complexType>
+      <xsd:simpleContent>
+        <xsd:extension base="xsd:long">
+          <xsd:attribute type="xsd:string" name="principal"/>
+        </xsd:extension>
+      </xsd:simpleContent>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="email" type="xsd:string"/>
+  <xsd:element name="calle" type="tipoNombre"/>
+  <xsd:element name="ciudad" type="tipoNombre"/>
+  <xsd:element name="provincia" type="tipoNombre"/>
+  <xsd:element name="codigo_postal" type="xsd:short"/>
+  <xsd:element name="pais" type="tipoNombre"/>
+</xsd:schema>

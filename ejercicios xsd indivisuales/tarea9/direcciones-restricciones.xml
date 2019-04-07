@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalogo_de_dieccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" si:noNamespaceSchemaLocation="direcciones-restricciones.xsd">
+    <entrada>
+        <nombre>Pablo García</nombre>
+        <direccion>
+            <calle>Mayor</calle>
+            <ciudad>Alcalá de Henares</ciudad>
+            <provincia>Madrid</provincia>
+            <codigo_postal>28805</codigo_postal>
+            <pais>España</pais>
+        </direccion>
+        <telefono principal="true">9111728234</telefono>
+        <telefono>916332214</telefono>
+        <email>pablogarcia@net.es</email>
+    </entrada>
+    <entrada>
+        <nombre>Juan Sanches</nombre>
+        <email>juansan@net.es</email>
+    </entrada>
+</catalogo_de_dieccion>
