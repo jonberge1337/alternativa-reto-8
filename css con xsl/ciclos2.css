@@ -1,0 +1,21 @@
+ies,nombreCentro,web,ciclos,ciclo{
+	display:block;
+	background-color:white;
+	font-size:1em;
+	font-family:Verdana,sans-serif;
+	margin:0.5em;
+}
+ciclo{
+	margin-left:2.9em;
+}
+web{
+	margin-left:1.3em;
+}
+nombreCentro{
+	font-size:2em;
+}
+
+grado,decretoTitulo{
+	display:block;
+	
+}

@@ -1,0 +1,7 @@
+comunidad, vecino{
+	display: block;
+	color: black;
+}
+vecino[cargo="Presidente"] > nombre, apellido {color: red; font-weight: bold;}
+vecino[cargo="Vicepresidente"] > nombre, apellido {color: blue;}
+vecino[cargo="Secretario"] > nombre, apellido {color: gray;}
