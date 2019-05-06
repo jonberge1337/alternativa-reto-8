@@ -1,5 +1,5 @@
-<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:simpleType name="tipoPrecio">
+<xsd:schema	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:simpleType name="tipoPrecio">
 		<xsd:restriction base="xsd:string">
 			<xsd:pattern value="[1-9]€" />
 			<xsd:pattern value="[1-9][0-9]{1,2}€" />
@@ -33,12 +33,12 @@
 			<xsd:pattern value="[ 0-9'\-a-zA-ZñáéíóúÁÉÍÓÚ\(\)/:]+" />
 		</xsd:restriction>
 	</xsd:simpleType>
-  <xsd:simpleType name="tipoBooleana">
+	<xsd:simpleType name="tipoBooleana">
 		<xsd:restriction base="xsd:string">
 			<xsd:pattern value="(Si|SI|si|No|NO|no)" />
 		</xsd:restriction>
 	</xsd:simpleType>
-  <xsd:simpleType name="tipoImagen">
+	<xsd:simpleType name="tipoImagen">
 		<xsd:restriction base="xsd:string">
 			<xsd:pattern value="[a-zA-Z1-9]\.(jpg|png)" />
 		</xsd:restriction>
@@ -76,6 +76,10 @@
 				<xsd:element ref="servicio" maxOccurs="unbounded" />
 			</xsd:sequence>
 		</xsd:complexType>
+		<xsd:key name="PK">
+			<xsd:selector xpath="catalogo/componente" />
+			<xsd:field xpath="@codigo" />
+		</xsd:key>
 	</xsd:element>
 	<xsd:element name="caracteristica">
 		<xsd:complexType>
