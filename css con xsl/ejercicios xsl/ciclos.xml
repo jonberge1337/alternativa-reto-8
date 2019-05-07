@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="cicloslista.xsl"  type="text/xsl"?>
 
 <ies>
   <nombreCentro>IES Abastos</nombreCentro>
   <web>http://www.iesabastos.org</web>
   <ciclos>
 	<ciclo id="AS">
-	  <nombre>AdministraciÛn de Sistemas Inform·ticos</nombre>
+	  <nombre>Administraci√≥n de Sistemas Inform√°ticos</nombre>
 	  <grado>Superior</grado>
 	  <decretoTitulo>2010</decretoTitulo>
 	</ciclo>
@@ -20,7 +21,7 @@
 	  <decretoTitulo>2010</decretoTitulo>
 	</ciclo>
 	<ciclo id="SM">
-	  <nombre>Sistemas Microinform·ticos</nombre>
+	  <nombre>Sistemas Microinform√°ticos</nombre>
 	  <grado>Medio</grado>
 	  <decretoTitulo>2008</decretoTitulo>
 	</ciclo>
