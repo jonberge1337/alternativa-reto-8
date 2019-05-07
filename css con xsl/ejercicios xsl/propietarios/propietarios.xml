@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="vecinos.xsl"  type="text/xsl"?>
+<comunidad>
+
+		<vecino cargo="Presidente">
+			<codigo_vecino>01</codigo_vecino>
+			<nombre>Asier Ansa</nombre>
+			<portal piso="1" letra="A">25</portal>
+			<codigo_cuenta_corriente>ES24 0248 07 0215789879</codigo_cuenta_corriente>
+			<deuda>0</deuda>
+		</vecino>
+		
+		<vecino cargo="Vicepresidente">
+			<codigo_vecino>02</codigo_vecino>
+			<nombre>Mikel Aparicio</nombre>
+			<portal piso="1" letra="B">25</portal>
+			<codigo_cuenta_corriente>ES82 0159 46 0002457895</codigo_cuenta_corriente>
+			<deuda>100</deuda>
+		</vecino>
+		
+		<vecino cargo="Secretario">
+			<codigo_vecino>20</codigo_vecino>
+			<nombre>Unax Arretxe</nombre>
+			<portal piso="2" letra="A">25</portal>
+			<codigo_cuenta_corriente>ES24 0248 19 0022587336</codigo_cuenta_corriente>
+			<deuda>1000</deuda>
+		</vecino>
+		
+
+</comunidad>
