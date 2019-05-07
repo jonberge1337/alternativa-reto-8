@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="#style" type="text/css"?>
+
+<ARTICLE> 
+	<ESTILOS id="style">
+		ARTICLE{
+			font-size:1em;
+			font-family:Helvetica,sans-serif;
+			margin:1em;
+			display:block;
+		}
+		HEADLINE,AUTHOR,PARA{
+			display:block;
+			margin:2em;
+			width:30%;
+		}
+		HEADLINE{
+			background-color:blue;
+			font-weight:700;
+			padding:1em;
+			margin-bottom:1em;
+			text-align:center;
+			color:white;
+			font-size:1.2em;
+		}
+		AUTHOR{
+			text-align:center;
+			margin-top:0em;
+			
+		}
+		PARA{
+			box-shadow:1em 1em 0.5em grey;
+			border: 0.3em solid rgb(0,50,75);
+			border-radius:1em;
+			padding:1.5em;
+			background-color:#eee;
+		}
+		INSTRUMENT{
+			font-weight:700;
+			color:red;
+		}
+		ESTILOS{
+			display:none;
+		}
+		
+	</ESTILOS>
+	<HEADLINE>Fredrick the Great meets Bach</HEADLINE>
+	<AUTHOR>Johann Nikolaus Forkel</AUTHOR> 
+	<PARA> 
+	One evening, just as he was getting his 
+	<INSTRUMENT>flute</INSTRUMENT> 
+	ready and his musicians were assembled, 
+	an officer brought him a list of the strangers who had arrived. 
+	</PARA> 
+</ARTICLE>
