@@ -1,3 +1,35 @@
+comunidad { 
+    font-size:80%; 
+    margin:0.5em; 
+    font-family: Verdana; 
+    display:block;
+} 
+vecino { 
+    display:block;  
+    border: 1px solid silver; 
+    margin:0.5em;  
+    padding:0.5em;  
+    background-color:whitesmoke; 
+} 
+titulo { 
+    display:block; 
+    font-weight:bolder; 
+    text-align:center; 
+    font-size:30px; 
+    background-color: green; 
+    color: white; 
+	
+} 
+codigo_vecino, nombre, apellido, portal, codigo_cuenta_corriente, deuda { 
+    display:block; 
+    text-align:center; 
+} 
+codigo_vecino {   
+    text-decoration: underline  ; 
+    font-weight:bolder; 
+    font-size:20px; 
+} 
+
 comunidad, vecino{
 	display: block;
 	color: black;

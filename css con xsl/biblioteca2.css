@@ -1,0 +1,13 @@
+libro, titulo, autor, fechaPublicacion {
+	display: block;
+}
+
+titulo {
+	font-weight: bold;
+}
+
+libro {
+	border-style: solid;
+	margin: 0.6%;
+	background-color: #76DF76;
+}

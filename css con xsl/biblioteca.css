@@ -1,0 +1,11 @@
+libro, titulo, autor, fechaPublicacion {
+	display: block;
+}
+
+titulo {
+	font-weight: bold;
+}
+
+fechaPublicacion {
+	padding-bottom: 0.6%
+}
