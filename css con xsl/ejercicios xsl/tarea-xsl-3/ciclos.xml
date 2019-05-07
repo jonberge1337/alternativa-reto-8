@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ies>
+  <nombreCentro>IES Abastos</nombreCentro>
+  <web>http://www.iesabastos.org</web>
+  <ciclos>
+	<ciclo id="AS">
+	  <nombre>Administración de Sistemas Informáticos</nombre>
+	  <grado>Superior</grado>
+	  <decretoTitulo>2010</decretoTitulo>
+	</ciclo>
+	<ciclo id="DM">
+ 	  <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+ 	  <grado>Superior</grado>
+ 	  <decretoTitulo>2010</decretoTitulo>
+ 	</ciclo>
+	<ciclo id="DW">
+	  <nombre>Desarrollo de Aplicaciones Web</nombre>
+	  <grado>Superior</grado>
+	  <decretoTitulo>2010</decretoTitulo>
+	</ciclo>
+	<ciclo id="SM">
+	  <nombre>Sistemas Microinformáticos</nombre>
+	  <grado>Medio</grado>
+	  <decretoTitulo>2008</decretoTitulo>
+	</ciclo>
+  </ciclos>
+</ies>
