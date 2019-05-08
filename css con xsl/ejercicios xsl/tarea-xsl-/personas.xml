@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="personas.xsl"  type="text/xsl"?>
+
+<personas>
+  
+  <persona>
+	<nombre>Ignacio</nombre>
+	<apellido1>López</apellido1>
+	<apellido2>Gutierrez</apellido2>
+	<dni></dni>
+	<ss>20-00758213-19</ss>
+  </persona>
+  
+  <persona>
+	<nombre>Carlos</nombre>
+	<apellido1>Garcia</apellido1>
+	<apellido2>Diaz</apellido2>
+	<dni>257899946</dni>
+	<ss>20-00775797-29</ss>
+  </persona>
+  
+  <persona>
+	<nombre>Juan</nombre>
+	<apellido1>Gutierrez</apellido1>
+	<apellido2>Jimenez</apellido2>
+	<dni></dni>
+  </persona>
+  
+  <persona>
+	<nombre>Miguel</nombre>
+	<apellido1>Garcia</apellido1>
+	<apellido2>Antón</apellido2>
+	<dni>223899946</dni>
+	<ss>20-00757907-42</ss>
+  </persona>
+  
+  <persona>
+	<nombre>Felipe</nombre>
+	<apellido1>Garcia</apellido1>
+	<apellido2>Blasco</apellido2>
+	<dni>153099142</dni>
+	<ss></ss>
+  </persona>
+  
+</personas>
