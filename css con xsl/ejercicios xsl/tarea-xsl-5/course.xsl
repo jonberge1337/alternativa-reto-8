@@ -4,6 +4,7 @@
 	<html>
 	  <head>
 		<title>ejercicio 5</title>
+		<link href="course.css" rel="stylesheet" type="text/css" />
 	  </head>
 	  <body>
 		<h1><xsl:value-of select="course/head/title"/></h1>
@@ -49,7 +50,7 @@
 			<li><xsl:value-of select="."/></li>
 		  </xsl:for-each>
 		</ul>
-		<h5>Modification History</h5>
+		<h3>Modification History</h3>
 		<xsl:for-each select="//foot/modified_list/modified_item">
 		  <p><xsl:value-of select="position()"/>&#160;<xsl:value-of select="//first_name"/>,<xsl:value-of select="modified_date"/>:<xsl:value-of select="//last_name"/></p>
 		</xsl:for-each>
