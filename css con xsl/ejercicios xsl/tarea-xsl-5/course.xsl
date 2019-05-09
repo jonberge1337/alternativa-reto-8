@@ -50,7 +50,9 @@
 		  </xsl:for-each>
 		</ul>
 		<h5>Modification History</h5>
-		
+		<xsl:for-each select="//foot/modified_list/modified_item">
+		  <p><xsl:value-of select="position()"/>&#160;<xsl:value-of select="//first_name"/>,<xsl:value-of select="modified_date"/>:<xsl:value-of select="//last_name"/></p>
+		</xsl:for-each>
 	  </body>
 	</html>
   </xsl:template>
