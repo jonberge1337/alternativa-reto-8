@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="course.xsl"  type="text/xsl"?>
+
+<course>
+  
+  <head>
+	<title>Informática Básica</title>
+  </head>
+  
+  <body>
+	<course_num>21</course_num>
+	<course_version>1.0</course_version>
+	<duration>2 horas</duration>
+	<price>200 euros</price>
+	<delivery_method>online</delivery_method>
+	<details>
+      <delivery_description>
+		<para>Esto se dara en tic.dyndns.org</para>
+      </delivery_description>
+      <requirements>
+		<requirement>Licenciado</requirement>
+      </requirements>
+      <prerequisites>
+		<prerequisite>Saber ingles</prerequisite>
+		<prerequisite>conocimientos basicos de informatica</prerequisite>
+      </prerequisites>
+      <followups>
+		<followup>aaa</followup>
+		<followup>ddd</followup>
+      </followups>
+      <objectives>
+		<objective>Manejo básico de un ordenador</objective>
+		<objective>base lenguajes</objective>
+      </objectives>
+      <overview>
+		<para>Estecurso describe los <strong>comandos</strong>Linux.<image src=""/></para>
+		<para>Enseña <strong>Windows <emphasis>aaaa </emphasis></strong></para>
+      </overview>
+      <course_content>
+		<module>
+		  <module_title>Colores</module_title>
+		  <module_topic>aaaa</module_topic>
+		  <module_topic>dddd</module_topic>
+		</module>
+      </course_content>
+	</details>
+  </body>
+  
+  <foot>
+	<modified_list>
+      <modified_item>
+        <modified_date>2003-05-20</modified_date>
+        <modified_by>   <first_name>Ignacio</first_name>  <last_name>Lopez</last_name> </modified_by>
+        <modifications>Primera version</modifications>
+      </modified_item>
+	</modified_list>
+  </foot>
+</course>
