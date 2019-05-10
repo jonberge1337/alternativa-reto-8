@@ -40,7 +40,11 @@
 		<h3>Course Overview</h3>
 		<ul>
 		  <xsl:for-each select="//overview/para">
-			<p><xsl:value-of select="."/></p>
+			<p><xsl:copy-of select="."/><img>
+			<xsl:attribute name="src">
+			  <xsl:value-of select="./image/@src"/>
+			</xsl:attribute>
+		  </img></p>
 		  </xsl:for-each>
 		</ul>
 		<h3>Course Content</h3>
