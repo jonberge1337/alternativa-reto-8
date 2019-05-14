@@ -1,0 +1,68 @@
+* ejercicios
+** ejercicio1
+   - Consulta 1: Se necesita saber qué bailes se realizan en la sala número 1.
+	 #+BEGIN_SRC nxml
+	 for $i in doc("academia.xml")//baile
+	 where $i/sala = "1"
+	 return data($i/nombre)
+
+	 #+END_SRC
+** ejercicio2
+   - Consulta 2: Se necesita aquellos bailes que se imparten en la sala número 2 y cuyo precio sea menor que 35 euros.
+	 #+BEGIN_SRC nxml
+	 for $i in doc("academia.xml")//baile
+	 where $i/sala = "2" and $i/precio < 35
+	 return data($i/nombre)
+
+	 #+END_SRC
+** ejercicio3
+   - Consulta 3: Se necesita saber el nombre de los profesores que dan clases con cuotas mensuales.
+	 #+BEGIN_SRC nxml
+	 for $i in doc("academia.xml")//baile
+	 where upper-case($i/precio/@cuota) = "MENSUAL"
+	 return data($i/profesor)
+
+	 #+END_SRC
+** ejercicio4
+   - Consulta 4: Cuyo resultado sea una tabla HTML que nos muestre el nombre del baile,
+   el profesor que lo imparte y el número de plazas ofertadas.
+   #+BEGIN_SRC nxml
+	 <html>
+	   <head>
+		 <title></title>
+	   </head>
+	   <body>
+		 <table border="1">
+		   {for $i in doc("academia.xml")//baile
+		   return <tr>
+			 <td>{data($i/nombre)}</td>
+			 <td>{data($i/profesor)}</td>
+			 <td>{data($i/plazas)}</td>
+		   </tr>}
+		 </table>
+	   </body>
+	 </html>
+   #+END_SRC
+** ejercicio5
+   -Consulta 5: La misma que la anterior pero estableciendo la condición de ser bailes con cuota trimestral y
+   ordenadas de menor a mayor según el número de plazas disponibles.
+   #+BEGIN_SRC nxml
+	 <html>
+	   <head>
+		 <title></title>
+	   </head>
+	   <body>
+		 <table border="1">
+		   {for $i in doc("academia.xml")//baile
+		   where upper-case($i/precio/@cuota)="TRIMESTRAL"
+		   order by $i/plazas
+		   return <tr>
+			 <td>{data($i/nombre)}</td>
+			 <td>{data($i/profesor)}</td>
+			 <td>{data($i/plazas)}</td>
+		   </tr>}
+		 </table>
+	   </body>
+	 </html>
+
+   #+END_SRC

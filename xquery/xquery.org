@@ -1,0 +1,42 @@
+* primera consulta
+#+BEGIN_SRC nxml
+<html>
+<head>
+</head>
+<body>
+<h1>{let $i := doc("ciclos.xml")//nombreCentro
+return data($i)}</h1>
+<p>Pagina web: <a href="{let $w := doc("ciclos.xml")//web return data($w)}">{let $w := doc("ciclos.xml")//web return data($w)}</a></p>
+<ul>
+{for $b in doc("ciclos.xml")//ciclo[grado="Superior"]
+return <li>{data($b/nombre)}</li>}
+</ul>
+</body>
+</html>
+#+END_SRC
+#+BEGIN_SRC nxml
+<p>{for $i in doc("propietarios.xml")//vecino[@cargo="Presidente"]
+return data($i/nombre)}</p>
+#+END_SRC
+#+BEGIN_SRC nxml
+<p>{for $i in doc("propietarios.xml")//vecino
+let $x := $i/@cargo
+where upper-case($x) = "PRESIDENTE"
+return data($i/nombre)}</p>
+#+END_SRC
+
+Mostrar los vecinos morosos
+#+BEGIN_SRC nxml
+  <html>
+	<head>
+	  <title>LISTA DE MOROSOS</title>
+	</head>
+	<body>
+	  <h1>MOROSOS</h1>
+	  {for $i in doc("propietarios.xml")//vecino
+  where $i/deuda > 0
+  return <p>{data($i/nombre)}</p>}
+	</body>
+  </html>
+
+#+END_SRC
