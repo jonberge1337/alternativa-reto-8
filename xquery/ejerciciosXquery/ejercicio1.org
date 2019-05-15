@@ -66,3 +66,28 @@
 	 </html>
 
    #+END_SRC
+* segunda
+** ejercicio1
+Inserción: añade un nuevo baile en la base de datos (Foxtrot; 22 dólares; mensual; 12; 1/1/2018; 31/7/2018; Freddy Astaire; 3
+#+BEGIN_SRC nxml
+  insert node
+  <vecino cargo="normal">
+    <codigo_vecino>10</codigo_vecino>
+    <nombre>Antxon</nombre>
+    <portal piso="3" letra="A">20</portal>
+    <codigo_cuenta_corriente>ES94 0215 19 205145245</codigo_cuenta_corriente>
+  </vecino>
+  as last into doc("propietarios.xml")//comunidad
+#+END_SRC
+** ejercicio2
+Modificación: en la inserción anterior se cometieron los siguientes errores, el nombre del profesor era "Angel Correllada" y el número de plazas realmente eran 14. Corrige estos dos errores.
+#+BEGIN_SRC nxml
+  delete node doc("propietarios.xml")//vecino[@cargo='normal']
+#+END_SRC
+** ejercicio3
+Borrado: finalmente parece que no se va a desarrollar ese curso. Borra dicha tupla en la base de datos.
+#+BEGIN_SRC nxml
+  replace value of node
+  doc("propietarios.xml")//vecino/@cargo[@cargo="Secretario"]
+  with "the boss"
+#+END_SRC

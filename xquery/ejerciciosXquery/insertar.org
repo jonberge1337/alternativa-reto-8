@@ -1,0 +1,15 @@
+ 
+* insertar
+#+BEGIN_SRC nxml
+  insert node
+  <vecino cargo="normal">
+    <codigo_vecino>10</codigo_vecino>
+    <nombre>Antxon</nombre>
+    <portal piso="3" letra="A">20</portal>
+    <codigo_cuenta_corriente>ES94 0215 19 205145245</codigo_cuenta_corriente>
+  </vecino>
+  as last into doc("propietarios.xml")//comunidad
+#+END_SRC
+#+BEGIN_SRC nxml
+  delete node doc("propietarios.xml")//vecino[@cargo='normal']
+#+END_SRC
