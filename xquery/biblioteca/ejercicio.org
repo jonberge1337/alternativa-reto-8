@@ -1,0 +1,100 @@
+* Ejercicios con una fuente
+1. Devolver los títulos de todos los libros publicados después de 1997
+ #+BEGIN_SRC nxml
+   for $i in doc("biblio.xml")//libro[@año > 1997]
+   return $i/titulo
+ #+END_SRC
+2. Devolver el primer autor de cada libro
+   #+BEGIN_SRC nxml
+	 for $i in doc("biblio.xml")//libro/autor[position()="1"]
+	 return $i
+   #+END_SRC
+3. Devolver los apellidos de los autores de los libros de bib.xml
+   #+BEGIN_SRC nxml
+	 for $i in doc("biblio.xml")//libro
+	 return $i//apellido
+   #+END_SRC
+4. Devolver los autores que tienen correo electrónico
+   #+BEGIN_SRC nxml
+	 <email>no existe ninguna etiqueta email</email>
+   #+END_SRC
+5. Lista el titulo y precio de los libros cuyos precios sean inferiores a 100.0 euros. Sacar a contianuación solo los que tengan precio
+   #+BEGIN_SRC nxml
+	 for $i in doc("biblio.xml")//libro
+	 where $i/precio < 100
+	 return ($i/titulo, $i/precio)
+   #+END_SRC
+   solo los que tengan precio
+   #+BEGIN_SRC nxml
+	 for $i in doc("biblio.xml")//libro
+	 where $i/precio > 0
+	 return $i/titulo
+   #+END_SRC
+6. Lista el título de cada libro junto con el número de autores
+   #+BEGIN_SRC nxml
+	 for $i in doc("biblio.xml")//libro
+	 return ($i/titulo, <p>{count($i/autor)}</p>)
+   #+END_SRC
+7. Listar los títulos de los libros con más de dos autores
+   #+BEGIN_SRC nxml
+	 for $i in doc("biblio.xml")//libro
+	 where count($i/autor) > 2
+	 return $i/titulo
+   #+END_SRC
+8. Listar los títulos de los libros asi como cualquier revisión que haya sobre ellos
+   #+BEGIN_SRC nxml
+	 for $i in doc("C:\Users\Jon\Desktop\Jon\Cebanc\Lenguajes de marcas\reto 8\xquery\biblioteca\biblio.xml")//libro
+	 return $i
+   #+END_SRC
+9. Obtener el titulo y el año de todos los libros publicados después de 1991.
+   #+BEGIN_SRC nxml
+	 for $i in doc("C:\Users\Jon\Desktop\Jon\Cebanc\Lenguajes de marcas\reto 8\xquery\biblioteca\biblio.xml")//libro
+	 where $i/año > 1991
+	 return ($i/titulo, $i/año)
+   #+END_SRC
+10. Obtener el título y el año de todos los libros publicados por el editor de Addison-Wesley después de 1991
+	#+BEGIN_SRC nxml
+	  for $i in doc("C:\Users\Jon\Desktop\Jon\Cebanc\Lenguajes de marcas\reto 8\xquery\biblioteca\biblio.xml")//libro
+	  where $i/año > 1991
+	  return ($i/titulo, $i/año)
+	#+END_SRC
+11. Lista los títulos de los libros en los que al menos uno de sus autores es Silberschatz.
+	#+BEGIN_SRC nxml
+	  for $i in doc("C:\Users\Jon\Desktop\Jon\Cebanc\Lenguajes de marcas\reto 8\xquery\biblioteca\biblio.xml")//libro
+	  where $i/autor = "Silberschatz"
+	  return ($i/titulo, $i/año)
+	#+END_SRC
+12. Listar los títulos de los libros en los que todos sus autores sean Silberschatz.
+	#+BEGIN_SRC nxml
+	  for $i in doc("C:\Users\Jon\Desktop\Jon\Cebanc\Lenguajes de marcas\reto 8\xquery\biblioteca\biblio.xml")//libro
+	  where $i/autor = "Silberschatz"
+	  return ($i/titulo, $i/año)
+	#+END_SRC
+13. Listar todos los apellidos distintos de los autores.
+	#+BEGIN_SRC nxml
+	  for $i in distinct-values(doc("biblio.xml")//autor)
+	  return $i
+	#+END_SRC
+14. Listar todos los libros que tengan al menos un autor
+	#+BEGIN_SRC nxml
+	  for $i in doc("C:\Users\Jon\Desktop\Jon\Cebanc\Lenguajes de marcas\reto 8\xquery\biblioteca\biblio.xml")//libro
+	  where count($i/autor) >= 1
+	  return $i
+	#+END_SRC
+15. Crear una tabla HTML con los títulos de todos los libros del documento bib.xml
+	#+BEGIN_SRC nxml
+	  <html>
+		<head>
+		  <title>ejercicio xquery</title>
+		</head>
+		<body>
+		  <table>
+		  {for $i in doc("C:\Users\Jon\Desktop\Jon\Cebanc\Lenguajes de marcas\reto 8\xquery\biblioteca\biblio.xml")//titulo
+		  return
+			<tr>
+			  <td>{data($i)}</td>
+			</tr>}
+		  </table>
+		</body>
+	  </html>
+	#+END_SRC
