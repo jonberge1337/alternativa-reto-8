@@ -30,7 +30,7 @@
         <codigo producto="4567" />
         <precio>108,99€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Placa1.jpg" />
     </componente>
 
     <componente tipo="Placa base" marca="Asus" modelo="Prime A320M-K">
@@ -53,7 +53,7 @@
         <codigo producto="2321" />
         <precio>65,25€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Placa2.jpg" />
     </componente>
 
     <componente tipo="Procesador" marca="AMD" modelo="Ryzen 5 2600 3.4 Ghz">
@@ -90,7 +90,7 @@
         <codigo producto="157402" />
         <precio>165,99€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Procesador1.jpg" />
     </componente>
 
     <componente tipo="Procesador" marca="intel" modelo="Core i5-8400 2.8GHz BOX">
@@ -125,7 +125,7 @@
         <codigo producto="139906" />
         <precio>204,90€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Procesador2.jpg" />
     </componente>
 
     <componente tipo="Disco duro" marca="Seagate" modelo="BarraCuda">
@@ -170,7 +170,7 @@
         <codigo producto="111412" />
         <precio>44,03€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/DiscoDuro1.jpg" />
     </componente>
 
     <componente tipo="Disco duro" marca="Toshiba" modelo="P300">
@@ -208,7 +208,7 @@
         <codigo producto="163054" />
         <precio>43,99€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/DiscoDuro2.jpg" />
     </componente>
 
     <componente tipo="Tarjeta grafica" marca="Zotac" modelo="GeForce GTX 1060 AMP! Edition">
@@ -262,7 +262,7 @@
         <codigo producto="181310" />
         <precio>244,99€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Grafica1.jpg" />
     </componente>
 
     <componente tipo="Tarjeta grafica" marca="MSI" modelo="GTX 1050Ti Gaming X">
@@ -289,7 +289,7 @@
         <codigo producto="106073" />
         <precio>184,90€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Grafica2.jpg" />
     </componente>
 
     <componente tipo="Memoria RAM" marca="G.Skill" modelo="Trident Z RGB">
@@ -311,7 +311,7 @@
         <codigo producto="114077" />
         <precio>159€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/RAM1.jpg" />
     </componente>
 
     <componente tipo="Memoria RAM" marca="Corsair" modelo="Vengeance LPX">
@@ -345,10 +345,10 @@
         <codigo producto="100309" />
         <precio>125€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/RAM2.jpg" />
     </componente>
 
-    <componente tipo="Memoria RAM" marca="LG" modelo="GH24NSD1">
+    <componente tipo="DVD" marca="LG" modelo="GH24NSD1">
         <descripcion>Te presentamos la GH24NSD1 de Lg, una grabadora DVD 24x acabada en color negro.</descripcion>
         <caracteristicas>
             <caracteristica tipo="Velocidad de escritura">Velocidad de escritura en CD 48 x</caracteristica>
@@ -383,7 +383,7 @@
         <foto src="imagen1.jpg" />
     </componente>
 
-    <componente tipo="Memoria RAM" marca="Asus" modelo="DRW-24D5MT">
+    <componente tipo="DVD" marca="Asus" modelo="DRW-24D5MT">
         <descripcion>ASUS DRW-24D5MT es una unidad óptica DVD con protección de datos, eficiencia energética y grabación
             de alta velocidad. El soporte M-Disk te proporciona la solución de copias de seguridad más completa.
         </descripcion>
@@ -446,7 +446,7 @@
         <codigo producto="85838" />
         <precio>18,50€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Disquetera1.jpg" />
     </componente>
 
     <componente tipo="Disquetera" marca="CSL" modelo="A19384x60">
@@ -473,7 +473,7 @@
         <codigo producto="156248" />
         <precio>12,99€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Disquetera2.jpg" />
     </componente>
 
     <componente tipo="Multilector" marca="Tacens" modelo="Anima ACR3">
@@ -504,7 +504,7 @@
         <codigo producto="64202" />
         <precio>11,25€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Multilector1.jpg" />
     </componente>
 
     <componente tipo="Multilector" marca="Tacens" modelo="Anima ACR1">
@@ -525,7 +525,7 @@
         <codigo producto="64202" />
         <precio>11,25€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Multilector2.jpg" />
     </componente>
 
     <componente tipo="Tarjeta sonido" marca="Creative" modelo="Sound Blaster Audigy FX PCI Express">
@@ -563,7 +563,7 @@
         <codigo producto="61113" />
         <precio>31€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="Sonido1.jpg" />
     </componente>
 
     <componente tipo="Tarjeta sonido" marca="Approx" modelo="APPPCIE51">
@@ -590,7 +590,7 @@
         <codigo producto="73764" />
         <precio>19,99€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Sonido2.jpg" />
     </componente>
 
     <componente tipo="Torre" marca="Owlotech" modelo="EVO">
@@ -618,7 +618,7 @@
         <codigo producto="101871" />
         <precio>39,99€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Torre1.jpg" />
     </componente>
 
     <componente tipo="Torre" marca="Nox" modelo="Hummer MC">
@@ -657,7 +657,7 @@
         <codigo producto="99672" />
         <precio>49,99€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Torre2.jpg" />
     </componente>
 
     <componente tipo="Ventilador" marca="Nox" modelo="Hummer H-212">
@@ -683,7 +683,7 @@
         <codigo producto="95520" />
         <precio>21€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Ventilador1.jpg" />
     </componente>
 
     <componente tipo="Ventilador" marca="Hyper" modelo="TX3 EVO">
@@ -711,7 +711,7 @@
         <codigo producto="47099" />
         <precio>21,60€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Ventilador2.jpg" />
     </componente>
 
     <componente tipo="Fuente alimentacion" marca="Owlotech" modelo="BPS">
@@ -736,7 +736,7 @@
         <codigo producto="101493" />
         <precio>19,99€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Fuente1.jpg" />
     </componente>
 
     <componente tipo="Fuente alimentacion" marca="Owlotech" modelo="BPS">
@@ -769,7 +769,7 @@
         <codigo producto="108729" />
         <precio>49,99€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Fuente2.jpg" />
     </componente>
 
     <componente tipo="Cables internos" marca="Owlotech" modelo="Molex">
@@ -782,7 +782,7 @@
         <codigo producto="102472" />
         <precio>1,99€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/CablesInternos1.jpg" />
     </componente>
 
     <componente tipo="Cables internos" marca="Phanteks" modelo="CB8P">
@@ -801,7 +801,7 @@
         <codigo producto="101622" />
         <precio>7,25€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/CablesInternos2.jpg" />
     </componente>
 
     <componente tipo="hub/switch" marca="tp-link" modelo="TL-SG105">
@@ -857,7 +857,7 @@
         <codigo producto="130604" />
         <precio>7,25€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/HubSwitch1.jpg" />
     </componente>
 
     <componente tipo="hub/switch" marca="tp-link" modelo="TL-SG105">
@@ -913,7 +913,7 @@
         <codigo producto="130604" />
         <precio>7,25€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/HubSwitch2.jpg" />
     </componente>
 
     <componente tipo="Puntos de acceso" marca="Asus" modelo="RT-N12E">
@@ -981,7 +981,48 @@
         <codigo producto="77501" />
         <precio>18,98€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/PuntosAcceso1.jpg" />
+    </componente>
+
+    <componente tipo="Puntos de acceso" marca="TP-LINK" modelo="TL-WA901ND">
+        <descripcion>TP-LINK inalámbrico puntos de acceso N TL-WA901ND están diseñados para establecer o ampliar una alta velocidad de la red escalable N inalámbrica para conectar múltiples dispositivos Ethernet como consolas de videojuegos,
+         Digital Media Adapters, impresoras o dispositivos de almacenamiento conectado a la red a una existentes de red inalámbrica. 
+         Ofrecen un rendimiento inalámbrico increíblemente alto ---- 15x la velocidad de 5x y el rango de g Wireless, 
+         garantizando múltiples usuarios más libertad para disfrutar de una excelente experiencia de Internet inalámbrico en el hogar, oficina, café, o incluso un hotel
+        o aeropuerto.</descripcion>
+        <caracteristicas>
+            <caracteristica>Wireless N velocidad de hasta 300Mbps lo hace ideal para consumir ancho de banda o la interrupción aplicaciones sensibles como el vídeo streaming, juegos en línea y VoIP</caracteristica>
+            <caracteristica>MIMO ™ ofrece la tecnología sólida y de alto ancho de banda inalámbrico Tx / Rx en el rango de mayor capacidad</caracteristica>
+            <caracteristica>Cobertura: Hogares medianos</caracteristica>
+            <caracteristica>Velocidad de transferencia: 802.11n: hasta 300 Mbps</caracteristica>
+            <caracteristica>Antena: Externa antena x 2</caracteristica>
+            <caracteristica tipo="Transmision/recepcion">Tecnología MIMO</caracteristica>
+            <caracteristica tipo="Transmision/recepcion">2.4 GHz 2 x 2</caracteristica>
+            <caracteristica tipo="Memoria">8 MB Flash</caracteristica>
+            <caracteristica tipo="Memoria">32 MB RAM</caracteristica>
+            <caracteristica>Frecuencia de funcionamiento: 2.4 GHz</caracteristica>
+            <caracteristica>Cifrado: 64-bit WEP, 128-bit WEP, WPA2-PSK, WPA-PSK, WPA-Enterprise , WPA2-Enterprise , WPS
+                compatible</caracteristica>
+            <caracteristica>Gestión: UPnP, DLNA, IGMP v1/v2/v3, DNS Proxy, NTP Client, DDNS, Port Trigger, DMZ
+            </caracteristica>
+            <caracteristica>Tipo de conexión WAN: Tipo de conexión a internet: IP automática, IP estática, PPPoE
+                (compatible MPPE), PPTP, L2TP</caracteristica>
+            <caracteristica tipo="Utilidades">Detección de dispositivos, Recuperación de firmware</caracteristica>
+            <caracteristica tipo="Utilidades">*Descárgalo en la pestaña de soporte</caracteristica>
+            <caracteristica>Puertos: 1 x RJ45 para 10/100 BaseT para WAN, 4 x RJ45 para 10/100 BaseT para LAN
+            </caracteristica>
+            <caracteristica tipo="Contenido de la caja">Router RT-N12E C1</caracteristica>
+            <caracteristica tipo="Contenido de la caja">Tarjeta de garantía</caracteristica>
+            <caracteristica tipo="Contenido de la caja">Fuente de alimentación</caracteristica>
+            <caracteristica tipo="Contenido de la caja">*Contenidos sujetos a cada país.</caracteristica>
+            <caracteristica tipo="Operation mode">Modo router inalámbrico</caracteristica>
+            <caracteristica tipo="Operation mode">Modo repetidor</caracteristica>
+            <caracteristica tipo="Operation mode">Modo punto de acceso</caracteristica>
+        </caracteristicas>
+        <codigo producto="54342" />
+        <precio>32,99€</precio>
+        <disponibilidad stock="Si" />
+        <foto src="img/PuntosAcceso2.jpg" />
     </componente>
 
     <componente tipo="Router" marca="Google" modelo="wifi">
@@ -1014,7 +1055,33 @@
         <codigo producto="164479" />
         <precio>119€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Router1.jpg" />
+    </componente>
+
+    <componente tipo="Router" marca="Asus" modelo="RT-AC53 Router Inalámbrico Gigabit Dual-Band AC750">
+        <descripcion>Te presentamos el Router Wifi Asus RT-AC53 con hasta 750 Mbps, 3 antenas externas  para tener una señal óptima y con Ethernet Gigabit para transferencias más rápidas.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Conexión inalámbrica">Hasta 750 Mbps de velocidad combinada</caracteristica>
+            <caracteristica tipo="Conexión inalámbrica">Transmisión TX</caracteristica>
+            <caracteristica tipo="Conexión inalámbrica">Bluetooth® Smart Ready</caracteristica>
+            <caracteristica tipo="Puerto">La interfaz ASUSWRT permite configurar, monitorizar y controlar las aplicaciones de red de un modo intuitivo</caracteristica>
+            <caracteristica tipo="Puerto">WAN y LAN en la unidad de Google Wifi principal (ambos actúan como puertos LAN
+                en otras unidades Wifi)</caracteristica>
+            <caracteristica tipo="Color y material">Plástico resistente y ligero de color blanco</caracteristica>
+            <caracteristica tipo="Seguridad">WPA2-PSK</caracteristica>
+            <caracteristica tipo="Seguridad">Actualizaciones de seguridad automáticas</caracteristica>
+            <caracteristica tipo="Seguridad">Módulo de plataforma de confianza SLB 9615</caracteristica>
+            <caracteristica tipo="Memoria">RAM de 512 MB</caracteristica>
+            <caracteristica tipo="Memoria">Flash eMMC de 4 GB</caracteristica>
+            <caracteristica tipo="Procesador">CPU ARM de cuatro núcleos (cada uno hasta 710 MHz)</caracteristica>
+            <caracteristica tipo="Dimensiones y peso">Diámetro: 106,12 mm</caracteristica>
+            <caracteristica tipo="Dimensiones y peso">Alto: 68,75 mm</caracteristica>
+            <caracteristica tipo="Dimensiones y peso">340 g</caracteristica>
+        </caracteristicas>
+        <codigo producto="432345" />
+        <precio>139€</precio>
+        <disponibilidad stock="Si" />
+        <foto src="img/Router2.jpg" />
     </componente>
 
     <componente tipo="Tarjeta red" marca="TP-LINK" modelo="TL-WN881ND">
@@ -1062,7 +1129,46 @@
         <codigo producto="48628" />
         <precio>13,29€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/TarjetaRed1.jpg" />
+    </componente>
+
+    <componente tipo="Tarjeta red" marca="Asus" modelo="PCE-AC51 Adaptador Inalámbrico PCI-e AC750">
+        <descripcion>El adaptador PCI inalámbrico N TL-WN851ND le permite conectar su ordenador de sobremesa a una red
+            inalámbrica y acceder a ella a alta velocidad. Conforme con el estándar IEEE 802.11n, ofrece una velocidad
+            inalámbrica de hasta 300 Mbps, perfecta para jugar online o el vídeo en streaming.</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Requisitos del sistema">Uso recomendado: PC</caracteristica>
+            <caracteristica tipo="Requisitos del sistema">Compatible con Mac: No</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Tecnología de conectividad: Inalámbrico</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Interno: Si</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Interfaz de host: PCI-E</caracteristica>
+            <caracteristica tipo="Puertos e Interfaces">Interfaz: WLAN</caracteristica>
+            <caracteristica tipo="Peso y dimensiones">Ancho: 21,5 mm</caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura operativa: 0 - 40 °C
+            </caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de temperatura de almacenaje: -40 - 70 °C
+            </caracteristica>
+            <caracteristica tipo="Conexión">Estándares de red: IEEE 802.11b,IEEE 802.11g,IEEE 802.11n</caracteristica>
+            <caracteristica tipo="Conexión">Modulación: 16-QAM,64-QAM,DBPSK,DQPSK,OFDM</caracteristica>
+            <caracteristica tipo="Conexión">Frecuencia de banda: 2.400 - 2.4835</caracteristica>
+            <caracteristica tipo="Aprobaciones reguladoras">Certificación: CE, FCC</caracteristica>
+            <caracteristica tipo="Aprobaciones reguladoras">Acorde RoHS: Si</caracteristica>
+            <caracteristica tipo="Características de LAN inalámbrico">Wifi: Si</caracteristica>
+            <caracteristica tipo="Características de LAN inalámbrico">Estándar Wi-Fi: IEEE 802.11n</caracteristica>
+            <caracteristica tipo="Características de LAN inalámbrico">WLAN velocidad de transferencia de datos,
+                soportada: 11,54,150,300 Mbit/s</caracteristica>
+            <caracteristica tipo="Contenido del embalaje">Manual de usuario: Si</caracteristica>
+            <caracteristica tipo="Contenido del embalaje">Guía de configuración rápida: Si</caracteristica>
+            <caracteristica tipo="Antena">Antena: Si</caracteristica>
+            <caracteristica tipo="Antena">Tipo de antena: Externo</caracteristica>
+            <caracteristica tipo="Antena">Tipo de conector de antena: RP-SMA</caracteristica>
+            <caracteristica tipo="Antena">Aumento: 2 dBi</caracteristica>
+            <caracteristica tipo="Antena">Cantidad de antenas: 2</caracteristica>
+        </caracteristicas>
+        <codigo producto="23123" />
+        <precio>24 ,99€</precio>
+        <disponibilidad stock="Si" />
+        <foto src="img/TarjetaRed2.jpg" />
     </componente>
 
     <componente tipo="Armario rack" marca="Mural">
@@ -1090,7 +1196,31 @@
         <codigo producto="54882" />
         <precio>219€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Rack1.jpg" />
+    </componente>
+
+    <componente tipo="Armario rack" marca="Mini Mural 10 7HU 350x270">
+        <descripcion>Magnifico armario</descripcion>
+        <caracteristicas>
+            <caracteristica>Exquisito diseño con precisas dimensiones. (Diseño avanzado)</caracteristica>
+            <caracteristica>Buena compatibilidad.</caracteristica>
+            <caracteristica>Perfecta ventilación</caracteristica>
+            <caracteristica>Puerta principal y trasera con una ventilación perfecta para el funcionamiento.
+            </caracteristica>
+            <caracteristica>Los paneles laterales son fácilmente ensamblables.</caracteristica>
+            <caracteristica>Cabina sólida y eficiente.</caracteristica>
+            <caracteristica>La ruedas y los pies puede ponerse al mismo tiempo.</caracteristica>
+            <caracteristica>Peso máximo: (800 Kg)(Con pies ajustable).</caracteristica>
+            <caracteristica tipo="Material">Lámina de chapa de acero en frio. Espesor de 1,2 mm, montaje carril de 2,0
+                mm (1,5 mm de profundidad en armarios 600 mm), 1,2 mm en los estantes fijos.</caracteristica>
+            <caracteristica tipo="Material">Espesor del vidrio ahumado, 5 mm.</caracteristica>
+            <caracteristica tipo="Medidas">22U</caracteristica>
+
+        </caracteristicas>
+        <codigo producto="54889" />
+        <precio>53 €</precio>
+        <disponibilidad stock="Si" />
+        <foto src="img/Rack2.jpg" />
     </componente>
 
     <componente tipo="Telefonos VoIP" marca="Yealink" modelo="SIP-T21 E2">
@@ -1168,7 +1298,44 @@
         <codigo producto="181966" />
         <precio>44,13€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/VoIP1.jpg" />
+    </componente>
+
+    <componente tipo="Telefonos VoIP" marca="Yealink" modelo="SIP-T27G Teléfono VoIP">
+        <descripcion>El SIP-T27G es un teléfono SIP especialmente diseñado para los negocios. Ha sido creado cuidando la facilidad de uso en sus más pequeños detalles..</descripcion>
+        <caracteristicas>
+            <caracteristica tipo="Exhibición">Pantalla táctil: No</caracteristica>
+            <caracteristica tipo="Exhibición">Pantalla: LCD</caracteristica>
+            <caracteristica tipo="Exhibición">Resolución de la pantalla: 132 x 64 Pixeles</caracteristica>
+            <caracteristica tipo="Exhibición">Diagonal de la pantalla: 5,84 cm (2.3")</caracteristica>
+            <caracteristica tipo="Audio">Micrófono mudo: Si</caracteristica>
+            <caracteristica tipo="Condiciones ambientales">Intervalo de humedad relativa para funcionamiento: 10 - 95%
+            </caracteristica>
+            <caracteristica tipo="Conexión">Ethernet: Si</caracteristica>
+            <caracteristica tipo="Conexión">Calidad de servicio (QoS) soporte: Si</caracteristica>
+            <caracteristica tipo="Conexión">Syslog: Si</caracteristica>
+            <caracteristica tipo="Conexión">Estándares de red: IEEE 802.1Q,IEEE 802.1p,IEEE 802.1x</caracteristica>
+            <caracteristica tipo="Características del teléfono">Identificador de llamadas: Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Capacidad de lista de direcciones: 1000 entradas
+            </caracteristica>
+            <caracteristica tipo="Características del teléfono">Llamada en espera: Si</caracteristica>
+            <caracteristica tipo="Características del teléfono">Marcación rápida: Si</caracteristica>
+            <caracteristica tipo="Seguridad">Algoritmos de seguridad soportados: AES,MD5,SRTP</caracteristica>
+            <caracteristica tipo="Cámara fotográfica">Cámara incorporada: No</caracteristica>
+            <caracteristica tipo="Contenido del embalaje">Número de empuñaduras incluidas: 1 pieza(s)</caracteristica>
+            <caracteristica tipo="Contenido del embalaje">Manual de usuario: Si</caracteristica>
+            <caracteristica tipo="Contenido del embalaje">Cables incluidos: LAN (RJ-45)</caracteristica>
+            <caracteristica tipo="Contenido del embalaje">Adaptador AC incluido: Si</caracteristica>
+            <caracteristica>Color del producto: Negro, Oro</caracteristica>
+            <caracteristica>Tipo de auricular: Terminal con conexión por cable</caracteristica>
+            <caracteristica>Montaje de pared: Si</caracteristica>
+            <caracteristica>Bloqueo de dispositivo: Si</caracteristica>
+            <caracteristica>Montaje: Escritorio/pared</caracteristica>
+        </caracteristicas>
+        <codigo producto="183966" />
+        <precio>85 ,99€</precio>
+        <disponibilidad stock="Si" />
+        <foto src="img/VoIP2.jpg" />
     </componente>
 
     <componente tipo="Cable" marca="Owlotech" modelo="RJ45 UTP">
@@ -1185,7 +1352,24 @@
         <codigo producto="102456" />
         <precio>1,95€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Cable1.jpg" />
+    </componente>
+    
+    <componente tipo="Cable" marca="Equip" modelo="Cable de Red UTP Cat 6 0,25m Rojo">
+        <descripcion>Te presentamos el cable Owlotec, un cable de red UTP con certificación de Cat 6.</descripcion>
+        <caracteristicas>
+            <caracteristica>Fabricado con cable Flexible de Cobre (Multifilar).</caracteristica>
+            <caracteristica>Certificado 3P Categoría 6</caracteristica>
+            <caracteristica>Pares Trenzados (4 x 2 AWG 26/7) 100 Ohm.</caracteristica>
+            <caracteristica>Conexión Pin a Pin 1:1</caracteristica>
+            <caracteristica>Conectores: 2 x RJ45 Macho con protecciones de plástico inyectado del mismo color que el cable.</caracteristica>
+            <caracteristica>Color Rojo / Beige</caracteristica>
+            <caracteristica>Longitud: 1 metros</caracteristica>
+        </caracteristicas>
+        <codigo producto="102356" />
+        <precio>1,5€</precio>
+        <disponibilidad stock="Si" />
+        <foto src="img/Cable2.jpg" />
     </componente>
     
     <componente tipo="Paneles parcheo" marca="Equip" modelo="Patch">
@@ -1203,7 +1387,23 @@
         <codigo producto="68556" />
         <precio>36€</precio>
         <disponibilidad stock="Si" />
-        <foto src="imagen1.jpg" />
+        <foto src="img/Parcheo1.jpg" />
+    </componente>
+
+    <componente tipo="Paneles parcheo" marca="Digitus" modelo="Panel de Parcheo 24 Puertos Cat6 Clase E Apantallado">
+        <descripcion>El panel de conexión DIGITUS® de 24 puertos 0,5U le ofrece una alta densidad de embalaje. Puesto que el panel solo mide 0,5 U de alto, se pueden instalar 48 puertos en 1U (2 paneles con 24 puertos cada uno).</descripcion>
+        <caracteristicas>
+            <caracteristica>Clase E de acuerdo con ISO / IEC 11801 y EN50173</caracteristica>
+            <caracteristica>24 x puertos RJ45 con contactos de oro</caracteristica>
+            <caracteristica>45 ° doble IDC (LSA y 110) compatible</caracteristica>
+            <caracteristica>Cumple con las normas ANSI / TIA / EIA estándar de 568</caracteristica>
+            <caracteristica>Color de IDC T568A/T568B codificado</caracteristica>
+            <caracteristica>19 "1U</caracteristica>
+        </caracteristicas>
+        <codigo producto="68156" />
+        <precio>316€</precio>
+        <disponibilidad stock="Si" />
+        <foto src="img/Parcheo2.jpg" />
     </componente>
 
     <servicio tipo="Sistemas Tolerantes A Fallos">
@@ -1214,11 +1414,27 @@
         <precio>3.400,32€</precio>
     </servicio>
 
+    <servicio tipo="Sistemas Tolerantes A Fallos">
+        <modelo>AKiTio Thunder3 RAID Station Thunderbolt 3</modelo>
+        <descripcion>Thunder3 Thunder3 RAID Station es una caja externa de almacenamiento. Ha sido fabricada para profesionales que no sólo buscan un buen rendimiento, sino que también buscan flexibilidad para poder trabajar con distintos equipos. 
+                Además, si no tienes las herramientas para cambiar los discos, no es un problema, porque no las necesitarás.</descripcion>
+        <codigo producto="11325"/>
+        <precio>3.430,32€</precio>
+    </servicio>
+
     <servicio tipo="Sistemas Copias Seguridad">
         <modelo>Acronis Backup</modelo>
         <descripcion>Acronis Backup ofrece la protección de datos que cumple con las demandas actuales. Mantiene su negocio en funcionamiento, protegiendo cualquier carga de trabajo, escalando sin límites y ahorrándole dinero.</descripcion>
         <codigo producto="3254"/>
         <precio>75€</precio>
+    </servicio>
+
+    <servicio tipo="Sistemas Copias Seguridad">
+        <modelo>Ease US Technician</modelo>
+        <descripcion>EaseUS Backup Center – la solución de administración de backup centralizada ayuda a hacer planes detallados de backup para un entorno empresarial específico, asignar tareas de respaldo a múltiples máquinas desde una sola consola, 
+                ejecutar y monitorear tareas de copia de seguridad en todos los sistemas fácilmente</descripcion>
+        <codigo producto="3224"/>
+        <precio>752€</precio>
     </servicio>
 
     <servicio tipo="Sistemas Cifrado Datos">
@@ -1228,4 +1444,11 @@
         <precio>999€</precio>
     </servicio>
 
+    <servicio tipo="Sistemas Cifrado Datos">
+        <modelo>Fort File Encryption</modelo>
+        <descripcion>Es un programa para Windows que permite a cualquier usuario proteger todos los archivos guardados en su PC. Ofrece tres opciones principales de cifrado, la que permite cifrar todo el disco duro de una sola vez, 
+                otra que ofrece la posibilidad de crear un contenedor donde todo lo que se guarde se va cifrando o la posibilidad e ir protegiendo archivos de forma individual</descripcion>
+        <codigo producto="4415"/>
+        <precio>99€</precio>
+    </servicio>
 </catalogo>

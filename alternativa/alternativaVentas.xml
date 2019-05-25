@@ -1,49 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="alternativaVentas.xsl"  type="text/xsl"?>
 
 <ventas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alternativaVentas.xsd">
     <componente tipo="Placa base" marca="Gygabyte" modelo="B450M DS3H">
         <codigo producto="4567" />
-        <precio>108,99€</precio>
+        <precio>108.99</precio>
         <stock>89</stock>
         <minimo>50</minimo>
         <vendidos>7</vendidos>
     </componente>
 
+    <componente tipo="Placa base" marca="Asus" modelo="Prime A320M-K">
+        <codigo producto="2321" />
+        <precio>65.25</precio>
+        <stock>98</stock>
+        <minimo>50</minimo>
+        <vendidos>12</vendidos>
+    </componente>
+
     <componente tipo="Procesador" marca="AMD" modelo="Ryzen 5 2600 3.4 Ghz">
         <codigo producto="157402" />
-        <precio>168,99€</precio>
+        <precio>168.99</precio>
         <stock>105</stock>
         <minimo>50</minimo>
         <vendidos>42</vendidos>
     </componente>
 
+    <componente tipo="Procesador" marca="intel" modelo="Core i5-8400 2.8GHz BOX">
+        <codigo producto="139906" />
+        <precio>204.90</precio>
+        <stock>123</stock>
+        <minimo>50</minimo>
+        <vendidos>56</vendidos>
+    </componente>
+
     <componente tipo="Disco duro" marca="Seagate" modelo="BarraCuda">
-        <codigo producto="111412" />
-        <precio>44,03€</precio>
+        <codigo producto="163054" />
+        <precio>44.03</precio>
         <stock>332</stock>
         <minimo>50</minimo>
         <vendidos>190</vendidos>
     </componente>
 
+    <componente tipo="Disco duro" marca="Toshiba" modelo="P300">
+        <codigo producto="111412" />
+        <precio>43.99</precio>
+        <stock>32</stock>
+        <minimo>50</minimo>
+        <vendidos>120</vendidos>
+    </componente>
+
     <componente tipo="Tarjeta grafica" marca="Zotac" modelo="GeForce GTX 1060 AMP! Edition">
         <codigo producto="181310" />
-        <precio>244,99€</precio>
+        <precio>244.99</precio>
         <stock>215</stock>
         <minimo>50</minimo>
         <vendidos>75</vendidos>
     </componente>
 
+    <componente tipo="Tarjeta grafica" marca="MSI" modelo="GTX 1050Ti Gaming X">
+        <codigo producto="106073" />
+        <precio>184.90</precio>
+        <stock>265</stock>
+        <minimo>50</minimo>
+        <vendidos>34</vendidos>
+    </componente>
+
     <componente tipo="Memoria RAM" marca="G.Skill" modelo="Trident Z RGB">
         <codigo producto="114077" />
-        <precio>159€</precio>
+        <precio>159</precio>
         <stock>415</stock>
         <minimo>50</minimo>
         <vendidos>230</vendidos>
     </componente>
 
+    <componente tipo="Memoria RAM" marca="Corsair" modelo="Vengeance LPX">  
+        <codigo producto="100309" />
+        <precio>125</precio>
+        <stock>45</stock>
+        <minimo>50</minimo>
+        <vendidos>20</vendidos>
+    </componente>
+
     <componente tipo="Disquetera" marca="CSL" modelo="A19384x60">
         <codigo producto="156248" />
-        <precio>12,99€</precio>
+        <precio>12.99</precio>
+        <stock>387</stock>
+        <minimo>50</minimo>
+        <vendidos>98</vendidos>
+    </componente>
+
+    <componente tipo="Disquetera" marca="Nilox" modelo="floppy">
+        <codigo producto="85838" />
+        <precio>18.50</precio>
         <stock>387</stock>
         <minimo>50</minimo>
         <vendidos>98</vendidos>
@@ -51,7 +100,15 @@
 
     <componente tipo="Multilector" marca="Tacens" modelo="Anima ACR3">
         <codigo producto="64202" />
-        <precio>11,25€</precio>
+        <precio>11.25</precio>
+        <stock>327</stock>
+        <minimo>50</minimo>
+        <vendidos>125</vendidos>
+    </componente>
+
+    <componente tipo="Multilector" marca="Tacens" modelo="Anima ACR1">
+        <codigo producto="64202" />
+        <precio>11.25</precio>
         <stock>327</stock>
         <minimo>50</minimo>
         <vendidos>125</vendidos>
@@ -59,15 +116,31 @@
 
     <componente tipo="Tarjeta sonido" marca="Creative" modelo="Sound Blaster Audigy FX PCI Express">
         <codigo producto="61113" />
-        <precio>31€</precio>
+        <precio>31</precio>
         <stock>371</stock>
         <minimo>50</minimo>
         <vendidos>155</vendidos>
     </componente>
 
+    <componente tipo="Tarjeta sonido" marca="Approx" modelo="APPPCIE51">
+        <codigo producto="73764" />
+        <precio>19.99</precio>
+        <stock>453</stock>
+        <minimo>50</minimo>
+        <vendidos>231</vendidos>
+    </componente>
+
+    <componente tipo="Torre" marca="Nox" modelo="Hummer MC">
+        <codigo producto="99672" />
+        <precio>49.99</precio>
+        <stock>48</stock>
+        <minimo>50</minimo>
+        <vendidos>23</vendidos>
+    </componente>
+
     <componente tipo="Torre" marca="Owlotech" modelo="EVO">
         <codigo producto="101871" />
-        <precio>39,99€</precio>
+        <precio>39.99</precio>
         <stock>487</stock>
         <minimo>50</minimo>
         <vendidos>167</vendidos>
@@ -75,31 +148,63 @@
 
     <componente tipo="Ventilador" marca="Nox" modelo="Hummer H-212">
         <codigo producto="95520" />
-        <precio>21€</precio>
+        <precio>21</precio>
         <stock>423</stock>
         <minimo>50</minimo>
         <vendidos>124</vendidos>
     </componente>
 
+   <componente tipo="Ventilador" marca="Hyper" modelo="TX3 EVO">
+        <codigo producto="47099" />
+        <precio>21.60</precio>
+        <stock>321</stock>
+        <minimo>50</minimo>
+        <vendidos>123</vendidos>
+    </componente>
+
     <componente tipo="Fuente alimentacion" marca="Owlotech" modelo="BPS">
         <codigo producto="101493" />
-        <precio>19,99€</precio>
+        <precio>19.99</precio>
         <stock>415</stock>
         <minimo>50</minimo>
         <vendidos>134</vendidos>
     </componente>
 
+    <componente tipo="Fuente alimentacion" marca="Owlotech" modelo="BPS">
+        <codigo producto="108729" />
+        <precio>49.99</precio>
+        <stock>345</stock>
+        <minimo>50</minimo>
+        <vendidos>12</vendidos>
+    </componente>
+
     <componente tipo="Cables internos" marca="Owlotech" modelo="Molex">
         <codigo producto="102472" />
-        <precio>1,99€</precio>
+        <precio>1.99</precio>
         <stock>1200</stock>
         <minimo>50</minimo>
         <vendidos>215</vendidos>
     </componente>
 
+    <componente tipo="Cables internos" marca="Phanteks" modelo="CB8P">
+        <codigo producto="101622" />
+        <precio>7.25</precio>
+        <stock>1270</stock>
+        <minimo>50</minimo>
+        <vendidos>123</vendidos>
+    </componente>
+
     <componente tipo="hub/switch" marca="tp-link" modelo="TL-SG105">
         <codigo producto="130604" />
-        <precio>7,25€</precio>
+        <precio>7.25</precio>
+        <stock>681</stock>
+        <minimo>50</minimo>
+        <vendidos>195</vendidos>
+    </componente>
+
+    <componente tipo="hub/switch" marca="tp-link" modelo="TL-SG105">
+        <codigo producto="130604" />
+        <precio>7.25</precio>
         <stock>681</stock>
         <minimo>50</minimo>
         <vendidos>195</vendidos>
@@ -107,7 +212,15 @@
 
     <componente tipo="Puntos de acceso" marca="Asus" modelo="RT-N12E">
         <codigo producto="77501" />
-        <precio>18,98€</precio>
+        <precio>18.98</precio>
+        <stock>463</stock>
+        <minimo>50</minimo>
+        <vendidos>175</vendidos>
+    </componente>
+
+    <componente tipo="Puntos de acceso" marca="TP-LINK" modelo="TL-WA901ND">
+        <codigo producto="77501" />
+        <precio>18.98</precio>
         <stock>463</stock>
         <minimo>50</minimo>
         <vendidos>175</vendidos>
@@ -115,67 +228,135 @@
 
     <componente tipo="Router" marca="Google" modelo="wifi">
         <codigo producto="164479" />
-        <precio>119€</precio>
+        <precio>119</precio>
         <stock>341</stock>
         <minimo>50</minimo>
         <vendidos>120</vendidos>
     </componente>
 
+    <componente tipo="Router" marca="Asus" modelo="RT-AC53 Router Inalámbrico Gigabit Dual-Band AC750">
+        <codigo producto="432345" />
+        <precio>139</precio>
+        <stock>41</stock>
+        <minimo>50</minimo>
+        <vendidos>120</vendidos>
+    </componente>
+
+
+
     <componente tipo="Tarjeta red" marca="TP-LINK" modelo="TL-WN881ND">
         <codigo producto="48628" />
-        <precio>13,29€</precio>
+        <precio>13.29</precio>
         <stock>415</stock>
         <minimo>50</minimo>
         <vendidos>137</vendidos>
     </componente>
 
+    <componente tipo="Tarjeta red" marca="Asus" modelo="PCE-AC51 Adaptador Inalámbrico PCI-e AC750">
+        <codigo producto="23123" />
+        <precio>24.99</precio>
+        <stock>15</stock>
+        <minimo>50</minimo>
+        <vendidos>1317</vendidos>
+    </componente>
+
     <componente tipo="Armario rack" marca="Mural">
         <codigo producto="54882" />
-        <precio>219€</precio>
+        <precio>219</precio>
         <stock>564</stock>
         <minimo>50</minimo>
         <vendidos>154</vendidos>
     </componente>
 
+    <componente tipo="Armario rack" marca="Mini Mural 10 7HU 350x270">
+        <codigo producto="54889" />
+        <precio>53</precio>
+        <stock>54</stock>
+        <minimo>50</minimo>
+        <vendidos>158</vendidos>
+    </componente>
+
     <componente tipo="Telefonos VoIP" marca="Yealink" modelo="SIP-T21 E2">
         <codigo producto="181966" />
-        <precio>44,13€</precio>
+        <precio>44.13</precio>
         <stock>634</stock>
+        <minimo>50</minimo>
+        <vendidos>184</vendidos>
+    </componente>
+
+    <componente tipo="Telefonos VoIP" marca="Yealink" modelo="SIP-T27G Teléfono VoIP">
+        <codigo producto="181966" />
+        <precio>85.99</precio>
+        <stock>64</stock>
         <minimo>50</minimo>
         <vendidos>184</vendidos>
     </componente>
 
     <componente tipo="Cable" marca="Owlotech" modelo="RJ45 UTP">
         <codigo producto="102456" />
-        <precio>1,95€</precio>
+        <precio>1.95</precio>
         <stock>715</stock>
         <minimo>50</minimo>
         <vendidos>198</vendidos>
     </componente>
 
+    <componente tipo="Cable" marca="Equip" modelo="Cable de Red UTP Cat 6 0.25m Rojo">
+        <codigo producto="102356" />
+        <precio>1.5</precio>
+        <stock>71</stock>
+        <minimo>50</minimo>
+        <vendidos>18</vendidos>
+    </componente>
+
     <componente tipo="Paneles parcheo" marca="Equip" modelo="Patch">
         <codigo producto="68556" />
-        <precio>36€</precio>
+        <precio>36</precio>
         <stock>642</stock>
         <minimo>50</minimo>
         <vendidos>175</vendidos>
     </componente>
 
+    <componente tipo="Paneles parcheo" marca="Digitus" modelo="Panel de Parcheo 24 Puertos Cat6 Clase E Apantallado">
+        <codigo producto="68156" />
+        <precio>316</precio>
+        <stock>42</stock>
+        <minimo>50</minimo>
+        <vendidos>1735</vendidos>
+    </componente>
+
     <servicio tipo="Sistemas Tolerantes A Fallos">
         <codigo producto="1125" />
-        <precio>3.400,32€</precio>
+        <precio>3400.32</precio>
         <vendidos>5</vendidos>
+    </servicio>
+
+    <servicio tipo="Sistemas Tolerantes A Fallos">
+        <codigo producto="11325" />
+        <precio>3430.32</precio>
+        <vendidos>25</vendidos>
     </servicio>
 
     <servicio tipo="Sistemas Copias Seguridad">
         <codigo producto="3254" />
-        <precio>75€</precio>
+        <precio>75</precio>
         <vendidos>125</vendidos>
+    </servicio>
+
+    <servicio tipo="Sistemas Copias Seguridad">
+        <codigo producto="3224" />
+        <precio>752</precio>
+        <vendidos>1235</vendidos>
     </servicio>
 
     <servicio tipo="Sistemas Cifrado Datos">
         <codigo producto="4455" />
-        <precio>999€</precio>
+        <precio>999</precio>
         <vendidos>168</vendidos>
+    </servicio>
+
+    <servicio tipo="Sistemas Cifrado Datos">
+        <codigo producto="4415" />
+        <precio>99</precio>
+        <vendidos>268</vendidos>
     </servicio>
 </ventas>
