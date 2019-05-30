@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="cinefilos2.xsl"  type="text/xsl"?>
+
+<cine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cinefilos.xsd">
+	<pelicula>
+		<titulo>La Llorona</titulo>
+		<nacionalidad>Estados Unidos</nacionalidad>
+		<productor>New Line Cinema</productor>
+		<director>Michael Chaves</director>
+		<año>2019</año>
+		<duracion horas="1" minutos="33" />
+		<genero>Thriller</genero>
+		<genero>Horror</genero>
+		<genero>Misterio</genero>
+		<sinopsis>La Llorona es una aparición tenebrosa, atrapada entre el Cielo y el Infierno, con un destino terrible
+			sellado por su propia mano. La mera mención de su nombre ha causado terror en todo el mundo durante
+			generaciones. En vida, ahogó a sus hijos en una rabia de celos, arrojándose en el río tras ver como mató a
+			sus hijos violentamente. Ahora sus lágrimas son eternas, letales, y aquellos que escuchan su llamada de
+			muerte en la noche están condenados. Se arrastra en las sombras y ataca a los niños, desesperada por
+			reemplazar a los suyos. A medida que los siglos han pasado, su deseo se ha vuelto más voraz y sus métodos
+			más terroríficos.</sinopsis>
+		<foto imagen="laLlorona.jpg" />
+		<URL>https://www.megadede.com/peli/the-curse-of-la-llorona</URL>
+	</pelicula>
+
+	<pelicula>
+		<titulo>Escuela para fracasados</titulo>
+		<nacionalidad>EEUU</nacionalidad>
+		<productor>William Parker</productor>
+		<productor>James Lopez</productor>
+		<productor>Kevin Hart</productor>
+		<director>Kim Coleman</director>
+		<año>2018</año>
+		<duracion horas="1" minutos="51" />
+		<genero>Comedia</genero>
+		<sinopsis>Un grupo de alborotadores se ven obligados a asistir a la escuela nocturna con la esperanza de que
+			aprueben el examen de GED para terminar la escuela secundaria.</sinopsis>
+		<foto imagen="escuela.jpg" />
+		<URL>https://www.megadede.com/peli/night-school-1</URL>
+	</pelicula>
+
+	<pelicula>
+		<titulo>Saw VIII</titulo>
+		<nacionalidad>Estados Unidos</nacionalidad>
+		<productor>Lionsgate Entertainment </productor>
+		<director>Spierig Brothers</director>
+		<año>2017</año>
+		<duracion horas="1" minutos="32" />
+		<genero>Thriller</genero>
+		<genero>Horror</genero>
+		<genero>Misterio</genero>
+		<sinopsis>Están apareciendo cuerpos en la ciudad, cada uno con signos de un espantoso final. Conforme avanza la
+			investigación, la evidencia apunta a un sospechoso: John Kramer, el hombre conocido como Jigsaw, quien ha
+			estado muerto por diez años.</sinopsis>
+		<foto imagen="sawVIII.jpg" />
+		<URL>https://www.megadede.com/peli/jigsaw-1</URL>
+	</pelicula>
+
+	<pelicula>
+		<titulo>El Ciempiés humano</titulo>
+		<nacionalidad>Países Bajos</nacionalidad>
+		<productor>Six Entertainment</productor>
+		<director>Tom Six</director>
+		<año>2009</año>
+		<duracion horas="1" minutos="31" />
+		<genero>Horror</genero>
+		<sinopsis>Un cirujano demente une a dos chicas americanas y a un hombre japonés entre ellos a través de sus
+			sistemas gástricos.</sinopsis>
+		<foto imagen="caballeros.jpg" />
+		<URL>https://www.megadede.com/peli/the-human-centipede-first-sequence</URL>
+	</pelicula>
+
+	<pelicula>
+		<titulo>Los caballeros de la mesa cuadrada y sus locos seguidores</titulo>
+		<nacionalidad>Reino Unido</nacionalidad>
+		<productor>Michael White Productions</productor>
+		<director>Terry Gilliam</director>
+		<director>Terry Jones</director>
+		<año>1975</año>
+		<duracion horas="1" minutos="31" />
+		<genero>Comedia</genero>
+		<sinopsis>Alocada comedia que narras las peripecias del rey Arturo y de sus caballeros de la Mesa Redonda
+			durante la búsqueda del Santo Grial.</sinopsis>
+		<foto imagen="ciempies.jpg" />
+		<URL>https://www.megadede.com/peli/monty-python-and-the-holy-grail</URL>
+	</pelicula>
+
+	<pelicula>
+		<titulo>Snowden</titulo>
+		<nacionalidad>EEUU</nacionalidad>
+		<productor>Moritz Borman</productor>
+		<productor>Eric Kopeloff</productor>
+		<productor>Philip Schulz-Deyle</productor>
+		<productor>Fernando Sulichin</productor>
+		<director>Oliver Stone</director>
+		<año>2016</año>
+		<duracion horas="2" minutos="14" />
+		<genero>Drama</genero>
+		<genero>Crimen</genero>
+		<genero>Thriller</genero>
+		<genero>Romance</genero>
+		<genero>History</genero>
+		<sinopsis>Basada en el libro "The Snowden files. The inside story of the world's most wanted man" escrito por
+			Luke Harding, y en un libro escrito por Anatoly Kucherena, el abogado ruso de Edward Snowden. Narra los
+			acontecimientos que acompañaron la publicación por parte del diario The Guardian de los documentos
+			clasificados que aportó Edward Snowden sobre el programa de vigilancia mundial secreto de la NSA (Agencia de
+			Seguridad Nacional) en 2013.</sinopsis>
+		<foto imagen="snowden.jpg" />
+		<URL>https://www.megadede.com/peli/snowden</URL>
+	</pelicula>
+
+	<pelicula>
+		<titulo>Torrente, el brazo tonto de la ley</titulo>
+		<nacionalidad>Española</nacionalidad>
+		<productor>Andrés Vicente Gómez</productor>
+		<director>Santiago Segura</director>
+		<año>1998</año>
+		<duracion horas="1" minutos="37" />
+		<genero>Comedia</genero>
+		<sinopsis>Torrente es un policía español, fascista, machista, racista, alcohólico y del Atleti. En su mismo
+			inmueble vive un chaval, Rafi, al que le gustan las peliculas de acción y las pistolas, y que vive con su
+			madre y su prima Amparito, una ninfómana. Juntos, Torrente y Rafi, patrullarán por la noche las calles de la
+			ciudad</sinopsis>
+		<foto imagen="torrente.jpg" />
+		<URL>https://www.megadede.com/peli/torrente-the-dumb-arm-of-the-law</URL>
+	</pelicula>
+
+	<pelicula>
+		<titulo>Predator</titulo>
+		<nacionalidad>Estados Unidos</nacionalidad>
+		<productor>John Davis</productor>
+		<productor>Lawrence Gordon</productor>
+		<productor>Joel Silver</productor>
+		<director>Shane Black</director>
+		<año>2018</año>
+		<duracion horas="1" minutos="47" />
+		<genero>Accion y aventura</genero>
+		<genero>Ciencia Ficción</genero>
+		<genero>Horror</genero>
+		<genero>Thriller</genero>
+		<sinopsis>Desde los confines del espacio hasta los suburbios de las pequeñas ciudades, la búsqueda llega a la
+			casa de la reinvención por Shane Black de la saga "Predator".
+			Ahora, los cazadores más letales del universo son más fuertes, más inteligentes y más mortales que nunca, y
+			se han mejorado genéticamente con ADN de otras especies.
+			Cuando un niño accidentalmente desencadena su regreso a la Tierra, solo un grupo de ex soldados y una
+			profesora de ciencias podrán evitar, quizá el fin de la raza humana.</sinopsis>
+		<foto imagen='predator.jpg' />
+		<URL>https://www.megadede.com/peli/the-predator</URL>
+	</pelicula>
+
+	<pelicula>
+		<titulo>Dragon Ball Super: Broly</titulo>
+		<nacionalidad>Japón</nacionalidad>
+		<productor>Toei Animation</productor>
+		<director>Tatsuya Nagamine</director>
+		<año>2018</año>
+		<duracion horas="1" minutos="40" />
+		<genero>Accion y aventura</genero>
+		<genero>Animación</genero>
+		<genero>Ciencia Ficción</genero>
+		<sinopsis>La Tierra vive en paz después de que concluyó el Torneo de Fuerza. Luego de darse cuenta que los
+			Universos aún tienen muchos guerreros poderosos,
+			Gokú pasa todos los días entrenando para alcanzar un nivel de pelea mayor. Un día Gokú y Vegeta enfrentan a
+			un nuevo saiyajin llamado “Broly”, a quien nunca antes han visto.
+			Supuestamente, los saiyajin fueron arrasados durante la destrucción del planeta Vegeta; entonces ¿qué hace
+			uno de ellos en la Tierra? Este encuentro entre tres saiyajin, que han tenido destinos diferentes,
+			se convierte en una batalla estupenda, con Freezer (que ha vuelto del infierno) atrapado en medio de ellos.
+		</sinopsis>
+		<foto imagen='broly.jpg' />
+		<URL>https://www.megadede.com/peli/dragon-ball-super-broly</URL>
+	</pelicula>
+
+	<pelicula>
+		<titulo>El último samurái</titulo>
+		<nacionalidad>Estados Unidos</nacionalidad>
+		<productor>Warner Bros Pictures</productor>
+		<director>Edward Zwick</director>
+		<año>2003</año>
+		<duracion horas="2" minutos="34" />
+		<genero>Accion y aventura</genero>
+		<genero>Drama</genero>
+		<genero>Historia</genero>
+		<genero>Guerra</genero>
+		<sinopsis>1870. El capitán Nathan Algren es un hombre a la deriva. Las batallas que libró en otro tiempo parecen
+			ahora lejanas e inútiles.
+			Una vez arriesgó su vida por el honor y por la patria, pero, en los años transcurridos desde la Guerra de
+			Secesión estadounidense, el mundo ha cambiado.
+			El pragmatismo ha reemplazado al valor, el interés personal ha ocupado el lugar del sacrificio y el honor no
+			se encuentra en ninguna parte, especialmente en el Oeste,
+			donde su papel en las campañas contra los indios acabó en desilusión y tristeza. En algún lugar de las
+			implacables llanuras junto a la ribera del río Washita, Algren perdió su alma.
+			En un mundo completamente distinto, otro soldado ve como su modo de vida está a punto de desintegrarse.
+		</sinopsis>
+		<foto imagen='samurai.jpg' />
+		<URL>https://www.megadede.com/peli/the-last-samurai</URL>
+	</pelicula>
+</cine>

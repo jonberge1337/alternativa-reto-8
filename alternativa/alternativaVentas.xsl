@@ -10,7 +10,7 @@
 
 		<body>
 
-        <img src="components.png" alt="Componentes" />
+        <!-- <img src="components.png" alt="Componentes" />
 			<table class="paleBlueRows">
 				<thead>
 					<tr>
@@ -56,8 +56,8 @@
 								<xsl:value-of select="./vendidos" />
 							</td>
 						</tr>
-					</xsl:for-each>
-					<tr>
+					</xsl:for-each> -->
+					<!-- <tr>
 						<td>
 							<xsl:value-of select="./codigo/@producto" />
 						</td>
@@ -76,7 +76,7 @@
 						<td><xsl:value-of select="sum(//componente/vendidos)" /></td>
 					</tr>
 				</tfoot>
-			</table>
+			</table> -->
         <img src="servicios.png" alt="Servicios" />
             			<table class="paleBlueRows">
 				<thead>

@@ -1,0 +1,52 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="titulo" type="xsd:string"/>
+  <xsd:element name="nacionalidad" type="xsd:string"/>
+  <xsd:element name="productor" type="xsd:string"/>
+  <xsd:element name="director" type="xsd:string"/>
+  <xsd:element name="año" type="xsd:short"/>
+  <xsd:element name="duracion">
+    <xsd:complexType>
+      <xsd:simpleContent>
+        <xsd:extension base="xsd:string">
+          <xsd:attribute type="xsd:byte" name="horas" use="optional"/>
+          <xsd:attribute type="xsd:byte" name="minutos" use="optional"/>
+        </xsd:extension>
+      </xsd:simpleContent>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Genero" type="xsd:string"/>
+  <xsd:element name="sinopsis" type="xsd:string"/>
+  <xsd:element name="Foto">
+    <xsd:complexType>
+      <xsd:simpleContent>
+        <xsd:extension base="xsd:string">
+          <xsd:attribute type="xsd:string" name="imagen" use="optional"/>
+        </xsd:extension>
+      </xsd:simpleContent>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="URL" type="xsd:string"/>
+  <xsd:element name="pelicula">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="titulo"/>
+        <xsd:element ref="nacionalidad"/>
+        <xsd:element ref="productor" maxOccurs="unbounded"/>
+        <xsd:element ref="director" maxOccurs="unbounded"/>
+        <xsd:element ref="año"/>
+        <xsd:element ref="duracion"/>
+        <xsd:element ref="Genero" maxOccurs="unbounded"/>
+        <xsd:element ref="sinopsis"/>
+        <xsd:element ref="Foto"/>
+        <xsd:element ref="URL"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="cine">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="pelicula" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

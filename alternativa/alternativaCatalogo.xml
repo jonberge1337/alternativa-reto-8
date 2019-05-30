@@ -563,7 +563,7 @@
         <codigo producto="61113" />
         <precio>31€</precio>
         <disponibilidad stock="Si" />
-        <foto src="Sonido1.jpg" />
+        <foto src="img/Sonido1.jpg" />
     </componente>
 
     <componente tipo="Tarjeta sonido" marca="Approx" modelo="APPPCIE51">
